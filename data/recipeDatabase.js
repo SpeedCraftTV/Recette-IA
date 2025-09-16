@@ -1234,6 +1234,36 @@ export const recipeDatabase = {
                 time: '30 minutes',
                 difficulty: 'Facile',
                 servings: '4 personnes'
+            },
+            {
+                name: 'Bourek aux Épinards',
+                ingredients: ['Pâte filo', '500g d\'épinards', '200g de feta', '1 oignon', '3 œufs', 'Aneth', 'Persil', 'Huile d\'olive', 'Beurre fondu'],
+                instructions: [
+                    'Faites revenir l\'oignon et les épinards hachés.',
+                    'Mélangez avec feta émiettée, œufs battus et herbes.',
+                    'Badigeonnez les feuilles de filo de beurre.',
+                    'Disposez la farce et roulez en triangle.',
+                    'Enfournez 25 minutes à 180°C jusqu\'à dorure.',
+                    'Servez chaud avec yaourt grec.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Menemen Turc',
+                ingredients: ['4 tomates', '2 poivrons verts', '1 oignon', '4 œufs', 'Piment rouge', 'Paprika', 'Huile d\'olive', 'Fromage blanc', 'Pain pita'],
+                instructions: [
+                    'Faites revenir oignon et poivrons émincés.',
+                    'Ajoutez tomates concassées et épices.',
+                    'Laissez mijoter 10 minutes pour épaissir.',
+                    'Cassez les œufs directement dans la poêle.',
+                    'Brouinez légèrement sans trop mélanger.',
+                    'Servez avec fromage blanc et pain chaud.'
+                ],
+                time: '25 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
             }
         ],
         'déjeuner': [
@@ -1266,6 +1296,36 @@ export const recipeDatabase = {
                 time: '45 minutes',
                 difficulty: 'Difficile',
                 servings: '6 personnes'
+            },
+            {
+                name: 'Dolmas (Feuilles de Vigne Farcies)',
+                ingredients: ['30 feuilles de vigne', '200g de riz', '1 oignon', 'Persil', 'Aneth', 'Menthe', 'Pignons', 'Raisins secs', 'Huile d\'olive', 'Citron'],
+                instructions: [
+                    'Blanchissez les feuilles de vigne 2 minutes.',
+                    'Préparez la farce avec riz, oignon et herbes.',
+                    'Disposez la farce sur chaque feuille et roulez.',
+                    'Rangez dans une casserole avec huile et citron.',
+                    'Cuisez à feu doux 45 minutes sous un linge.',
+                    'Servez tiède avec sauce au yaourt.'
+                ],
+                time: '1h30',
+                difficulty: 'Difficile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Salade Grecque Traditionnelle',
+                ingredients: ['4 tomates', '1 concombre', '1 oignon rouge', '200g de feta', 'Olives Kalamata', 'Origan séché', 'Huile d\'olive extra vierge', 'Vinaigre de vin'],
+                instructions: [
+                    'Coupez tomates et concombre en gros morceaux.',
+                    'Émincez finement l\'oignon rouge.',
+                    'Disposez tous les légumes dans un saladier.',
+                    'Ajoutez la feta en gros cubes et les olives.',
+                    'Assaisonnez avec origan, huile et vinaigre.',
+                    'Laissez mariner 30 minutes avant de servir.'
+                ],
+                time: '15 minutes + marinade',
+                difficulty: 'Facile',
+                servings: '4 personnes'
             }
         ],
         'dîner': [
@@ -1283,6 +1343,51 @@ export const recipeDatabase = {
                 time: '2h15',
                 difficulty: 'Intermédiaire',
                 servings: '6 personnes'
+            },
+            {
+                name: 'Poisson à la Chermoula',
+                ingredients: ['1kg de dorade', 'Coriandre', 'Persil', 'Ail', 'Citron confit', 'Cumin', 'Paprika', 'Piment rouge', 'Huile d\'olive', 'Pommes de terre'],
+                instructions: [
+                    'Préparez la chermoula avec herbes et épices.',
+                    'Marinez le poisson 2 heures dans la chermoula.',
+                    'Disposez pommes de terre en rondelles dans un plat.',
+                    'Placez le poisson mariné par-dessus.',
+                    'Enfournez 35 minutes à 200°C.',
+                    'Arrosez du jus de cuisson et servez chaud.'
+                ],
+                time: '45 min + marinade',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Kefta aux Tomates',
+                ingredients: ['500g d\'agneau haché', '1 oignon', 'Persil', 'Coriandre', 'Cumin', 'Paprika', '800g de tomates', 'Œufs', 'Huile d\'olive', 'Pain'],
+                instructions: [
+                    'Mélangez la viande avec oignon, herbes et épices.',
+                    'Formez des boulettes et faites-les dorer.',
+                    'Préparez une sauce tomate parfumée.',
+                    'Ajoutez les boulettes dans la sauce.',
+                    'Cassez des œufs sur le dessus en fin de cuisson.',
+                    'Servez avec pain frais.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Couscous Royal',
+                ingredients: ['Semoule de couscous', 'Agneau', 'Poulet', 'Merguez', 'Légumes variés', 'Pois chiches', 'Harissa', 'Ras el hanout', 'Bouillon'],
+                instructions: [
+                    'Préparez le bouillon avec viandes et épices.',
+                    'Cuisez les légumes dans le bouillon parfumé.',
+                    'Préparez la semoule à la vapeur.',
+                    'Grillez les merguez à part.',
+                    'Dressez la semoule avec viandes et légumes.',
+                    'Servez avec harissa et bouillon.'
+                ],
+                time: '2 heures',
+                difficulty: 'Difficile',
+                servings: '8 personnes'
             }
         ],
         'dessert': [
@@ -1377,6 +1482,36 @@ export const recipeDatabase = {
                 time: '15 minutes',
                 difficulty: 'Facile',
                 servings: '6 personnes'
+            },
+            {
+                name: 'Baba Ganoush',
+                ingredients: ['2 grosses aubergines', '3 gousses d\'ail', '60ml de tahini', '2 citrons', 'Cumin', 'Paprika fumé', 'Huile d\'olive', 'Persil'],
+                instructions: [
+                    'Grillez les aubergines entières jusqu\'à tendreté.',
+                    'Retirez la chair et mixez avec ail et tahini.',
+                    'Ajoutez jus de citron et épices.',
+                    'Montez avec l\'huile d\'olive.',
+                    'Rectifiez l\'assaisonnement.',
+                    'Décorez de paprika et persil.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Facile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Fattoush',
+                ingredients: ['Pain pita', 'Tomates', 'Concombre', 'Radis', 'Laitue', 'Persil', 'Menthe', 'Sumac', 'Huile d\'olive', 'Citron'],
+                instructions: [
+                    'Grillez et cassez le pain pita en morceaux.',
+                    'Coupez tous les légumes en dés.',
+                    'Hachez finement les herbes fraîches.',
+                    'Mélangez légumes, herbes et pain grillé.',
+                    'Assaisonnez avec sumac, huile et citron.',
+                    'Servez immédiatement pour garder le croustillant.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Facile',
+                servings: '6 personnes'
             }
         ]
     },
@@ -1394,6 +1529,36 @@ export const recipeDatabase = {
                     'Garnissez d\'avocat, fromage et coriandre.'
                 ],
                 time: '25 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Chilaquiles Verdes',
+                ingredients: ['Tortillas', 'Salsa verde', 'Œufs', 'Crème fraîche', 'Fromage frais', 'Oignon rouge', 'Avocat', 'Coriandre', 'Lime'],
+                instructions: [
+                    'Coupez les tortillas en triangles et faites frire.',
+                    'Préparez une salsa verde aux tomatillos.',
+                    'Mélangez tortillas frites avec salsa chaude.',
+                    'Ajoutez œufs brouillés ou au plat.',
+                    'Garnissez de crème, fromage et avocat.',
+                    'Terminez par oignon rouge et coriandre.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Migas Mexicaines',
+                ingredients: ['Tortillas rassises', 'Œufs', 'Tomates', 'Oignon', 'Piments serrano', 'Fromage', 'Avocat', 'Haricots', 'Salsa'],
+                instructions: [
+                    'Émietez les tortillas rassises.',
+                    'Faites revenir oignon et piments.',
+                    'Ajoutez tomates et tortillas émiettées.',
+                    'Incorporez les œufs battus et brouillez.',
+                    'Ajoutez le fromage en fin de cuisson.',
+                    'Servez avec avocat et haricots.'
+                ],
+                time: '20 minutes',
                 difficulty: 'Facile',
                 servings: '4 personnes'
             }
@@ -1428,6 +1593,36 @@ export const recipeDatabase = {
                 time: '1 heure',
                 difficulty: 'Difficile',
                 servings: '4 personnes'
+            },
+            {
+                name: 'Pozole Rojo',
+                ingredients: ['Maïs hominy', 'Porc', 'Piments guajillo', 'Piments ancho', 'Ail', 'Oignon', 'Origan', 'Radis', 'Laitue', 'Lime', 'Oregano'],
+                instructions: [
+                    'Cuisez le porc dans un bouillon épicé.',
+                    'Préparez une sauce rouge avec piments grillés.',
+                    'Ajoutez le maïs hominy au bouillon.',
+                    'Incorporez la sauce rouge et laissez mijoter.',
+                    'Effilochez la viande cuite.',
+                    'Servez avec garnitures fraîches.'
+                ],
+                time: '2 heures',
+                difficulty: 'Difficile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Enchiladas Verdes',
+                ingredients: ['Tortillas', 'Poulet', 'Salsa verde', 'Fromage', 'Crème', 'Oignon', 'Coriandre', 'Avocat', 'Tomatillos'],
+                instructions: [
+                    'Préparez une salsa verde avec tomatillos.',
+                    'Farcissez les tortillas de poulet effiloché.',
+                    'Roulez et disposez dans un plat.',
+                    'Nappez de salsa verde et fromage.',
+                    'Enfournez jusqu\'à ce que le fromage fonde.',
+                    'Garnissez de crème et avocat.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
             }
         ],
         'dîner': [
@@ -1444,6 +1639,36 @@ export const recipeDatabase = {
                 ],
                 time: '4 heures',
                 difficulty: 'Très difficile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Cochinita Pibil',
+                ingredients: ['2kg d\'épaule de porc', 'Achiote', 'Orange amère', 'Ail', 'Cumin', 'Origan', 'Feuilles de bananier', 'Oignon rouge', 'Habanero'],
+                instructions: [
+                    'Marinez le porc avec achiote et jus d\'orange.',
+                    'Enveloppez dans des feuilles de bananier.',
+                    'Cuisez lentement 4 heures au four ou barbacoa.',
+                    'Effilochez la viande cuite.',
+                    'Préparez oignon rouge mariné aux agrumes.',
+                    'Servez avec tortillas et sauce habanero.'
+                ],
+                time: '4h + marinade',
+                difficulty: 'Difficile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Carnitas',
+                ingredients: ['2kg d\'épaule de porc', 'Saindoux', 'Orange', 'Lait', 'Cannelle', 'Laurier', 'Thym', 'Ail', 'Sel', 'Tortillas'],
+                instructions: [
+                    'Coupez le porc en gros morceaux.',
+                    'Confisez lentement dans le saindoux avec aromates.',
+                    'Cuisez 2 heures jusqu\'à tendreté.',
+                    'Augmentez le feu pour caraméliser.',
+                    'Effilochez et assaisonnez.',
+                    'Servez avec tortillas et salsa.'
+                ],
+                time: '3 heures',
+                difficulty: 'Difficile',
                 servings: '8 personnes'
             }
         ],
@@ -1539,6 +1764,36 @@ export const recipeDatabase = {
                 time: '15 minutes',
                 difficulty: 'Facile',
                 servings: '4 personnes'
+            },
+            {
+                name: 'Guacamole',
+                ingredients: ['4 avocats', '1 lime', '1 tomate', '1 oignon blanc', '2 piments jalapeños', 'Coriandre', 'Ail', 'Sel', 'Tortilla chips'],
+                instructions: [
+                    'Écrasez grossièrement les avocats à la fourchette.',
+                    'Ajoutez jus de lime immédiatement.',
+                    'Incorporez tomate, oignon et piments hachés.',
+                    'Ajoutez coriandre et ail écrasé.',
+                    'Assaisonnez de sel et mélangez délicatement.',
+                    'Servez avec tortilla chips croustillants.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Quesadillas',
+                ingredients: ['Tortillas de farine', 'Fromage Oaxaca', 'Chorizo', 'Champignons', 'Oignon', 'Coriandre', 'Salsa', 'Crème'],
+                instructions: [
+                    'Faites revenir chorizo et champignons.',
+                    'Garnissez une tortilla de fromage et farce.',
+                    'Recouvrez d\'une seconde tortilla.',
+                    'Cuisez à la plancha jusqu\'à dorure.',
+                    'Retournez délicatement et terminez la cuisson.',
+                    'Découpez et servez avec salsa et crème.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
             }
         ]
     },
@@ -1572,6 +1827,21 @@ export const recipeDatabase = {
                 ],
                 time: '45 minutes',
                 difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Tostada con Tomate',
+                ingredients: ['Pain de campagne', 'Tomates mûres', 'Ail', 'Huile d\'olive extra vierge', 'Sel de mer', 'Jamón ibérico'],
+                instructions: [
+                    'Grillez les tranches de pain.',
+                    'Frottez avec une gousse d\'ail.',
+                    'Frottez avec la tomate coupée en deux.',
+                    'Arrosez généreusement d\'huile d\'olive.',
+                    'Saupoudrez de sel de mer.',
+                    'Ajoutez le jamón si désiré.'
+                ],
+                time: '10 minutes',
+                difficulty: 'Facile',
                 servings: '4 personnes'
             }
         ],
@@ -1690,6 +1960,36 @@ export const recipeDatabase = {
                 time: '1h15',
                 difficulty: 'Difficile',
                 servings: '8 personnes'
+            },
+            {
+                name: 'Müesli Bircher',
+                ingredients: ['Flocons d\'avoine', 'Pommes râpées', 'Lait', 'Yogourt', 'Miel', 'Noix', 'Raisins secs', 'Cannelle'],
+                instructions: [
+                    'Mélangez flocons d\'avoine avec lait et yogourt.',
+                    'Laissez reposer au réfrigérateur toute la nuit.',
+                    'Ajoutez pommes râpées fraîches le matin.',
+                    'Incorporez miel et cannelle.',
+                    'Garnissez de noix et raisins secs.',
+                    'Servez frais dans des bols.'
+                ],
+                time: '15 min + nuit',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Leberkäse mit Ei',
+                ingredients: ['Leberkäse', 'Œufs', 'Moutarde douce', 'Cornichons', 'Pain de seigle', 'Beurre', 'Ciboulette'],
+                instructions: [
+                    'Tranchez et faites griller le leberkäse.',
+                    'Faites frire les œufs au plat.',
+                    'Beurrez les tranches de pain de seigle.',
+                    'Disposez leberkäse et œuf sur le pain.',
+                    'Accompagnez de moutarde et cornichons.',
+                    'Parsemez de ciboulette ciselée.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '2 personnes'
             }
         ],
         'déjeuner': [
@@ -1707,6 +2007,36 @@ export const recipeDatabase = {
                 time: '2h30 + 3j marinade',
                 difficulty: 'Difficile',
                 servings: '6 personnes'
+            },
+            {
+                name: 'Currywurst',
+                ingredients: ['Saucisses de porc', 'Sauce tomate', 'Poudre de curry', 'Paprika', 'Oignon', 'Ketchup', 'Frites', 'Pain'],
+                instructions: [
+                    'Faites griller les saucisses et coupez en rondelles.',
+                    'Préparez une sauce avec tomate, curry et épices.',
+                    'Nappez les saucisses de sauce curry.',
+                    'Saupoudrez généreusement de curry en poudre.',
+                    'Servez avec frites et pain.',
+                    'Accompagnez de mayonnaise.'
+                ],
+                time: '25 minutes',
+                difficulty: 'Facile',
+                servings: '2 personnes'
+            },
+            {
+                name: 'Schweinshaxe',
+                ingredients: ['2 jarrets de porc', 'Bière blonde', 'Choucroute', 'Moutarde', 'Cumin', 'Laurier', 'Pommes de terre', 'Oignon'],
+                instructions: [
+                    'Marquez la couenne des jarrets en losanges.',
+                    'Assaisonnez avec cumin et sel.',
+                    'Faites rôtir 2 heures en arrosant de bière.',
+                    'Réchauffez la choucroute avec oignon.',
+                    'Cuisez les pommes de terre à l\'eau.',
+                    'Servez avec moutarde forte.'
+                ],
+                time: '2h30',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
             }
         ],
         'dîner': [
@@ -1723,6 +2053,36 @@ export const recipeDatabase = {
                 ],
                 time: '30 minutes',
                 difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Rouladen',
+                ingredients: ['8 tranches de bœuf', 'Moutarde', 'Lardons', 'Cornichons', 'Oignon', 'Vin rouge', 'Bouillon', 'Farine'],
+                instructions: [
+                    'Aplatissez les tranches de bœuf.',
+                    'Badigeonnez de moutarde et garnissez.',
+                    'Roulez et ficellez soigneusement.',
+                    'Faites dorer puis mijotez au vin rouge.',
+                    'Cuisez 1h30 dans le bouillon.',
+                    'Liez la sauce et servez avec chou rouge.'
+                ],
+                time: '2 heures',
+                difficulty: 'Difficile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Kassler mit Sauerkraut',
+                ingredients: ['Côtes de porc fumées', 'Choucroute', 'Bière', 'Pommes', 'Oignon', 'Genièvre', 'Pommes de terre', 'Moutarde'],
+                instructions: [
+                    'Faites revenir l\'oignon pour la choucroute.',
+                    'Ajoutez choucroute, pommes et épices.',
+                    'Arrosez de bière et laissez mijoter.',
+                    'Grillez les côtes de porc fumées.',
+                    'Cuisez les pommes de terre à l\'eau.',
+                    'Servez ensemble avec moutarde.'
+                ],
+                time: '1 heure',
+                difficulty: 'Facile',
                 servings: '4 personnes'
             }
         ],
@@ -1792,6 +2152,36 @@ export const recipeDatabase = {
                 time: '30 minutes',
                 difficulty: 'Facile',
                 servings: '8 scones'
+            },
+            {
+                name: 'Full English Breakfast',
+                ingredients: ['Œufs', 'Bacon', 'Saucisses', 'Black pudding', 'Haricots à la tomate', 'Tomates', 'Champignons', 'Pain grillé', 'Beurre'],
+                instructions: [
+                    'Faites griller les saucisses et le bacon.',
+                    'Cuisez le black pudding en tranches.',
+                    'Faites revenir champignons et tomates.',
+                    'Réchauffez les haricots à la tomate.',
+                    'Faites frire les œufs au plat.',
+                    'Servez tout ensemble avec pain grillé.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Facile',
+                servings: '2 personnes'
+            },
+            {
+                name: 'Porridge aux Fruits',
+                ingredients: ['Flocons d\'avoine', 'Lait', 'Eau', 'Sel', 'Miel', 'Fruits rouges', 'Banane', 'Noix'],
+                instructions: [
+                    'Faites cuire l\'avoine dans lait et eau salée.',
+                    'Remuez régulièrement pendant 10 minutes.',
+                    'Ajustez la consistance avec du lait.',
+                    'Servez dans des bols chauds.',
+                    'Garnissez de miel et fruits frais.',
+                    'Parsemez de noix concassées.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
             }
         ],
         'déjeuner': [
@@ -1808,6 +2198,36 @@ export const recipeDatabase = {
                 ],
                 time: '45 minutes',
                 difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Shepherd\'s Pie',
+                ingredients: ['Agneau haché', 'Oignons', 'Carottes', 'Petits pois', 'Pommes de terre', 'Beurre', 'Lait', 'Worcestershire sauce', 'Thym'],
+                instructions: [
+                    'Faites revenir l\'agneau haché avec oignons.',
+                    'Ajoutez légumes et sauce Worcestershire.',
+                    'Préparez une purée de pommes de terre.',
+                    'Disposez la viande dans un plat.',
+                    'Recouvrez de purée et dorez au four.',
+                    'Servez chaud avec légumes verts.'
+                ],
+                time: '1 heure',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Cornish Pasty',
+                ingredients: ['Pâte brisée', 'Bœuf en dés', 'Pommes de terre', 'Rutabaga', 'Oignon', 'Sel', 'Poivre', 'Beurre'],
+                instructions: [
+                    'Préparez une pâte brisée ferme.',
+                    'Coupez tous les légumes en petits dés.',
+                    'Mélangez viande et légumes crus.',
+                    'Garnissez des disques de pâte.',
+                    'Fermez en forme de chausson.',
+                    'Enfournez 45 minutes à 180°C.'
+                ],
+                time: '1h30',
+                difficulty: 'Difficile',
                 servings: '4 personnes'
             }
         ],
@@ -1894,6 +2314,36 @@ export const recipeDatabase = {
                 time: '30 minutes',
                 difficulty: 'Intermédiaire',
                 servings: '4 personnes'
+            },
+            {
+                name: 'Idli Sambar',
+                ingredients: ['Pâte à idli', 'Dal toor', 'Légumes variés', 'Tamarin', 'Poudre de sambar', 'Huile de coco', 'Graines de moutarde', 'Chutney'],
+                instructions: [
+                    'Cuisez les idlis à la vapeur 15 minutes.',
+                    'Préparez le sambar avec dal et légumes.',
+                    'Assaisonnez avec tamarin et épices.',
+                    'Faites le tempering avec graines de moutarde.',
+                    'Servez idlis chauds avec sambar.',
+                    'Accompagnez de chutney de coco.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Upma',
+                ingredients: ['Semoule de blé', 'Légumes', 'Graines de moutarde', 'Feuilles de curry', 'Gingembre', 'Piments verts', 'Noix de cajou', 'Citron'],
+                instructions: [
+                    'Faites griller la semoule jusqu\'à parfum.',
+                    'Préparez le tempering avec épices.',
+                    'Ajoutez légumes et faites revenir.',
+                    'Versez eau chaude et semoule grillée.',
+                    'Cuisez en remuant jusqu\'à absorption.',
+                    'Garnissez de cajou et jus de citron.'
+                ],
+                time: '25 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
             }
         ],
         'déjeuner': [
@@ -1925,6 +2375,21 @@ export const recipeDatabase = {
                 ],
                 time: '2h + trempage',
                 difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Chole Bhature',
+                ingredients: ['Pois chiches', 'Farine', 'Yaourt', 'Levure', 'Tomates', 'Oignon', 'Gingembre', 'Ail', 'Épices garam masala', 'Huile'],
+                instructions: [
+                    'Préparez la pâte à bhature et laissez lever.',
+                    'Cuisez les pois chiches avec épices.',
+                    'Préparez le curry chole épicé.',
+                    'Étalez et faites frire les bhatures.',
+                    'Servez chaud ensemble.',
+                    'Accompagnez d\'oignon rouge et citron.'
+                ],
+                time: '2h + levée',
+                difficulty: 'Difficile',
                 servings: '4 personnes'
             }
         ],
@@ -2071,6 +2536,21 @@ export const recipeDatabase = {
                 time: '10 minutes',
                 difficulty: 'Facile',
                 servings: '2 personnes'
+            },
+            {
+                name: 'Tapioca Doce',
+                ingredients: ['Farine de tapioca', 'Lait de coco', 'Sucre', 'Cannelle', 'Noix de coco râpée', 'Lait concentré'],
+                instructions: [
+                    'Humidifiez légèrement la farine de tapioca.',
+                    'Chauffez une poêle antiadhésive.',
+                    'Étalez la tapioca en disque fin.',
+                    'Garnissez de lait de coco sucré.',
+                    'Saupoudrez de cannelle et noix de coco.',
+                    'Pliez en demi-lune et servez chaud.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
             }
         ],
         'déjeuner': [
@@ -2203,6 +2683,36 @@ export const recipeDatabase = {
                 time: '30 minutes',
                 difficulty: 'Facile',
                 servings: '6 manakish'
+            },
+            {
+                name: 'Fattayeh',
+                ingredients: ['Pâte à pain', 'Épinards', 'Oignon', 'Sumac', 'Pignons', 'Huile d\'olive', 'Citron', 'Fromage'],
+                instructions: [
+                    'Préparez une farce aux épinards et oignon.',
+                    'Assaisonnez avec sumac et citron.',
+                    'Étalez la pâte en cercles.',
+                    'Garnissez de farce et pignons.',
+                    'Repliez en forme de triangle.',
+                    'Enfournez jusqu\'à dorure.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '8 pièces'
+            },
+            {
+                name: 'Balila',
+                ingredients: ['Pois chiches', 'Ail', 'Citron', 'Tahini', 'Cumin', 'Paprika', 'Persil', 'Huile d\'olive'],
+                instructions: [
+                    'Réchauffez les pois chiches dans leur jus.',
+                    'Préparez une sauce à l\'ail et citron.',
+                    'Ajoutez tahini et épices.',
+                    'Versez sur les pois chiches chauds.',
+                    'Garnissez de persil et paprika.',
+                    'Servez avec pain pita.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
             }
         ],
         'déjeuner': [
