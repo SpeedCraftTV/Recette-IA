@@ -64,8 +64,8 @@
                 
                 <!-- Language Switcher -->
                 <div class="locale-switcher">
-                    <button type="button" onclick="i18n.switchLocale('fr')" class="locale-btn" data-locale="fr">FR</button>
-                    <button type="button" onclick="i18n.switchLocale('en')" class="locale-btn" data-locale="en">EN</button>
+                    <button type="button" class="locale-btn" data-locale="fr" aria-pressed="true">FR</button>
+                    <button type="button" class="locale-btn" data-locale="en" aria-pressed="false">EN</button>
                 </div>
             </div>
         </header>
@@ -242,13 +242,13 @@
 
         <!-- Mobile Quick Actions Bar -->
         <div class="mobile-quick-actions" role="navigation" aria-label="Actions rapides">
-            <button type="button" onclick="scrollToSection('search-section')" class="quick-action-btn" aria-label="Aller à la recherche" data-i18n="quick-search">
+            <button type="button" class="quick-action-btn" data-action="search" aria-label="Aller à la recherche" data-i18n="quick-search">
                 🔍
             </button>
-            <button type="button" onclick="scrollToSection('generator-section')" class="quick-action-btn" aria-label="Aller au générateur" data-i18n="quick-generator">
+            <button type="button" class="quick-action-btn" data-action="generator" aria-label="Aller au générateur" data-i18n="quick-generator">
                 ✨
             </button>
-            <button type="button" onclick="scrollToTop()" class="quick-action-btn" aria-label="Retour en haut" data-i18n="quick-top">
+            <button type="button" class="quick-action-btn" data-action="top" aria-label="Retour en haut" data-i18n="quick-top">
                 ⬆️
             </button>
         </div>

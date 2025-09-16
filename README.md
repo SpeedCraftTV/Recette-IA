@@ -2,18 +2,45 @@
 
 Un générateur de recettes intelligent propulsé par l'IA qui crée des recettes personnalisées selon vos préférences culinaires.
 
-![Recette-IA Demo](https://github.com/user-attachments/assets/4124daba-5271-4cae-b21d-5316de3da91b)
+![Recette-IA Demo](https://github.com/user-attachments/assets/d2a8c47f-f310-418d-bf7a-e75060cd4eef)
 
-## ✨ Fonctionnalités
+## ✨ Nouvelles Fonctionnalités (Version 2.0)
 
-- **Génération IA de recettes** : Créez des recettes uniques basées sur vos préférences
-- **Cuisines variées** : Française, Italienne, Asiatique, Méditerranéenne, Mexicaine, Indienne
-- **Types de repas** : Petit-déjeuner, déjeuner, dîner, dessert, collation
-- **Restrictions alimentaires** : Végétarien, végétalien, sans gluten, sans lactose, cétogène
-- **Temps de cuisson** : Options rapide, moyen ou long selon votre disponibilité
-- **Ingrédients personnalisés** : Incorporez vos ingrédients disponibles dans la recette
-- **Interface responsive** : Optimisée pour desktop et mobile
-- **Design moderne** : Interface élégante avec animations fluides
+### 🌐 **Application Web Progressive (PWA)**
+- **Installation**: Installable comme une application native sur mobile et desktop
+- **Mode hors ligne**: Fonctionne sans connexion internet grâce au service worker
+- **Cache intelligent**: Cache-first pour les assets, network-first pour le contenu
+- **Notifications push**: Support des notifications (optionnel)
+
+### 🌍 **Internationalisation (i18n)**
+- **Multilingue**: Interface complète en français et anglais
+- **Commutation instantanée**: Changez de langue en temps réel
+- **Persistance**: Votre choix de langue est sauvegardé
+- **Accessibilité**: Labels et ARIA en plusieurs langues
+
+### 🔒 **Analytics Respectueux de la Vie Privée**
+- **Opt-in uniquement**: Aucun tracking par défaut
+- **Respect Do Not Track**: Honore les préférences de confidentialité
+- **Sans cookies**: Analytics cookieless (Plausible/Umami ready)
+- **Contrôle utilisateur**: Activation/désactivation facile
+
+### ♿ **Accessibilité Avancée**
+- **Navigation clavier**: Liens de saut, navigation complète au clavier
+- **Lecteurs d'écran**: ARIA roles, landmarks, live regions
+- **Focus visible**: Indicateurs de focus améliorés
+- **Gestion des annonces**: Annonces automatiques pour les changements d'état
+
+### 📱 **Interface Mobile Optimisée**
+- **Actions rapides**: Barre d'actions flottante pour navigation rapide
+- **Responsive design**: Interface adaptée à tous les écrans
+- **Touch-friendly**: Interactions tactiles optimisées
+- **Performance**: Chargement rapide et transitions fluides
+
+### 🏗️ **Architecture Moderne ES6+ Modules**
+- **Modularité**: Code organisé en modules ES6 spécialisés
+- **Types JSDoc**: Annotations de types pour une meilleure documentation
+- **Sans bundler**: Fonctionne nativement dans les navigateurs modernes
+- **Maintenabilité**: Code plus facile à maintenir et étendre
 
 ## 🚀 Utilisation
 
@@ -39,113 +66,143 @@ Un générateur de recettes intelligent propulsé par l'IA qui crée des recette
 
 3. **Ouvrez votre navigateur** et allez sur `http://localhost:8000`
 
-### Comment générer une recette
+### Fonctionnalités Principales
 
-1. **Sélectionnez vos préférences** :
-   - Type de cuisine (française, italienne, etc.)
-   - Type de repas (petit-déjeuner, déjeuner, etc.)
-   - Restrictions alimentaires si nécessaire
-   - Temps de cuisson souhaité
+#### 🔍 **Recherche Avancée**
+- Recherche par nom, ingrédient, ou type de cuisine
+- Filtres multiples (cuisine, type de repas, difficulté)
+- Suggestions en temps réel
+- Résultats détaillés avec métadonnées
 
-2. **Ajoutez des ingrédients** (optionnel) :
-   - Listez les ingrédients que vous avez sous la main
-   - Séparez-les par des virgules
+#### 🎯 **Génération Personnalisée**
+- **11 types de cuisine** : Française, Italienne, Asiatique, Méditerranéenne, Mexicaine, Indienne, Espagnole, Allemande, Britannique, Brésilienne, Libanaise
+- **5 types de repas** : Petit-déjeuner, déjeuner, dîner, dessert, collation
+- **7 restrictions alimentaires** : Végétarien, végétalien, sans gluten, sans lactose, cétogène, halal, casher
+- **3 temps de cuisson** : Rapide, moyen, long
+- **Ingrédients personnalisés** : Incorporez vos ingrédients disponibles
 
-3. **Générez votre recette** :
-   - Cliquez sur "Générer une recette"
-   - Attendez quelques secondes que l'IA traite votre demande
+#### 🌐 **Multilingue**
+- **Français** : Interface complète en français
+- **English** : Complete English interface
+- **Commutation instantanée** : Switch languages on the fly
+- **Persistance** : Your language choice is remembered
 
-4. **Profitez de votre recette** :
-   - Consultez la liste d'ingrédients
-   - Suivez les instructions étape par étape
-   - Lisez les conseils du chef
+### Configuration Analytics (Optionnel)
 
-## 🛠️ Technologies utilisées
+Pour activer les analytics respectueux de la vie privée, modifiez `services/analytics.js` :
 
-- **HTML5** : Structure sémantique moderne
-- **CSS3** : Styles avancés avec gradients et animations
-- **JavaScript ES6+** : Logique métier et interactions
-- **IA Simulée** : Algorithme intelligent de génération de recettes
+```javascript
+export const ANALYTICS_CONFIG = {
+  PROVIDER_URL: 'https://plausible.io/js/script.js', // Ou votre provider
+  DATA_DOMAIN: 'votre-domaine.com',
+  SCRIPT_ATTRIBUTES: {
+    'data-domain': 'votre-domaine.com',
+    'data-api': '/api/event', // Optionnel
+    'defer': true
+  }
+};
+```
 
-## 📱 Compatibilité
+Providers supportés :
+- **Plausible** : Analytics simple et respectueux
+- **Umami** : Self-hosted, open source
+- **Simple Analytics** : GDPR compliant
 
+## 🛠️ Architecture Technique
+
+### Structure des Modules ES6
+
+```
+Recette-IA/
+├── index.html              # Page principale avec SEO optimisé
+├── main.js                 # Bootstrap de l'application
+├── styles.css              # Styles avec accessibilité
+├── manifest.webmanifest    # Manifest PWA
+├── sw.js                   # Service Worker
+├── offline.html            # Page hors ligne
+├── data/
+│   └── recipeDatabase.js   # Base de données des recettes
+├── core/
+│   ├── generator.js        # Moteur de génération IA
+│   └── search.js           # Service de recherche
+├── ui/
+│   ├── i18n.js            # Système d'internationalisation
+│   └── ui.js              # Interface utilisateur
+└── services/
+    ├── analytics.js        # Analytics opt-in
+    └── pwa.js             # Service PWA
+```
+
+### 🎨 **SEO & Performance**
+- **Meta tags optimisés** : Description, Open Graph, Twitter Cards
+- **Schema.org** : JSON-LD structured data
+- **Canonical URLs** : URLs canoniques pour GitHub Pages
+- **Performance** : Lazy loading, cache intelligent
+- **Lighthouse Score** : Optimisé pour de hauts scores
+
+### 🔧 **PWA Features**
+- **Installable** : Prompt d'installation automatique
+- **Offline-first** : Fonctionne sans connexion
+- **App-like** : Expérience application native
+- **Fast loading** : Cache intelligent et optimisations
+
+## 🤖 **Intelligence Artificielle**
+
+L'IA de Recette-IA utilise :
+
+- **Base de données enrichie** : Plus de 200 recettes organisées par cuisine
+- **Modifications diététiques intelligentes** : Adaptation automatique selon les restrictions
+- **Adaptation temporelle** : Ajustement des temps de cuisson selon les préférences
+- **Intégration d'ingrédients** : Incorporation intelligente des ingrédients disponibles
+- **Conseils personnalisés** : Tips culinaires contextuels selon la cuisine choisie
+
+## 📱 **Compatibilité & Support**
+
+### Navigateurs
 - ✅ Chrome/Chromium 80+
 - ✅ Firefox 75+
 - ✅ Safari 13+
 - ✅ Edge 80+
-- ✅ Appareils mobiles (iOS/Android)
+- ✅ iOS Safari 13+
+- ✅ Android Chrome 80+
 
-## 🤖 Comment fonctionne l'IA
+### PWA Support
+- ✅ Installation sur iOS/Android
+- ✅ Mode standalone
+- ✅ Service Worker
+- ✅ Offline capabilities
+- ✅ App icons & splash screens
 
-L'IA de Recette-IA utilise :
+## 🔧 Développement
 
-- **Base de données de recettes** organisée par cuisine et type de repas
-- **Modifications diététiques** intelligentes selon les restrictions
-- **Adaptation temporelle** des recettes selon le temps disponible
-- **Intégration d'ingrédients** personnalisés dans les recettes existantes
-- **Conseils culinaires** contextuels selon le type de cuisine
+### Contribution
 
-## 🔧 Structure des fichiers
+1. Fork le projet
+2. Créer une branche feature (`git checkout -b feature/nouvelle-fonctionnalite`)
+3. Commit vos changements (`git commit -am 'Ajout nouvelle fonctionnalité'`)
+4. Push sur la branche (`git push origin feature/nouvelle-fonctionnalite`)
+5. Créer une Pull Request
 
-```
-Recette-IA/
-├── index.html          # Page principale
-├── styles.css          # Feuilles de style
-├── script.js           # Logique JavaScript et IA
-└── README.md          # Documentation
-```
+### Guidelines
 
-## 🎨 Personnalisation
-
-Vous pouvez facilement personnaliser Recette-IA :
-
-### Ajouter de nouvelles cuisines
-
-Modifiez l'objet `recipeDatabase` dans `script.js` :
-
-```javascript
-const recipeDatabase = {
-    nouvelleCuisine: {
-        'déjeuner': [
-            {
-                name: 'Nom de la recette',
-                ingredients: ['ingrédient 1', 'ingrédient 2'],
-                instructions: ['étape 1', 'étape 2'],
-                time: '30 minutes',
-                difficulty: 'Facile',
-                servings: '4 personnes'
-            }
-        ]
-    }
-};
-```
-
-### Modifier les styles
-
-Personnalisez l'apparence dans `styles.css` :
-
-- Changez les couleurs principales en modifiant les gradients
-- Ajustez les tailles de police et espacements
-- Modifiez les animations et transitions
+- **ES6+ Modules** : Utilisez la syntaxe moderne
+- **JSDoc** : Documentez vos fonctions
+- **Accessibilité** : Respectez les standards ARIA
+- **i18n** : Ajoutez les traductions pour les nouvelles chaînes
+- **Progressive Enhancement** : Assurez-vous que les fonctionnalités de base marchent partout
 
 ## 📄 Licence
 
 Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
 
-## 🤝 Contribution
+## 🤝 Remerciements
 
-Les contributions sont les bienvenues ! N'hésitez pas à :
-
-1. Fork le projet
-2. Créer une branche pour votre fonctionnalité
-3. Commiter vos changements
-4. Pousser vers la branche
-5. Ouvrir une Pull Request
-
-## 📞 Support
-
-Pour toute question ou suggestion, ouvrez une issue sur GitHub.
+- **Communauté Open Source** pour les outils et libraries
+- **Contributors** pour leurs améliorations et suggestions
+- **Users** pour leurs retours et tests
 
 ---
 
 **Bon appétit et bonnes créations culinaires ! 👨‍🍳👩‍🍳**
+
+*Fait avec ❤️ et beaucoup de café ☕*

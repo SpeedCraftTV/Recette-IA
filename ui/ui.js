@@ -37,7 +37,49 @@ export class RecipeUI {
     // Keyboard events
     this.setupKeyboardEvents();
     
-    // Window events
+    // Add event delegation for recipe preview clicks
+    document.addEventListener('click', (e) => {
+      const recipePreview = e.target.closest('.recipe-preview');
+      if (recipePreview) {
+        const cuisine = recipePreview.dataset.cuisine;
+        const mealType = recipePreview.dataset.mealType;
+        const recipeName = recipePreview.dataset.recipeName;
+        if (cuisine && mealType && recipeName) {
+          this.selectSearchResult(cuisine, mealType, recipeName);
+        }
+      }
+    });
+    
+    // Add event delegation for locale switcher
+    document.addEventListener('click', (e) => {
+      if (e.target.classList.contains('locale-btn')) {
+        const locale = e.target.dataset.locale;
+        if (locale && window.i18n) {
+          window.i18n.switchLocale(locale);
+        }
+      }
+    });
+    
+    // Add event delegation for mobile quick actions
+    document.addEventListener('click', (e) => {
+      if (e.target.classList.contains('quick-action-btn')) {
+        const action = e.target.dataset.action;
+        switch (action) {
+          case 'search':
+            this.scrollToSection('search-section');
+            break;
+          case 'generator':
+            this.scrollToSection('generator-section');
+            break;
+          case 'top':
+            this.scrollToTop();
+            break;
+        }
+      }
+    });
+    
+    // Setup other event types
+    this.setupKeyboardEvents();
     this.setupWindowEvents();
   }
 
@@ -184,41 +226,7 @@ export class RecipeUI {
    * Setup mobile quick actions
    */
   setupMobileActions() {
-    // Global scroll functions for mobile quick actions
-    window.scrollToSection = (sectionId) => {
-      const section = document.getElementById(sectionId);
-      if (section) {
-        section.scrollIntoView({ behavior: 'smooth' });
-        
-        // Focus the section for screen readers
-        section.setAttribute('tabindex', '-1');
-        section.focus();
-        
-        // Track analytics
-        if (window.analytics && window.analytics.isAnalyticsEnabled()) {
-          window.analytics.track('Mobile Quick Action', { section: sectionId });
-        }
-      }
-    };
-
-    window.scrollToTop = () => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-      
-      // Focus the skip link or header
-      const skipLink = document.querySelector('.skip-link');
-      const header = document.querySelector('header');
-      if (skipLink) {
-        skipLink.focus();
-      } else if (header) {
-        header.setAttribute('tabindex', '-1');
-        header.focus();
-      }
-      
-      // Track analytics
-      if (window.analytics && window.analytics.isAnalyticsEnabled()) {
-        window.analytics.track('Mobile Quick Action', { section: 'top' });
-      }
-    };
+    // Mobile quick actions are now handled via event delegation in initializeEventListeners
   }
 
   /**
@@ -555,7 +563,7 @@ export class RecipeUI {
         <div class="search-results-grid" role="list" aria-label="Résultats de recherche">
           ${results.slice(0, 12).map(recipe => `
             <div class="recipe-preview" role="listitem" tabindex="0" 
-                 onclick="recipeUI.selectSearchResult('${recipe.cuisine}', '${recipe.mealType}', '${recipe.name}')"
+                 data-cuisine="${recipe.cuisine}" data-meal-type="${recipe.mealType}" data-recipe-name="${recipe.name}"
                  onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.click();}"
                  aria-label="Sélectionner la recette ${recipe.name}">
               <h4>${recipe.name}</h4>
@@ -786,6 +794,48 @@ export class RecipeUI {
   }
 
   /**
+   * Scroll to a specific section
+   * @param {string} sectionId - ID of section to scroll to
+   */
+  scrollToSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+      
+      // Focus the section for screen readers
+      section.setAttribute('tabindex', '-1');
+      section.focus();
+      
+      // Track analytics
+      if (window.analytics && window.analytics.isAnalyticsEnabled()) {
+        window.analytics.track('Mobile Quick Action', { section: sectionId });
+      }
+    }
+  }
+
+  /**
+   * Scroll to top of page
+   */
+  scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    
+    // Focus the skip link or header
+    const skipLink = document.querySelector('.skip-link');
+    const header = document.querySelector('header');
+    if (skipLink) {
+      skipLink.focus();
+    } else if (header) {
+      header.setAttribute('tabindex', '-1');
+      header.focus();
+    }
+    
+    // Track analytics
+    if (window.analytics && window.analytics.isAnalyticsEnabled()) {
+      window.analytics.track('Mobile Quick Action', { section: 'top' });
+    }
+  }
+
+  /**
    * Show error message
    * @param {string} message - Error message
    */
@@ -802,9 +852,6 @@ export class RecipeUI {
 
 // Global variable to access UI from onclick handlers
 let recipeUI;
-
-// Export for use in main.js
-export { RecipeUI };
 
 // Make UI available globally for onclick handlers in HTML
 window.RecipeUI = RecipeUI;

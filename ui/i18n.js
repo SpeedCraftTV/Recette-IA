@@ -102,6 +102,13 @@ export const translations = {
     // Recipe display
     'recipe-title': 'Votre recette générée',
     'new-recipe': 'Générer une nouvelle recette',
+    'prep-time': 'Temps de préparation',
+    'difficulty': 'Difficulté',
+    'servings': 'Portions',
+    'ingredients': 'Ingrédients',
+    'instructions': 'Instructions',
+    'main-ingredients': 'Ingrédients principaux',
+    'recipe-generated': 'Recette générée',
     
     // Footer
     'footer-powered': 'Propulsé par l\'intelligence artificielle',
@@ -198,6 +205,13 @@ export const translations = {
     // Recipe display
     'recipe-title': 'Your generated recipe',
     'new-recipe': 'Generate new recipe',
+    'prep-time': 'Preparation time',
+    'difficulty': 'Difficulty',
+    'servings': 'Servings',
+    'ingredients': 'Ingredients',
+    'instructions': 'Instructions',
+    'main-ingredients': 'Main ingredients',
+    'recipe-generated': 'Recipe generated',
     
     // Footer
     'footer-powered': 'Powered by artificial intelligence',

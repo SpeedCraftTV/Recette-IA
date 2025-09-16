@@ -27,7 +27,7 @@
  */
 
 // Recipe database organized by cuisine type and meal type
-export const recipeDatabase = {{
+export const recipeDatabase = {
     française: {
         'petit-déjeuner': [
             {
@@ -2289,3 +2289,4 @@ export const recipeDatabase = {{
             }
         ]
     }
+};
