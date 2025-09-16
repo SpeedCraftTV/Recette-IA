@@ -3,187 +3,269 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Générateur de recettes intelligent propulsé par l'IA. Créez des recettes personnalisées selon vos préférences culinaires, restrictions alimentaires et ingrédients disponibles.">
+    <meta name="keywords" content="recettes, IA, intelligence artificielle, cuisine, générateur, végétarien, sans gluten">
+    <meta name="author" content="Recette-IA">
+    <link rel="canonical" href="https://speedcrafttv.github.io/Recette-IA/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://speedcrafttv.github.io/Recette-IA/">
+    <meta property="og:title" content="Recette-IA - Générateur de Recettes par IA">
+    <meta property="og:description" content="Générateur de recettes intelligent propulsé par l'IA. Créez des recettes personnalisées selon vos préférences culinaires.">
+    <meta property="og:site_name" content="Recette-IA">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://speedcrafttv.github.io/Recette-IA/">
+    <meta property="twitter:title" content="Recette-IA - Générateur de Recettes par IA">
+    <meta property="twitter:description" content="Générateur de recettes intelligent propulsé par l'IA. Créez des recettes personnalisées selon vos préférences culinaires.">
+    
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.webmanifest">
+    <meta name="theme-color" content="#667eea">
+    <meta name="application-name" content="Recette-IA">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Recette-IA">
+    
     <title>Recette-IA - Générateur de Recettes par IA</title>
     <link rel="stylesheet" href="styles.css">
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Recette-IA",
+      "description": "Générateur de recettes intelligent propulsé par l'IA",
+      "url": "https://speedcrafttv.github.io/Recette-IA/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://speedcrafttv.github.io/Recette-IA/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Recette-IA"
+      }
+    }
+    </script>
 </head>
 <body>
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="skip-link" data-i18n="skip-to-content">Aller au contenu principal</a>
+    
     <div class="container">
-        <header>
-            <h1>🍳 Recette-IA</h1>
-            <p>Générez des recettes délicieuses avec l'intelligence artificielle</p>
+        <header role="banner">
+            <div class="header-content">
+                <h1>🍳 <span data-i18n="app-title">Recette-IA</span></h1>
+                <p data-i18n="app-subtitle">Générez des recettes délicieuses avec l'intelligence artificielle</p>
+                
+                <!-- Language Switcher -->
+                <div class="locale-switcher">
+                    <button type="button" onclick="i18n.switchLocale('fr')" class="locale-btn" data-locale="fr">FR</button>
+                    <button type="button" onclick="i18n.switchLocale('en')" class="locale-btn" data-locale="en">EN</button>
+                </div>
+            </div>
         </header>
 
-        <main>
-            <section class="search-section">
+        <main id="main-content" role="main">
+            <section class="search-section" id="search-section">
                 <div class="search-container">
-                    <h2>🔍 Rechercher une recette</h2>
+                    <h2>🔍 <span data-i18n="search-title">Rechercher une recette</span></h2>
                     <div class="search-form">
                         <div class="search-input-group">
-                            <input type="text" id="search-input" placeholder="Rechercher par nom, ingrédient, cuisine...">
-                            <button type="button" id="search-btn">Rechercher</button>
+                            <label for="search-input" class="visually-hidden" data-i18n="search-label">Rechercher par nom, ingrédient, cuisine</label>
+                            <input type="text" id="search-input" data-i18n="search-placeholder" placeholder="Rechercher par nom, ingrédient, cuisine..." aria-label="Rechercher une recette">
+                            <button type="button" id="search-btn" data-i18n="search-button">Rechercher</button>
                         </div>
                         <div class="search-filters">
                             <div class="filter-group">
-                                <label for="search-cuisine">Cuisine :</label>
-                                <select id="search-cuisine">
-                                    <option value="">Toutes les cuisines</option>
-                                    <option value="française">Française</option>
-                                    <option value="italienne">Italienne</option>
-                                    <option value="asiatique">Asiatique</option>
-                                    <option value="méditerranéenne">Méditerranéenne</option>
-                                    <option value="mexicaine">Mexicaine</option>
-                                    <option value="indienne">Indienne</option>
-                                    <option value="espagnole">Espagnole</option>
-                                    <option value="allemande">Allemande</option>
-                                    <option value="britannique">Britannique</option>
-                                    <option value="brésilienne">Brésilienne</option>
-                                    <option value="libanaise">Libanaise</option>
+                                <label for="search-cuisine" data-i18n="filter-cuisine">Cuisine :</label>
+                                <select id="search-cuisine" aria-label="Filtrer par type de cuisine">
+                                    <option value="" data-i18n="all-cuisines">Toutes les cuisines</option>
+                                    <option value="française" data-i18n="cuisine-french">Française</option>
+                                    <option value="italienne" data-i18n="cuisine-italian">Italienne</option>
+                                    <option value="asiatique" data-i18n="cuisine-asian">Asiatique</option>
+                                    <option value="méditerranéenne" data-i18n="cuisine-mediterranean">Méditerranéenne</option>
+                                    <option value="mexicaine" data-i18n="cuisine-mexican">Mexicaine</option>
+                                    <option value="indienne" data-i18n="cuisine-indian">Indienne</option>
+                                    <option value="espagnole" data-i18n="cuisine-spanish">Espagnole</option>
+                                    <option value="allemande" data-i18n="cuisine-german">Allemande</option>
+                                    <option value="britannique" data-i18n="cuisine-british">Britannique</option>
+                                    <option value="brésilienne" data-i18n="cuisine-brazilian">Brésilienne</option>
+                                    <option value="libanaise" data-i18n="cuisine-lebanese">Libanaise</option>
                                 </select>
                             </div>
                             <div class="filter-group">
-                                <label for="search-meal">Type de repas :</label>
-                                <select id="search-meal">
-                                    <option value="">Tous les repas</option>
-                                    <option value="petit-déjeuner">Petit-déjeuner</option>
-                                    <option value="déjeuner">Déjeuner</option>
-                                    <option value="dîner">Dîner</option>
-                                    <option value="dessert">Dessert</option>
-                                    <option value="collation">Collation</option>
+                                <label for="search-meal" data-i18n="filter-meal">Type de repas :</label>
+                                <select id="search-meal" aria-label="Filtrer par type de repas">
+                                    <option value="" data-i18n="all-meals">Tous les repas</option>
+                                    <option value="petit-déjeuner" data-i18n="meal-breakfast">Petit-déjeuner</option>
+                                    <option value="déjeuner" data-i18n="meal-lunch">Déjeuner</option>
+                                    <option value="dîner" data-i18n="meal-dinner">Dîner</option>
+                                    <option value="dessert" data-i18n="meal-dessert">Dessert</option>
+                                    <option value="collation" data-i18n="meal-snack">Collation</option>
                                 </select>
                             </div>
                             <div class="filter-group">
-                                <label for="search-difficulty">Difficulté :</label>
-                                <select id="search-difficulty">
-                                    <option value="">Toutes les difficultés</option>
-                                    <option value="Facile">Facile</option>
-                                    <option value="Intermédiaire">Intermédiaire</option>
-                                    <option value="Difficile">Difficile</option>
-                                    <option value="Très difficile">Très difficile</option>
+                                <label for="search-difficulty" data-i18n="filter-difficulty">Difficulté :</label>
+                                <select id="search-difficulty" aria-label="Filtrer par niveau de difficulté">
+                                    <option value="" data-i18n="all-difficulties">Toutes les difficultés</option>
+                                    <option value="Facile" data-i18n="difficulty-easy">Facile</option>
+                                    <option value="Intermédiaire" data-i18n="difficulty-medium">Intermédiaire</option>
+                                    <option value="Difficile" data-i18n="difficulty-hard">Difficile</option>
+                                    <option value="Très difficile" data-i18n="difficulty-very-hard">Très difficile</option>
                                 </select>
                             </div>
                         </div>
                     </div>
                     
-                    <div id="search-results" class="search-results" style="display: none;">
-                        <h3>Résultats de recherche</h3>
+                    <div id="search-results" class="search-results" style="display: none;" role="region" aria-live="polite" aria-label="Résultats de recherche">
+                        <h3 data-i18n="search-results-title">Résultats de recherche</h3>
                         <div id="search-results-container"></div>
-                        <button id="clear-search-btn" class="secondary-btn">Nouvelle recherche</button>
+                        <button id="clear-search-btn" class="secondary-btn" data-i18n="new-search">Nouvelle recherche</button>
                     </div>
                 </div>
             </section>
 
-            <section class="generator-section">
+            <section class="generator-section" id="generator-section">
                 <div class="form-container">
-                    <h2>Créer une nouvelle recette</h2>
-                    <form id="recipe-form">
+                    <h2 data-i18n="generator-title">Créer une nouvelle recette</h2>
+                    <form id="recipe-form" role="form" aria-label="Générateur de recettes">
                         <div class="form-group">
-                            <label for="cuisine-type">Type de cuisine :</label>
-                            <select id="cuisine-type" name="cuisineType">
-                                <option value="française">Française</option>
-                                <option value="italienne">Italienne</option>
-                                <option value="asiatique">Asiatique</option>
-                                <option value="méditerranéenne">Méditerranéenne</option>
-                                <option value="mexicaine">Mexicaine</option>
-                                <option value="indienne">Indienne</option>
-                                <option value="espagnole">Espagnole</option>
-                                <option value="allemande">Allemande</option>
-                                <option value="britannique">Britannique</option>
-                                <option value="brésilienne">Brésilienne</option>
-                                <option value="libanaise">Libanaise</option>
+                            <label for="cuisine-type" data-i18n="form-cuisine">Type de cuisine :</label>
+                            <select id="cuisine-type" name="cuisineType" aria-required="true">
+                                <option value="française" data-i18n="cuisine-french">Française</option>
+                                <option value="italienne" data-i18n="cuisine-italian">Italienne</option>
+                                <option value="asiatique" data-i18n="cuisine-asian">Asiatique</option>
+                                <option value="méditerranéenne" data-i18n="cuisine-mediterranean">Méditerranéenne</option>
+                                <option value="mexicaine" data-i18n="cuisine-mexican">Mexicaine</option>
+                                <option value="indienne" data-i18n="cuisine-indian">Indienne</option>
+                                <option value="espagnole" data-i18n="cuisine-spanish">Espagnole</option>
+                                <option value="allemande" data-i18n="cuisine-german">Allemande</option>
+                                <option value="britannique" data-i18n="cuisine-british">Britannique</option>
+                                <option value="brésilienne" data-i18n="cuisine-brazilian">Brésilienne</option>
+                                <option value="libanaise" data-i18n="cuisine-lebanese">Libanaise</option>
                             </select>
                         </div>
 
                         <div class="form-group">
-                            <label for="meal-type">Type de repas :</label>
-                            <select id="meal-type" name="mealType">
-                                <option value="petit-déjeuner">Petit-déjeuner</option>
-                                <option value="déjeuner">Déjeuner</option>
-                                <option value="dîner">Dîner</option>
-                                <option value="dessert">Dessert</option>
-                                <option value="collation">Collation</option>
+                            <label for="meal-type" data-i18n="form-meal">Type de repas :</label>
+                            <select id="meal-type" name="mealType" aria-required="true">
+                                <option value="petit-déjeuner" data-i18n="meal-breakfast">Petit-déjeuner</option>
+                                <option value="déjeuner" data-i18n="meal-lunch">Déjeuner</option>
+                                <option value="dîner" data-i18n="meal-dinner">Dîner</option>
+                                <option value="dessert" data-i18n="meal-dessert">Dessert</option>
+                                <option value="collation" data-i18n="meal-snack">Collation</option>
                             </select>
                         </div>
 
-                        <div class="form-group">
-                            <label>Restrictions alimentaires :</label>
-                            <div class="checkbox-group">
+                        <fieldset class="form-group">
+                            <legend data-i18n="form-restrictions">Restrictions alimentaires :</legend>
+                            <div class="checkbox-group" role="group" aria-labelledby="dietary-restrictions">
                                 <label class="checkbox-item">
                                     <input type="checkbox" name="dietaryRestrictions" value="végétarien">
                                     <span class="checkmark"></span>
-                                    Végétarien
+                                    <span data-i18n="diet-vegetarian">Végétarien</span>
                                 </label>
                                 <label class="checkbox-item">
                                     <input type="checkbox" name="dietaryRestrictions" value="végétalien">
                                     <span class="checkmark"></span>
-                                    Végétalien
+                                    <span data-i18n="diet-vegan">Végétalien</span>
                                 </label>
                                 <label class="checkbox-item">
                                     <input type="checkbox" name="dietaryRestrictions" value="sans-gluten">
                                     <span class="checkmark"></span>
-                                    Sans gluten
+                                    <span data-i18n="diet-gluten-free">Sans gluten</span>
                                 </label>
                                 <label class="checkbox-item">
                                     <input type="checkbox" name="dietaryRestrictions" value="sans-lactose">
                                     <span class="checkmark"></span>
-                                    Sans lactose
+                                    <span data-i18n="diet-lactose-free">Sans lactose</span>
                                 </label>
                                 <label class="checkbox-item">
                                     <input type="checkbox" name="dietaryRestrictions" value="cétogène">
                                     <span class="checkmark"></span>
-                                    Cétogène
+                                    <span data-i18n="diet-keto">Cétogène</span>
                                 </label>
                                 <label class="checkbox-item">
                                     <input type="checkbox" name="dietaryRestrictions" value="halal">
                                     <span class="checkmark"></span>
-                                    Halal
+                                    <span data-i18n="diet-halal">Halal</span>
                                 </label>
                                 <label class="checkbox-item">
                                     <input type="checkbox" name="dietaryRestrictions" value="casher">
                                     <span class="checkmark"></span>
-                                    Casher
+                                    <span data-i18n="diet-kosher">Casher</span>
                                 </label>
                             </div>
-                        </div>
+                        </fieldset>
 
                         <div class="form-group">
-                            <label for="cooking-time">Temps de cuisson souhaité :</label>
+                            <label for="cooking-time" data-i18n="form-time">Temps de cuisson souhaité :</label>
                             <select id="cooking-time" name="cookingTime">
-                                <option value="rapide">Rapide (moins de 30 min)</option>
-                                <option value="moyen">Moyen (30-60 min)</option>
-                                <option value="long">Long (plus d'1 heure)</option>
+                                <option value="rapide" data-i18n="time-quick">Rapide (moins de 30 min)</option>
+                                <option value="moyen" data-i18n="time-medium">Moyen (30-60 min)</option>
+                                <option value="long" data-i18n="time-long">Long (plus d'1 heure)</option>
                             </select>
                         </div>
 
                         <div class="form-group">
-                            <label for="ingredients">Ingrédients disponibles (optionnel) :</label>
+                            <label for="ingredients" data-i18n="form-ingredients">Ingrédients disponibles (optionnel) :</label>
                             <input type="text" id="ingredients" name="ingredients" 
-                                   placeholder="Ex: tomates, basilic, mozzarella...">
+                                   data-i18n="ingredients-placeholder" placeholder="Ex: tomates, basilic, mozzarella..."
+                                   aria-describedby="ingredients-help">
+                            <small id="ingredients-help" class="form-help" data-i18n="ingredients-help">Séparez les ingrédients par des virgules</small>
                         </div>
 
-                        <button type="submit" id="generate-btn">
-                            <span class="btn-text">Générer une recette</span>
-                            <span class="loading" style="display: none;">Génération en cours...</span>
+                        <button type="submit" id="generate-btn" aria-describedby="generate-help">
+                            <span class="btn-text" data-i18n="generate-button">Générer une recette</span>
+                            <span class="loading" style="display: none;" data-i18n="generating">Génération en cours...</span>
                         </button>
+                        <small id="generate-help" class="form-help" data-i18n="generate-help">Appuyez sur Entrée ou cliquez pour générer votre recette personnalisée</small>
                     </form>
                 </div>
             </section>
 
-            <section class="recipe-section" id="recipe-section" style="display: none;">
+            <section class="recipe-section" id="recipe-section" style="display: none;" role="region" aria-live="polite">
                 <div class="recipe-container">
-                    <h2>Votre recette générée</h2>
-                    <div id="recipe-content">
+                    <h2 data-i18n="recipe-title">Votre recette générée</h2>
+                    <div id="recipe-content" aria-label="Contenu de la recette générée">
                         <!-- Recipe content will be inserted here -->
                     </div>
-                    <button id="new-recipe-btn" class="secondary-btn">Générer une nouvelle recette</button>
+                    <button id="new-recipe-btn" class="secondary-btn" data-i18n="new-recipe">Générer une nouvelle recette</button>
                 </div>
             </section>
         </main>
 
-        <footer>
-            <p>&copy; 2024 Recette-IA - Propulsé par l'intelligence artificielle</p>
+        <!-- Mobile Quick Actions Bar -->
+        <div class="mobile-quick-actions" role="navigation" aria-label="Actions rapides">
+            <button type="button" onclick="scrollToSection('search-section')" class="quick-action-btn" aria-label="Aller à la recherche" data-i18n="quick-search">
+                🔍
+            </button>
+            <button type="button" onclick="scrollToSection('generator-section')" class="quick-action-btn" aria-label="Aller au générateur" data-i18n="quick-generator">
+                ✨
+            </button>
+            <button type="button" onclick="scrollToTop()" class="quick-action-btn" aria-label="Retour en haut" data-i18n="quick-top">
+                ⬆️
+            </button>
+        </div>
+
+        <footer role="contentinfo">
+            <div class="footer-content">
+                <p>&copy; 2024 <span data-i18n="app-name">Recette-IA</span> - <span data-i18n="footer-powered">Propulsé par l'intelligence artificielle</span></p>
+                <div class="footer-actions">
+                    <button type="button" id="analytics-toggle" class="analytics-btn" data-i18n="analytics-opt-in" aria-label="Activer les statistiques anonymes">
+                        📊 Activer les statistiques
+                    </button>
+                </div>
+            </div>
         </footer>
     </div>
 
-    <script src="script.js"></script>
+    <!-- Scripts loaded as ES modules -->
+    <script type="module" src="main.js"></script>
 </body>
 </html>
