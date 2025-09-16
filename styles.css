@@ -93,6 +93,39 @@ main {
     box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
 }
 
+/* Checkbox styling */
+.checkbox-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: normal;
+    margin-bottom: 0;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+
+.checkbox-item:hover {
+    background-color: #f0f4ff;
+}
+
+.checkbox-item input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.checkmark {
+    margin-left: 5px;
+}
+
 /* Buttons */
 button {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -159,6 +192,16 @@ button:disabled {
     border-radius: 15px;
     padding: 30px;
     border-left: 5px solid #667eea;
+}
+
+.applied-restrictions {
+    background: #fff3cd;
+    border: 1px solid #ffeaa7;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 20px;
+    color: #856404;
+    text-align: center;
 }
 
 .recipe-title {
