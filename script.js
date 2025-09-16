@@ -1662,6 +1662,36 @@ const recipeDatabase = {
                 time: '1h15',
                 difficulty: 'Difficile',
                 servings: '8 personnes'
+            },
+            {
+                name: 'Müsli Allemand',
+                ingredients: ['Flocons d\'avoine', 'Pommes râpées', 'Noix', 'Noisettes', 'Miel', 'Yaourt', 'Fruits secs', 'Graines'],
+                instructions: [
+                    'Mélangez flocons d\'avoine et fruits secs.',
+                    'Ajoutez pommes râpées fraîches.',
+                    'Incorporez noix et noisettes hachées.',
+                    'Versez yaourt et miel.',
+                    'Mélangez délicatement.',
+                    'Parsemez de graines et servez frais.'
+                ],
+                time: '10 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Lebkuchen Toast',
+                ingredients: ['Pain d\'épices', 'Fromage blanc', 'Miel', 'Amandes effilées', 'Cannelle', 'Pommes'],
+                instructions: [
+                    'Grillez légèrement les tranches de pain d\'épices.',
+                    'Tartinez de fromage blanc.',
+                    'Disposez lamelles de pommes.',
+                    'Arrosez de miel et saupoudrez de cannelle.',
+                    'Garnissez d\'amandes effilées.',
+                    'Servez avec café ou thé chaud.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
             }
         ],
         'déjeuner': [
@@ -1679,6 +1709,51 @@ const recipeDatabase = {
                 time: '2h30 + 3j marinade',
                 difficulty: 'Difficile',
                 servings: '6 personnes'
+            },
+            {
+                name: 'Currywurst',
+                ingredients: ['Saucisses bratwurst', 'Ketchup', 'Poudre de curry', 'Paprika', 'Oignon', 'Ail', 'Huile', 'Pain ou frites'],
+                instructions: [
+                    'Grillez les saucisses et coupez-les en tranches.',
+                    'Préparez sauce avec ketchup, curry et épices.',
+                    'Faites revenir oignon et ail.',
+                    'Mélangez avec la sauce curry.',
+                    'Nappez les saucisses de sauce.',
+                    'Servez avec pain ou frites et saupoudrez de curry.'
+                ],
+                time: '25 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Schweinshaxe',
+                ingredients: ['Jarrets de porc', 'Bière', 'Choucroute', 'Moutarde', 'Marjolaine', 'Carvi', 'Pommes de terre'],
+                instructions: [
+                    'Incisez la peau des jarrets en losanges.',
+                    'Frottez avec épices et moutarde.',
+                    'Rôtissez 2 heures en arrosant de bière.',
+                    'Servez avec choucroute et pommes de terre.',
+                    'Accompagnez de moutarde forte.',
+                    'Tradition de la brasserie bavaroise.'
+                ],
+                time: '2h30',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Königsberger Klopse',
+                ingredients: ['Bœuf et porc hachés', 'Anchois', 'Œuf', 'Chapelure', 'Câpres', 'Crème', 'Citron', 'Bouillon', 'Farine'],
+                instructions: [
+                    'Formez boulettes avec viande, anchois et œuf.',
+                    'Pochez dans bouillon frémissant 15 minutes.',
+                    'Préparez sauce blanche avec bouillon et crème.',
+                    'Ajoutez câpres et jus de citron.',
+                    'Nappez les boulettes de sauce.',
+                    'Servez avec pommes de terre et betteraves.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
             }
         ],
         'dîner': [
@@ -1695,6 +1770,36 @@ const recipeDatabase = {
                 ],
                 time: '30 minutes',
                 difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Rouladen',
+                ingredients: ['Tranches de bœuf fines', 'Moutarde', 'Lard', 'Oignons', 'Cornichons', 'Vin rouge', 'Bouillon', 'Crème'],
+                instructions: [
+                    'Tartinez viande de moutarde.',
+                    'Garnissez de lard, oignons et cornichons.',
+                    'Roulez et fixez avec piques.',
+                    'Faites dorer puis braiser au vin rouge.',
+                    'Mijotez 1h30 dans bouillon.',
+                    'Liez sauce avec crème et servez.'
+                ],
+                time: '2 heures',
+                difficulty: 'Difficile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Himmel und Erde',
+                ingredients: ['Pommes de terre', 'Pommes', 'Boudin noir', 'Oignons', 'Beurre', 'Lait', 'Muscade'],
+                instructions: [
+                    'Cuisez pommes de terre et pommes ensemble.',
+                    'Écrasez en purée avec beurre et lait.',
+                    'Assaisonnez de muscade.',
+                    'Grillez tranches de boudin noir.',
+                    'Faites caraméliser les oignons.',
+                    'Servez purée garnie de boudin et oignons.'
+                ],
+                time: '40 minutes',
+                difficulty: 'Facile',
                 servings: '4 personnes'
             }
         ],
@@ -1728,6 +1833,51 @@ const recipeDatabase = {
                 time: '30 minutes',
                 difficulty: 'Facile',
                 servings: '4 personnes'
+            },
+            {
+                name: 'Stollen de Dresden',
+                ingredients: ['Farine', 'Levure', 'Lait', 'Beurre', 'Fruits confits', 'Amandes', 'Rhum', 'Épices de Noël', 'Sucre glace'],
+                instructions: [
+                    'Préparez pâte levée enrichie au beurre.',
+                    'Incorporez fruits confits imbibés de rhum.',
+                    'Ajoutez amandes et épices.',
+                    'Façonnez en forme ovale traditionnelle.',
+                    'Enfournez 45 minutes à 180°C.',
+                    'Enrobez de beurre fondu et sucre glace.'
+                ],
+                time: '3h + levée',
+                difficulty: 'Difficile',
+                servings: '12 personnes'
+            },
+            {
+                name: 'Baumkuchen',
+                ingredients: ['Œufs', 'Sucre', 'Farine', 'Beurre', 'Vanille', 'Rhum', 'Glaçage chocolat'],
+                instructions: [
+                    'Battez œufs et sucre jusqu\'à mousse.',
+                    'Incorporez farine, beurre fondu et arômes.',
+                    'Étalez couche fine sur plaque et grillez.',
+                    'Répétez pour créer des cercles concentriques.',
+                    'Montez en cylindre couche par couche.',
+                    'Enrobez de glaçage chocolat.'
+                ],
+                time: '2 heures',
+                difficulty: 'Très difficile',
+                servings: '10 personnes'
+            },
+            {
+                name: 'Pflaumenkuchen',
+                ingredients: ['Pâte levée', 'Prunes', 'Sucre', 'Cannelle', 'Amandes effilées', 'Streusel', 'Crème'],
+                instructions: [
+                    'Étalez pâte levée dans moule beurré.',
+                    'Disposez prunes dénoyautées côte à côte.',
+                    'Saupoudrez de sucre et cannelle.',
+                    'Parsemez de streusel et amandes.',
+                    'Enfournez 30 minutes à 180°C.',
+                    'Servez tiède avec crème fouettée.'
+                ],
+                time: '1h + levée',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
             }
         ],
         'collation': [
@@ -1745,6 +1895,36 @@ const recipeDatabase = {
                 time: '2h + levée',
                 difficulty: 'Difficile',
                 servings: '8 bretzels'
+            },
+            {
+                name: 'Leberwurst Sandwich',
+                ingredients: ['Pain de seigle', 'Leberwurst', 'Cornichons', 'Moutarde douce', 'Oignons', 'Radis'],
+                instructions: [
+                    'Tartinez pain de moutarde douce.',
+                    'Étalez généreusement leberwurst.',
+                    'Ajoutez lamelles d\'oignons et radis.',
+                    'Garnissez de cornichons émincés.',
+                    'Poivrez légèrement.',
+                    'Servez avec bière allemande.'
+                ],
+                time: '10 minutes',
+                difficulty: 'Facile',
+                servings: '4 sandwiches'
+            },
+            {
+                name: 'Speckpfannkuchen',
+                ingredients: ['Farine', 'Œufs', 'Lait', 'Lard fumé', 'Oignons', 'Ciboulette', 'Sel', 'Poivre'],
+                instructions: [
+                    'Préparez pâte à pancakes salée.',
+                    'Faites griller lardons et oignons.',
+                    'Incorporez dans la pâte.',
+                    'Cuisez pancakes épais dans poêle.',
+                    'Parsemez de ciboulette.',
+                    'Servez chaud comme collation copieuse.'
+                ],
+                time: '25 minutes',
+                difficulty: 'Facile',
+                servings: '6 pancakes'
             }
         ]
     },
@@ -1764,6 +1944,36 @@ const recipeDatabase = {
                 time: '30 minutes',
                 difficulty: 'Facile',
                 servings: '8 scones'
+            },
+            {
+                name: 'Full English Breakfast',
+                ingredients: ['Saucisses', 'Bacon', 'Œufs', 'Haricots blancs en sauce', 'Champignons', 'Tomates', 'Boudin noir', 'Pain grillé', 'Beurre'],
+                instructions: [
+                    'Cuisez saucisses et bacon dans une grande poêle.',
+                    'Réservez et faites frire les œufs.',
+                    'Grillez champignons et tomates.',
+                    'Réchauffez haricots en sauce et boudin.',
+                    'Grillez le pain et beurrez.',
+                    'Dressez tous les éléments sur assiette chaude.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Porridge aux Fruits',
+                ingredients: ['Flocons d\'avoine', 'Lait', 'Miel', 'Fruits rouges', 'Banane', 'Noix', 'Cannelle'],
+                instructions: [
+                    'Cuisez l\'avoine dans le lait en remuant.',
+                    'Ajoutez miel et cannelle.',
+                    'Cuisez jusqu\'à consistance crémeuse.',
+                    'Servez dans des bols chauds.',
+                    'Garnissez de fruits frais et noix.',
+                    'Arrosez d\'un filet de miel.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
             }
         ],
         'déjeuner': [
@@ -1781,6 +1991,51 @@ const recipeDatabase = {
                 time: '45 minutes',
                 difficulty: 'Intermédiaire',
                 servings: '4 personnes'
+            },
+            {
+                name: 'Shepherd\'s Pie',
+                ingredients: ['500g d\'agneau haché', 'Oignons', 'Carottes', 'Petits pois', 'Concentré de tomate', 'Bouillon', 'Pommes de terre', 'Beurre', 'Lait', 'Fromage'],
+                instructions: [
+                    'Faites revenir agneau haché avec oignons.',
+                    'Ajoutez carottes, pois et concentré de tomate.',
+                    'Versez bouillon et mijotez 20 minutes.',
+                    'Préparez purée de pommes de terre.',
+                    'Étalez viande dans plat, recouvrez de purée.',
+                    'Gratinez au four 25 minutes.'
+                ],
+                time: '1h15',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Bangers and Mash',
+                ingredients: ['Saucisses anglaises', 'Pommes de terre', 'Oignons', 'Beurre', 'Lait', 'Sauce gravy', 'Petits pois'],
+                instructions: [
+                    'Grillez les saucisses jusqu\'à dorure.',
+                    'Préparez purée crémeuse avec beurre et lait.',
+                    'Faites caraméliser les oignons.',
+                    'Préparez sauce gravy traditionnelle.',
+                    'Servez saucisses sur purée.',
+                    'Nappez de sauce et accompagnez de pois.'
+                ],
+                time: '40 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Cornish Pasty',
+                ingredients: ['Pâte brisée', 'Bœuf haché', 'Pommes de terre', 'Navets', 'Oignons', 'Persil', 'Sel', 'Poivre', 'Œuf battu'],
+                instructions: [
+                    'Coupez légumes en petits dés.',
+                    'Mélangez viande, légumes et assaisonnements.',
+                    'Étalez pâte et découpez en cercles.',
+                    'Garnissez un côté de farce.',
+                    'Pliez et soudez en forme de chausson.',
+                    'Dorez et enfournez 45 minutes à 180°C.'
+                ],
+                time: '1h15',
+                difficulty: 'Intermédiaire',
+                servings: '6 pasties'
             }
         ],
         'dîner': [
@@ -1797,6 +2052,36 @@ const recipeDatabase = {
                 ],
                 time: '1h30',
                 difficulty: 'Très difficile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Roast Beef and Yorkshire Pudding',
+                ingredients: ['Rôti de bœuf', 'Farine', 'Œufs', 'Lait', 'Graisse de bœuf', 'Légumes racines', 'Sauce gravy', 'Raifort'],
+                instructions: [
+                    'Rôtissez le bœuf avec légumes.',
+                    'Préparez pâte à Yorkshire pudding.',
+                    'Chauffez graisse dans moules à muffins.',
+                    'Versez pâte et enfournez 20 minutes.',
+                    'Préparez sauce avec jus de cuisson.',
+                    'Servez bœuf tranché avec puddings et sauce.'
+                ],
+                time: '2h30',
+                difficulty: 'Difficile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Steak and Kidney Pie',
+                ingredients: ['Bœuf à braiser', 'Rognons', 'Pâte brisée', 'Oignons', 'Champignons', 'Bière brune', 'Farine', 'Thym', 'Laurier'],
+                instructions: [
+                    'Faites revenir viande et rognons.',
+                    'Ajoutez oignons et champignons.',
+                    'Saupoudrez de farine et versez bière.',
+                    'Mijotez 1h30 avec herbes.',
+                    'Garnissez moule et recouvrez de pâte.',
+                    'Enfournez 30 minutes jusqu\'à dorure.'
+                ],
+                time: '2h30',
+                difficulty: 'Difficile',
                 servings: '6 personnes'
             }
         ],
@@ -1830,6 +2115,66 @@ const recipeDatabase = {
                 time: '30 min + 4h réfrigération',
                 difficulty: 'Facile',
                 servings: '8 personnes'
+            },
+            {
+                name: 'Eton Mess',
+                ingredients: ['Meringues', 'Fraises', 'Crème fouettée', 'Sucre glace', 'Coulis de fraises'],
+                instructions: [
+                    'Cassez les meringues en gros morceaux.',
+                    'Équeutez et coupez les fraises.',
+                    'Fouettez la crème avec sucre glace.',
+                    'Mélangez délicatement tous les éléments.',
+                    'Servez dans des verres ou bols.',
+                    'Décorez de coulis et fraises entières.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Spotted Dick',
+                ingredients: ['Farine', 'Graisse de rognon', 'Sucre', 'Raisins de Corinthe', 'Lait', 'Levure', 'Sel', 'Crème anglaise'],
+                instructions: [
+                    'Mélangez farine, graisse, sucre et raisins.',
+                    'Ajoutez lait pour former une pâte.',
+                    'Formez un boudin et enveloppez.',
+                    'Cuisez à la vapeur 2 heures.',
+                    'Démoulez et tranchez.',
+                    'Servez chaud avec crème anglaise.'
+                ],
+                time: '2h30',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Treacle Tart',
+                ingredients: ['Pâte sablée', 'Golden syrup', 'Chapelure', 'Citron', 'Œufs', 'Crème'],
+                instructions: [
+                    'Foncez un moule de pâte sablée.',
+                    'Mélangez golden syrup et chapelure.',
+                    'Ajoutez zeste et jus de citron.',
+                    'Incorporez œufs battus.',
+                    'Versez sur la pâte et enfournez 25 minutes.',
+                    'Servez tiède avec crème.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Facile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Bread and Butter Pudding',
+                ingredients: ['Pain brioche', 'Beurre', 'Raisins secs', 'Œufs', 'Lait', 'Crème', 'Sucre', 'Vanille', 'Muscade'],
+                instructions: [
+                    'Beurrez tranches de brioche et disposez en couches.',
+                    'Parsemez de raisins secs.',
+                    'Battez œufs, lait, crème et sucre.',
+                    'Versez sur le pain et laissez imbiber.',
+                    'Saupoudrez de muscade et enfournez 45 minutes.',
+                    'Servez chaud ou tiède.'
+                ],
+                time: '1h + trempage',
+                difficulty: 'Facile',
+                servings: '8 personnes'
             }
         ],
         'collation': [
@@ -1847,6 +2192,51 @@ const recipeDatabase = {
                 time: '20 minutes',
                 difficulty: 'Facile',
                 servings: '6 personnes'
+            },
+            {
+                name: 'Welsh Rarebit',
+                ingredients: ['Pain grillé', 'Fromage cheddar', 'Bière', 'Moutarde', 'Sauce Worcestershire', 'Œuf', 'Beurre'],
+                instructions: [
+                    'Grillez les tranches de pain.',
+                    'Mélangez fromage râpé, bière et condiments.',
+                    'Chauffez en remuant jusqu\'à fusion.',
+                    'Ajoutez jaune d\'œuf hors du feu.',
+                    'Étalez sur pain grillé.',
+                    'Passez sous le grill jusqu\'à dorure.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Scotch Eggs',
+                ingredients: ['Œufs durs', 'Chair à saucisse', 'Farine', 'Œuf battu', 'Chapelure', 'Huile de friture'],
+                instructions: [
+                    'Écalez délicatement les œufs durs.',
+                    'Enrobez chaque œuf de chair à saucisse.',
+                    'Passez dans farine, œuf battu puis chapelure.',
+                    'Faites frire jusqu\'à dorure uniforme.',
+                    'Égouttez sur papier absorbant.',
+                    'Servez chaud ou froid avec moutarde.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '6 œufs'
+            },
+            {
+                name: 'Crumpets',
+                ingredients: ['Farine', 'Levure', 'Lait tiède', 'Sucre', 'Sel', 'Beurre', 'Anneaux métalliques'],
+                instructions: [
+                    'Préparez une pâte levée liquide.',
+                    'Laissez lever 1 heure jusqu\'à bulles.',
+                    'Chauffez anneaux graissés sur plaque.',
+                    'Versez pâte dans anneaux.',
+                    'Cuisez 8 minutes de chaque côté.',
+                    'Servez grillés avec beurre et confiture.'
+                ],
+                time: '1h30 + levée',
+                difficulty: 'Difficile',
+                servings: '8 crumpets'
             }
         ]
     },
@@ -1865,6 +2255,51 @@ const recipeDatabase = {
                 ],
                 time: '30 minutes',
                 difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Poha Maharashtrian',
+                ingredients: ['Riz battu (poha)', 'Oignons', 'Pommes de terre', 'Piments verts', 'Graines de moutarde', 'Curcuma', 'Coriandre', 'Citron', 'Cacahuètes'],
+                instructions: [
+                    'Rincez le poha et égouttez.',
+                    'Tempérez graines de moutarde dans l\'huile.',
+                    'Ajoutez oignons et pommes de terre.',
+                    'Incorporez poha et épices.',
+                    'Cuisez 5 minutes en mélangeant.',
+                    'Garnissez de coriandre et cacahuètes.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Idli Sambhar',
+                ingredients: ['Pâte à idli', 'Lentilles toor', 'Légumes mélangés', 'Tamarin', 'Poudre de sambhar', 'Feuilles de curry', 'Coriandre', 'Chutney coco'],
+                instructions: [
+                    'Cuisez idlis à la vapeur 15 minutes.',
+                    'Préparez sambhar avec lentilles et légumes.',
+                    'Ajoutez pâte de tamarin et épices.',
+                    'Tempérez avec graines de moutarde.',
+                    'Servez idlis avec sambhar chaud.',
+                    'Accompagnez de chutneys variés.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Upma de Semoule',
+                ingredients: ['Semoule', 'Légumes variés', 'Graines de moutarde', 'Curry leaves', 'Gingembre', 'Piments verts', 'Noix de cajou', 'Coriandre'],
+                instructions: [
+                    'Grillez la semoule à sec jusqu\'à parfum.',
+                    'Tempérez graines dans l\'huile.',
+                    'Ajoutez légumes et gingembre.',
+                    'Versez eau bouillante progressivement.',
+                    'Incorporez semoule en remuant.',
+                    'Garnissez de coriandre et noix de cajou.'
+                ],
+                time: '25 minutes',
+                difficulty: 'Facile',
                 servings: '4 personnes'
             }
         ],
@@ -1898,6 +2333,36 @@ const recipeDatabase = {
                 time: '2h + trempage',
                 difficulty: 'Intermédiaire',
                 servings: '4 personnes'
+            },
+            {
+                name: 'Chole Bhature',
+                ingredients: ['Pois chiches', 'Farine', 'Yaourt', 'Levure', 'Oignons', 'Tomates', 'Garam masala', 'Amchur', 'Coriandre', 'Huile de friture'],
+                instructions: [
+                    'Préparez pâte levée pour bhature.',
+                    'Cuisez pois chiches avec épices.',
+                    'Préparez masala épicé avec oignons-tomates.',
+                    'Mélangez pois chiches et masala.',
+                    'Frire bhature jusqu\'à gonflement.',
+                    'Servez chole avec bhature chaudes.'
+                ],
+                time: '2h + levée',
+                difficulty: 'Difficile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Palak Paneer',
+                ingredients: ['Épinards', 'Paneer', 'Oignons', 'Tomates', 'Ail', 'Gingembre', 'Crème', 'Garam masala', 'Cumin', 'Coriandre'],
+                instructions: [
+                    'Blanchissez épinards et mixez en purée.',
+                    'Faites griller cubes de paneer.',
+                    'Préparez base d\'oignon-tomate épicée.',
+                    'Ajoutez purée d\'épinards.',
+                    'Incorporez paneer et crème.',
+                    'Mijotez 10 minutes et parsemez de coriandre.'
+                ],
+                time: '40 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
             }
         ],
         'dîner': [
@@ -1913,6 +2378,36 @@ const recipeDatabase = {
                     'Servez avec riz basmati et chutney.'
                 ],
                 time: '1h + 4h marinade',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Rogan Josh',
+                ingredients: ['Agneau en cubes', 'Yaourt', 'Oignons', 'Tomates', 'Ail', 'Gingembre', 'Pâte de piments kashmir', 'Garam masala', 'Cardamome', 'Cannelle'],
+                instructions: [
+                    'Marinez agneau dans yaourt épicé.',
+                    'Faites dorer oignons jusqu\'à caramélisation.',
+                    'Ajoutez ail, gingembre et pâte de piments.',
+                    'Incorporez agneau et tomates.',
+                    'Mijotez 1h30 jusqu\'à tendreté.',
+                    'Ajustez épices et servez avec riz.'
+                ],
+                time: '2h + marinade',
+                difficulty: 'Difficile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Fish Curry Goan',
+                ingredients: ['Poisson kokum', 'Lait de coco', 'Pâte de curry rouge', 'Tamarin', 'Oignons', 'Ail', 'Gingembre', 'Feuilles de curry', 'Coriandre'],
+                instructions: [
+                    'Marinez poisson avec curcuma et sel.',
+                    'Préparez pâte de curry avec épices.',
+                    'Faites revenir oignons et pâte de curry.',
+                    'Ajoutez lait de coco et tamarin.',
+                    'Glissez délicatement le poisson.',
+                    'Mijotez 15 minutes et garnissez de coriandre.'
+                ],
+                time: '45 minutes',
                 difficulty: 'Intermédiaire',
                 servings: '4 personnes'
             }
@@ -1992,6 +2487,36 @@ const recipeDatabase = {
                 time: '1h30',
                 difficulty: 'Intermédiaire',
                 servings: '8 personnes'
+            },
+            {
+                name: 'Jalebi',
+                ingredients: ['Farine', 'Yaourt', 'Levure', 'Sucre', 'Safran', 'Cardamome', 'Huile de friture'],
+                instructions: [
+                    'Préparez pâte fermentée avec farine et yaourt.',
+                    'Laissez fermenter 8 heures.',
+                    'Préparez sirop avec sucre, safran et cardamome.',
+                    'Formez spirales dans l\'huile chaude.',
+                    'Frire jusqu\'à dorure croustillante.',
+                    'Tremper immédiatement dans sirop chaud.'
+                ],
+                time: '30 min + 8h fermentation',
+                difficulty: 'Difficile',
+                servings: '15 pièces'
+            },
+            {
+                name: 'Sandesh',
+                ingredients: ['Paneer frais', 'Sucre en poudre', 'Cardamome', 'Pistaches', 'Safran', 'Eau de rose'],
+                instructions: [
+                    'Égouttez bien paneer frais.',
+                    'Pétrissez avec sucre jusqu\'à lisse.',
+                    'Ajoutez cardamome et eau de rose.',
+                    'Cuisez 5 minutes en remuant.',
+                    'Moule dans formes décoratives.',
+                    'Décorez de pistaches et safran.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '12 pièces'
             }
         ],
         'collation': [
@@ -2009,6 +2534,51 @@ const recipeDatabase = {
                 time: '45 minutes',
                 difficulty: 'Intermédiaire',
                 servings: '20 pièces'
+            },
+            {
+                name: 'Pakoras Mixtes',
+                ingredients: ['Farine de pois chiches', 'Légumes variés', 'Oignons', 'Épinards', 'Pommes de terre', 'Épices', 'Huile de friture', 'Chutney'],
+                instructions: [
+                    'Préparez pâte avec farine de pois chiches.',
+                    'Ajoutez épices et un peu d\'eau.',
+                    'Trempez légumes dans la pâte.',
+                    'Frire dans huile chaude jusqu\'à dorure.',
+                    'Égouttez sur papier absorbant.',
+                    'Servez chaud avec chutneys variés.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Facile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Dhokla Gujarati',
+                ingredients: ['Farine de pois chiches', 'Yaourt', 'Gingembre', 'Piments verts', 'Fruit à pain', 'Graines de moutarde', 'Feuilles de curry', 'Coriandre'],
+                instructions: [
+                    'Mélangez farine, yaourt et épices.',
+                    'Laissez fermenter 4 heures.',
+                    'Ajoutez fruit à pain avant cuisson.',
+                    'Cuisez à la vapeur 15 minutes.',
+                    'Tempérez garniture avec graines de moutarde.',
+                    'Coupez en carrés et servez.'
+                ],
+                time: '30 min + 4h fermentation',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Bhel Puri',
+                ingredients: ['Puri (galettes soufflées)', 'Sev', 'Oignons', 'Tomates', 'Chutney de tamarin', 'Chutney de menthe', 'Pommes de terre bouillies', 'Coriandre'],
+                instructions: [
+                    'Cassez puri en morceaux.',
+                    'Mélangez avec légumes hachés.',
+                    'Ajoutez chutneys selon goût.',
+                    'Incorporez pommes de terre en dés.',
+                    'Garnissez de sev et coriandre.',
+                    'Servez immédiatement pour garder croquant.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
             }
         ]
     },
@@ -2043,6 +2613,36 @@ const recipeDatabase = {
                 time: '10 minutes',
                 difficulty: 'Facile',
                 servings: '2 personnes'
+            },
+            {
+                name: 'Tapioca Recheada',
+                ingredients: ['Farine de tapioca', 'Fromage coalho', 'Noix de coco râpée', 'Beurre', 'Jambon', 'Tomates', 'Origan'],
+                instructions: [
+                    'Chauffez une poêle antiadhésive.',
+                    'Versez la farine de tapioca en fine couche.',
+                    'Laissez former une galette souple.',
+                    'Garnissez de fromage, jambon et tomates.',
+                    'Pliez en deux et servez immédiatement.',
+                    'Variante sucrée avec coco et condensé.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '2 personnes'
+            },
+            {
+                name: 'Vitamina de Abacate',
+                ingredients: ['2 avocats mûrs', '400ml de lait', '100ml de lait concentré', 'Sucre', 'Glace pilée', 'Cannelle'],
+                instructions: [
+                    'Coupez les avocats et retirez le noyau.',
+                    'Mixez avec lait et lait concentré.',
+                    'Ajustez le sucre selon goût.',
+                    'Ajoutez glace pilée et mixez à nouveau.',
+                    'Servez dans des verres hauts.',
+                    'Saupoudrez de cannelle.'
+                ],
+                time: '10 minutes',
+                difficulty: 'Facile',
+                servings: '4 verres'
             }
         ],
         'déjeuner': [
@@ -2075,6 +2675,36 @@ const recipeDatabase = {
                 time: '1h + marinade',
                 difficulty: 'Intermédiaire',
                 servings: '6 personnes'
+            },
+            {
+                name: 'Bobó de Camarão',
+                ingredients: ['500g de crevettes', 'Manioc', 'Lait de coco', 'Huile de dendê', 'Oignons', 'Tomates', 'Coriandre', 'Ail', 'Gingembre'],
+                instructions: [
+                    'Cuisez et écrasez le manioc.',
+                    'Mélangez avec lait de coco pour obtenir une purée.',
+                    'Faites revenir oignons, ail et tomates.',
+                    'Ajoutez les crevettes et l\'huile de dendê.',
+                    'Incorporez la purée de manioc.',
+                    'Parsemez de coriandre et servez.'
+                ],
+                time: '1 heure',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Escondidinho de Carne Seca',
+                ingredients: ['Carne seca', 'Purée de manioc', 'Oignons', 'Tomates', 'Fromage râpé', 'Lait', 'Beurre', 'Ciboulette'],
+                instructions: [
+                    'Dessalez et effilochez la carne seca.',
+                    'Préparez une purée crémeuse avec le manioc.',
+                    'Faites revenir viande avec oignons et tomates.',
+                    'Montez en couches dans un plat.',
+                    'Terminez par purée et fromage.',
+                    'Gratinez au four et parsemez de ciboulette.'
+                ],
+                time: '1h30',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
             }
         ],
         'dîner': [
@@ -2092,6 +2722,36 @@ const recipeDatabase = {
                 time: '45 minutes',
                 difficulty: 'Intermédiaire',
                 servings: '6 personnes'
+            },
+            {
+                name: 'Vatapá',
+                ingredients: ['Crevettes séchées', 'Pain de mie', 'Lait de coco', 'Huile de dendê', 'Cachacinha', 'Oignons', 'Ail', 'Gingembre', 'Coriandre'],
+                instructions: [
+                    'Trempez le pain dans le lait de coco.',
+                    'Mixez avec crevettes séchées et cacahuètes.',
+                    'Faites revenir oignons, ail et gingembre.',
+                    'Ajoutez le mélange mixé et l\'huile de dendê.',
+                    'Cuisez en remuant jusqu\'à consistance crémeuse.',
+                    'Servez avec acarajé ou riz.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Difficile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Peixe na Telha',
+                ingredients: ['Poisson entier', 'Tomates', 'Oignons', 'Poivrons', 'Huile d\'olive', 'Citron', 'Coriandre', 'Ail', 'Olives'],
+                instructions: [
+                    'Marinez le poisson avec citron et ail.',
+                    'Disposez sur une tuile d\'argile huilée.',
+                    'Couvrez de légumes émincés.',
+                    'Arrosez d\'huile d\'olive et assaisonnez.',
+                    'Enfournez 45 minutes à 180°C.',
+                    'Garnissez d\'olives et coriandre.'
+                ],
+                time: '1h + marinade',
+                difficulty: 'Facile',
+                servings: '4 personnes'
             }
         ],
         'dessert': [
@@ -2139,6 +2799,66 @@ const recipeDatabase = {
                 time: '30 min + refroidissement',
                 difficulty: 'Facile',
                 servings: '20 beijinhos'
+            },
+            {
+                name: 'Quindim',
+                ingredients: ['12 jaunes d\'œufs', '200g de sucre', '100g de noix de coco râpée', '50g de beurre'],
+                instructions: [
+                    'Battez jaunes d\'œufs et sucre jusqu\'à blanchiment.',
+                    'Incorporez noix de coco et beurre fondu.',
+                    'Versez dans des moules caramélisés.',
+                    'Cuisez au bain-marie 40 minutes.',
+                    'Laissez refroidir avant de démouler.',
+                    'Servez frais avec sa couleur dorée caractéristique.'
+                ],
+                time: '1h + refroidissement',
+                difficulty: 'Intermédiaire',
+                servings: '12 quindim'
+            },
+            {
+                name: 'Cocada',
+                ingredients: ['Noix de coco fraîche râpée', 'Sucre cristal', 'Eau', 'Lait de coco'],
+                instructions: [
+                    'Préparez un sirop avec sucre et eau.',
+                    'Ajoutez la noix de coco râpée.',
+                    'Cuisez en remuant jusqu\'à épaississement.',
+                    'Ajoutez un peu de lait de coco.',
+                    'Versez sur une plaque et laissez refroidir.',
+                    'Découpez en carrés quand c\'est ferme.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Facile',
+                servings: '20 carrés'
+            },
+            {
+                name: 'Romeu e Julieta',
+                ingredients: ['Fromage Minas', 'Pâte de goyave', 'Biscoitos de maizena'],
+                instructions: [
+                    'Coupez le fromage en tranches fines.',
+                    'Coupez la pâte de goyave de même épaisseur.',
+                    'Alternez fromage et goyave sur l\'assiette.',
+                    'Servez avec biscoitos de maizena.',
+                    'Dégustez ce contraste sucré-salé typique.',
+                    'Accompagnez d\'un café expresso.'
+                ],
+                time: '5 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Doce de Leite Caseiro',
+                ingredients: ['1L de lait entier', '300g de sucre', '1 cuillère à café de bicarbonate'],
+                instructions: [
+                    'Mélangez lait, sucre et bicarbonate.',
+                    'Cuisez à feu doux en remuant constamment.',
+                    'Continuez jusqu\'à obtenir une couleur caramel.',
+                    'La consistance doit nappe la cuillère.',
+                    'Versez dans des pots stérilisés.',
+                    'Servez tartiné ou en garniture de gâteaux.'
+                ],
+                time: '1h30',
+                difficulty: 'Intermédiaire',
+                servings: '2 pots'
             }
         ],
         'collation': [
@@ -2156,6 +2876,51 @@ const recipeDatabase = {
                 time: '1 heure',
                 difficulty: 'Difficile',
                 servings: '15 coxinhas'
+            },
+            {
+                name: 'Pão de Açúcar Mini',
+                ingredients: ['Farine de tapioca', 'Lait', 'Œufs', 'Fromage râpé', 'Huile', 'Sel'],
+                instructions: [
+                    'Préparez des mini pains de sucre.',
+                    'Mélangez tous les ingrédients.',
+                    'Formez de petites boules.',
+                    'Enfournez 15 minutes à 180°C.',
+                    'Servez tiède comme collation.',
+                    'Parfait avec café ou jus de fruits.'
+                ],
+                time: '25 minutes',
+                difficulty: 'Facile',
+                servings: '20 mini pains'
+            },
+            {
+                name: 'Pastel de Feira',
+                ingredients: ['Pâte à pastel', 'Fromage', 'Jambon', 'Cœur de palmier', 'Huile de friture'],
+                instructions: [
+                    'Étalez la pâte finement.',
+                    'Garnissez de fromage et jambon.',
+                    'Ajoutez cœur de palmier émincé.',
+                    'Fermez et soudez les bords.',
+                    'Faites frire jusqu\'à dorure.',
+                    'Servez immédiatement avec caldo de cana.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '8 pastels'
+            },
+            {
+                name: 'Sanduíche de Mortadela',
+                ingredients: ['Pain français', 'Mortadelle', 'Fromage provolone', 'Tomates', 'Laitue', 'Mayonnaise'],
+                instructions: [
+                    'Coupez le pain en deux dans la longueur.',
+                    'Tartinez de mayonnaise.',
+                    'Disposez mortadelle et fromage.',
+                    'Ajoutez tomates et laitue.',
+                    'Fermez et coupez en portions.',
+                    'Servez avec guaraná ou suco.'
+                ],
+                time: '10 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
             }
         ]
     },
@@ -2175,6 +2940,36 @@ const recipeDatabase = {
                 time: '30 minutes',
                 difficulty: 'Facile',
                 servings: '6 manakish'
+            },
+            {
+                name: 'Fatteh Hummus',
+                ingredients: ['Pain pita rassis', 'Pois chiches cuits', 'Yaourt grec', 'Tahini', 'Ail', 'Citron', 'Pignons', 'Paprika', 'Persil'],
+                instructions: [
+                    'Grillez et cassez le pain en morceaux.',
+                    'Disposez dans un plat de service.',
+                    'Réchauffez les pois chiches avec épices.',
+                    'Mélangez yaourt, tahini, ail et citron.',
+                    'Versez les pois chiches sur le pain.',
+                    'Nappez de sauce yaourt et garnissez de pignons.'
+                ],
+                time: '25 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Kaak Libnaneh',
+                ingredients: ['Farine', 'Levure', 'Lait tiède', 'Sucre', 'Huile d\'olive', 'Graines de sésame', 'Nigelle', 'Sel'],
+                instructions: [
+                    'Préparez une pâte levée avec farine, levure et lait.',
+                    'Incorporez huile d\'olive et sucre.',
+                    'Pétrissez et laissez lever 1 heure.',
+                    'Façonnez en petits pains ronds.',
+                    'Badigeonnez d\'huile et parsemez de graines.',
+                    'Enfournez 20 minutes à 180°C.'
+                ],
+                time: '2h + levée',
+                difficulty: 'Intermédiaire',
+                servings: '8 pains'
             }
         ],
         'déjeuner': [
@@ -2192,6 +2987,51 @@ const recipeDatabase = {
                 time: '2 heures',
                 difficulty: 'Difficile',
                 servings: '8 personnes'
+            },
+            {
+                name: 'Kafta bil Saniyeh',
+                ingredients: ['500g d\'agneau haché', 'Persil', 'Oignon', 'Cannelle', 'Piment de la Jamaïque', 'Tomates', 'Pommes de terre', 'Huile d\'olive'],
+                instructions: [
+                    'Mélangez viande hachée, persil, oignon et épices.',
+                    'Formez des boulettes aplaties.',
+                    'Tranchez pommes de terre et tomates.',
+                    'Disposez en couches dans un plat huilé.',
+                    'Arrosez d\'huile d\'olive et d\'eau.',
+                    'Enfournez 45 minutes à 180°C.'
+                ],
+                time: '1h15',
+                difficulty: 'Facile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Shawarma Libanais',
+                ingredients: ['Agneau émincé', 'Yaourt', 'Ail', 'Citron', 'Épices baharat', 'Pain pita', 'Tomates', 'Oignons', 'Persil', 'Sauce tahini'],
+                instructions: [
+                    'Marinez la viande dans yaourt, ail et épices 2 heures.',
+                    'Faites griller la viande à feu vif.',
+                    'Réchauffez les pains pita.',
+                    'Préparez les légumes et sauce tahini.',
+                    'Garnissez les pains de viande et légumes.',
+                    'Roulez et servez immédiatement.'
+                ],
+                time: '30 min + 2h marinade',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Mujaddara',
+                ingredients: ['Lentilles vertes', 'Riz basmati', 'Oignons', 'Huile d\'olive', 'Cumin', 'Cannelle', 'Piment de la Jamaïque', 'Laurier'],
+                instructions: [
+                    'Cuisez les lentilles avec épices et laurier.',
+                    'Faites caraméliser les oignons jusqu\'à dorure.',
+                    'Ajoutez le riz aux lentilles et mélangez.',
+                    'Versez l\'eau bouillante et cuisez 20 minutes.',
+                    'Incorporez la moitié des oignons caramélisés.',
+                    'Servez garni du reste d\'oignons.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Facile',
+                servings: '6 personnes'
             }
         ],
         'dîner': [
@@ -2208,6 +3048,36 @@ const recipeDatabase = {
                 ],
                 time: '45 minutes',
                 difficulty: 'Difficile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Samke Harra',
+                ingredients: ['Poisson entier', 'Coriandre', 'Ail', 'Piments rouges', 'Noix', 'Citron', 'Huile d\'olive', 'Tahini', 'Oignons'],
+                instructions: [
+                    'Nettoyez et incisez le poisson.',
+                    'Préparez la sauce harra avec coriandre, ail et piments.',
+                    'Farcissez le poisson de sauce et d\'oignons.',
+                    'Badigeonnez d\'huile et enfournez 30 minutes.',
+                    'Arrosez de jus de citron en cours de cuisson.',
+                    'Servez avec tahini et salade.'
+                ],
+                time: '50 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Fatteh Djaj',
+                ingredients: ['Poulet rôti', 'Pain pita', 'Riz basmati', 'Amandes grillées', 'Yaourt', 'Ail', 'Cannelle', 'Pignons', 'Beurre'],
+                instructions: [
+                    'Cuisez le riz avec cannelle et pignons.',
+                    'Grillez et cassez le pain en morceaux.',
+                    'Effilochez le poulet rôti.',
+                    'Disposez pain, riz et poulet en couches.',
+                    'Nappez de yaourt à l\'ail.',
+                    'Garnissez d\'amandes grillées au beurre.'
+                ],
+                time: '40 minutes',
+                difficulty: 'Intermédiaire',
                 servings: '6 personnes'
             }
         ],
@@ -2241,6 +3111,66 @@ const recipeDatabase = {
                 time: '45 minutes',
                 difficulty: 'Difficile',
                 servings: '10 personnes'
+            },
+            {
+                name: 'Riz au Lait Libanais',
+                ingredients: ['Riz rond', 'Lait entier', 'Sucre', 'Eau de fleur d\'oranger', 'Cannelle', 'Pistaches hachées', 'Amandes'],
+                instructions: [
+                    'Cuisez le riz dans l\'eau jusqu\'à absorption.',
+                    'Ajoutez le lait chaud progressivement.',
+                    'Sucrez et cuisez en remuant 20 minutes.',
+                    'Parfumez à l\'eau de fleur d\'oranger.',
+                    'Laissez refroidir et réfrigérez.',
+                    'Servez garni de pistaches et cannelle.'
+                ],
+                time: '45 min + réfrigération',
+                difficulty: 'Facile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Atayef',
+                ingredients: ['Farine', 'Levure', 'Sucre', 'Lait tiède', 'Fromage ricotta', 'Pistaches', 'Sirop de sucre', 'Eau de rose', 'Huile de friture'],
+                instructions: [
+                    'Préparez une pâte à crêpes levée.',
+                    'Cuisez de petites crêpes d\'un seul côté.',
+                    'Garnissez de ricotta et pistaches.',
+                    'Pliez en demi-lune et soudez les bords.',
+                    'Faites frire jusqu\'à dorure.',
+                    'Trempez dans le sirop à l\'eau de rose.'
+                ],
+                time: '1h + levée',
+                difficulty: 'Difficile',
+                servings: '12 pièces'
+            },
+            {
+                name: 'Halawet el Jibn',
+                ingredients: ['Fromage akkawi', 'Semoule fine', 'Sucre', 'Eau de fleur d\'oranger', 'Crème épaisse', 'Pistaches', 'Sirop'],
+                instructions: [
+                    'Dessalez le fromage et égouttez.',
+                    'Mélangez avec semoule et sucre.',
+                    'Cuisez en remuant jusqu\'à consistance lisse.',
+                    'Étalez finement et laissez refroidir.',
+                    'Garnissez de crème et roulez.',
+                    'Coupez en tranches et nappez de sirop.'
+                ],
+                time: '1h + refroidissement',
+                difficulty: 'Difficile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Mamoul aux Dattes',
+                ingredients: ['Farine', 'Semoule fine', 'Beurre', 'Eau de fleur d\'oranger', 'Dattes', 'Cannelle', 'Noix', 'Sucre glace'],
+                instructions: [
+                    'Mélangez farine, semoule et beurre.',
+                    'Ajoutez eau de fleur d\'oranger et pétrissez.',
+                    'Préparez la farce avec dattes, cannelle et noix.',
+                    'Formez des petits chaussons farcis.',
+                    'Enfournez 20 minutes à 180°C.',
+                    'Saupoudrez de sucre glace tiède.'
+                ],
+                time: '1h30',
+                difficulty: 'Difficile',
+                servings: '20 pièces'
             }
         ],
         'collation': [
@@ -2258,6 +3188,51 @@ const recipeDatabase = {
                 time: '15 min + égouttage',
                 difficulty: 'Facile',
                 servings: '6 personnes'
+            },
+            {
+                name: 'Makanak Libanais',
+                ingredients: ['Saucisses libanaises', 'Ail', 'Citron', 'Huile d\'olive', 'Pignons', 'Persil', 'Tomates cerises'],
+                instructions: [
+                    'Piquez les saucisses et faites-les griller.',
+                    'Ajoutez ail émincé et pignons.',
+                    'Arrosez de jus de citron et huile.',
+                    'Ajoutez tomates cerises et persil.',
+                    'Cuisez 2 minutes de plus.',
+                    'Servez chaud avec pain pita.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Cheese Rolls Libanais',
+                ingredients: ['Pâte filo', 'Fromage blanc', 'Menthe fraîche', 'Huile d\'olive', 'Graines de nigelle', 'Œuf battu'],
+                instructions: [
+                    'Mélangez fromage blanc et menthe hachée.',
+                    'Découpez la pâte filo en bandes.',
+                    'Déposez fromage au bout de chaque bande.',
+                    'Roulez en serrant et badigeonnez d\'œuf.',
+                    'Parsemez de graines de nigelle.',
+                    'Enfournez 15 minutes jusqu\'à dorure.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Facile',
+                servings: '12 pièces'
+            },
+            {
+                name: 'Fatayer aux Épinards',
+                ingredients: ['Pâte à pain', 'Épinards', 'Oignons', 'Citron', 'Sumac', 'Pignons', 'Huile d\'olive', 'Sel'],
+                instructions: [
+                    'Hachez et salez les épinards, égouttez.',
+                    'Mélangez avec oignons, citron et sumac.',
+                    'Ajoutez pignons et huile d\'olive.',
+                    'Étalez la pâte et découpez en cercles.',
+                    'Garnissez et pliez en triangles.',
+                    'Enfournez 20 minutes à 200°C.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '15 pièces'
             }
         ]
     }
