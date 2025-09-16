@@ -1227,6 +1227,126 @@ const recipeDatabase = {
                 time: '10 minutes',
                 difficulty: 'Facile',
                 servings: '2 personnes'
+            },
+            {
+                name: 'Maritozzo Romano',
+                ingredients: ['Brioches sucrées', 'Chantilly', 'Sucre glace', 'Vanille', 'Pistaches hachées', 'Zeste d\'orange'],
+                instructions: [
+                    'Coupez les brioches en deux horizontalement.',
+                    'Montez la crème en chantilly vanillée.',
+                    'Garnissez généreusement les brioches de chantilly.',
+                    'Parsemez de pistaches et zeste d\'orange.',
+                    'Saupoudrez légèrement de sucre glace.',
+                    'Servez immédiatement avec café chaud.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Bomboloni alla Crema',
+                ingredients: ['Pâte à brioche', 'Crème pâtissière', 'Huile de friture', 'Sucre cristallisé', 'Vanille', 'Zeste de citron'],
+                instructions: [
+                    'Préparez des boules de pâte brioche et laissez lever.',
+                    'Faites frire dans l\'huile chaude jusqu\'à dorure.',
+                    'Laissez refroidir puis percez délicatement.',
+                    'Garnissez de crème pâtissière à la vanille.',
+                    'Roulez dans le sucre cristallisé.',
+                    'Servez tiède pour le petit-déjeuner.'
+                ],
+                time: '2h + levée',
+                difficulty: 'Difficile',
+                servings: '12 bomboloni'
+            },
+            {
+                name: 'Caffè con Biscotti di Savoiardi',
+                ingredients: ['Café expresso', 'Biscuits savoiardi', 'Lait chaud', 'Sucre', 'Chocolat noir râpé'],
+                instructions: [
+                    'Préparez un café expresso fort.',
+                    'Chauffez légèrement le lait.',
+                    'Trempez rapidement les savoiardi dans le café.',
+                    'Disposez dans une tasse avec le lait chaud.',
+                    'Sucrez selon goût.',
+                    'Parsemez de chocolat râpé.'
+                ],
+                time: '5 minutes',
+                difficulty: 'Facile',
+                servings: '2 personnes'
+            },
+            {
+                name: 'Torta della Nonna Breakfast',
+                ingredients: ['Pâte sablée', 'Crème pâtissière', 'Pignons de pin', 'Sucre glace', 'Citron', 'Vanille'],
+                instructions: [
+                    'Foncez un moule de pâte sablée.',
+                    'Garnissez de crème pâtissière au citron.',
+                    'Parsemez généreusement de pignons.',
+                    'Recouvrez d\'une grille de pâte.',
+                    'Enfournez 35 minutes à 180°C.',
+                    'Saupoudrez de sucre glace et servez en portions.'
+                ],
+                time: '1h15',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Granita Siciliana al Caffè',
+                ingredients: ['Café expresso fort', 'Sucre', 'Eau', 'Crème fouettée', 'Brioche sicilienne'],
+                instructions: [
+                    'Préparez un café très fort et sucré.',
+                    'Laissez refroidir complètement.',
+                    'Versez dans un plat et placez au congélateur.',
+                    'Grattez à la fourchette toutes les 30 minutes.',
+                    'Servez dans des verres avec chantilly.',
+                    'Accompagnez de brioche sicilienne tiède.'
+                ],
+                time: '15 min + 3h congélation',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Biscotti aux Amandes et Café',
+                ingredients: ['300g de farine', '200g de sucre', '3 œufs', '100g d\'amandes entières', 'Café expresso', 'Levure', 'Vanille'],
+                instructions: [
+                    'Mélangez farine, sucre, œufs et café refroidi.',
+                    'Ajoutez amandes entières et vanille.',
+                    'Formez un boudin et enfournez 30 minutes.',
+                    'Laissez refroidir puis coupez en biais.',
+                    'Remettez au four 10 minutes pour sécher.',
+                    'Parfait pour tremper dans le cappuccino.'
+                ],
+                time: '1h30',
+                difficulty: 'Intermédiaire',
+                servings: '25 biscuits'
+            },
+            {
+                name: 'Sfogliatelle Ricce',
+                ingredients: ['Pâte feuilletée très fine', 'Ricotta', 'Semoule', 'Sucre', 'Œufs', 'Cannelle', 'Zeste d\'orange', 'Strutto'],
+                instructions: [
+                    'Étirez la pâte très finement et badigeonnez de strutto.',
+                    'Roulez serré et coupez en tranches.',
+                    'Formez des cônes avec chaque tranche.',
+                    'Préparez la crème avec ricotta, semoule et arômes.',
+                    'Garnissez et enfournez jusqu\'à dorure.',
+                    'Servez chaudes saupoudrées de sucre glace.'
+                ],
+                time: '2 heures',
+                difficulty: 'Très difficile',
+                servings: '12 sfogliatelle'
+            },
+            {
+                name: 'Cornetto Integrale',
+                ingredients: ['Farine complète', 'Levure boulangère', 'Lait', 'Beurre', 'Sucre', 'Œuf', 'Miel', 'Graines de tournesol'],
+                instructions: [
+                    'Préparez une pâte levée avec farine complète.',
+                    'Incorporez beurre et miel, pétrissez longuement.',
+                    'Laissez lever 2 heures.',
+                    'Façonnez en cornetti et parsemez de graines.',
+                    'Dorez à l\'œuf et laissez pousser 1 heure.',
+                    'Enfournez 18 minutes à 190°C.'
+                ],
+                time: '4h + levées',
+                difficulty: 'Difficile',
+                servings: '10 cornetti'
             }
         ],
         'déjeuner': [
