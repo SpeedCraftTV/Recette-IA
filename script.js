@@ -45,6 +45,111 @@ const recipeDatabase = {
                 time: '45 minutes',
                 difficulty: 'Intermédiaire',
                 servings: '4 personnes'
+            },
+            {
+                name: 'Brioche Vendéenne',
+                ingredients: ['500g de farine', '10g de levure fraîche', '4 œufs', '150g de beurre', '80g de sucre', '10g de sel', '150ml de lait tiède', 'Sucre perlé'],
+                instructions: [
+                    'Délayez la levure dans le lait tiède.',
+                    'Mélangez farine, sucre et sel dans un saladier.',
+                    'Ajoutez œufs et mélange lait-levure.',
+                    'Pétrissez puis incorporez le beurre mou.',
+                    'Laissez lever 2 heures, façonnez et parsemez de sucre perlé.',
+                    'Enfournez 25 minutes à 180°C.'
+                ],
+                time: '3 heures + levée',
+                difficulty: 'Difficile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Bol de Céréales à la Française',
+                ingredients: ['Flocons d\'avoine', 'Lait entier', 'Confiture de fraises', 'Noix concassées', 'Miel de lavande', 'Fruits de saison'],
+                instructions: [
+                    'Versez les flocons d\'avoine dans un bol.',
+                    'Chauffez légèrement le lait et versez sur les céréales.',
+                    'Laissez gonfler 3 minutes.',
+                    'Ajoutez une cuillère de confiture.',
+                    'Parsemez de noix et fruits frais.',
+                    'Arrosez d\'un filet de miel.'
+                ],
+                time: '10 minutes',
+                difficulty: 'Facile',
+                servings: '1 personne'
+            },
+            {
+                name: 'Gaufres Liégeoises',
+                ingredients: ['500g de farine', '25g de levure fraîche', '4 œufs', '300g de beurre', '100g de sucre', '250ml de lait', 'Sucre perlé', 'Vanille'],
+                instructions: [
+                    'Délayez la levure dans le lait tiède.',
+                    'Mélangez farine et sucre, creusez un puits.',
+                    'Ajoutez œufs, lait-levure et vanille.',
+                    'Incorporez le beurre fondu et le sucre perlé.',
+                    'Laissez lever 1 heure puis cuisez au gaufrier.',
+                    'Servez tièdes avec du sucre glace.'
+                ],
+                time: '1h30 + levée',
+                difficulty: 'Intermédiaire',
+                servings: '12 gaufres'
+            },
+            {
+                name: 'Chocolat Chaud à l\'Ancienne',
+                ingredients: ['200g de chocolat noir', '500ml de lait entier', '50g de sucre', '1 cuillère à café de vanille', 'Chantilly', 'Cacao en poudre'],
+                instructions: [
+                    'Hachez finement le chocolat.',
+                    'Chauffez le lait avec le sucre et la vanille.',
+                    'Versez le lait chaud sur le chocolat en fouettant.',
+                    'Remettez sur feu doux en remuant constamment.',
+                    'Obtenez une consistance onctueuse.',
+                    'Servez dans des tasses avec chantilly et cacao.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Tartines Campagnardes',
+                ingredients: ['Pain de campagne', 'Beurre fermier', 'Confiture de figues', 'Fromage de chèvre', 'Miel d\'acacia', 'Noix fraîches'],
+                instructions: [
+                    'Grillez légèrement les tranches de pain.',
+                    'Tartinez généreusement de beurre fermier.',
+                    'Sur une moitié, étalez confiture de figues.',
+                    'Sur l\'autre, émettez le fromage de chèvre.',
+                    'Arrosez de miel et parsemez de noix.',
+                    'Servez immédiatement avec café au lait.'
+                ],
+                time: '10 minutes',
+                difficulty: 'Facile',
+                servings: '2 personnes'
+            },
+            {
+                name: 'Pain Doré Normand',
+                ingredients: ['4 tranches de pain brioché', '2 œufs', '200ml de crème fraîche', '30g de sucre', 'Calvados', 'Pommes', 'Beurre', 'Cannelle'],
+                instructions: [
+                    'Battez œufs, crème, sucre et une cuillère de calvados.',
+                    'Trempez les tranches de pain dans ce mélange.',
+                    'Faites dorer dans le beurre chaud.',
+                    'Poêlez les pommes avec cannelle.',
+                    'Dressez le pain doré garni de pommes.',
+                    'Flambez avec le calvados restant.'
+                ],
+                time: '25 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Muesli Maison aux Fruits Secs',
+                ingredients: ['Flocons d\'avoine', 'Flocons de blé', 'Amandes effilées', 'Noisettes', 'Raisins secs', 'Figues séchées', 'Yaourt nature', 'Miel'],
+                instructions: [
+                    'Mélangez tous les flocons et fruits secs.',
+                    'Hachez grossièrement figues et noisettes.',
+                    'Incorporez à la base de céréales.',
+                    'Servez dans un bol avec yaourt.',
+                    'Arrosez généreusement de miel.',
+                    'Laissez gonfler quelques minutes avant de déguster.'
+                ],
+                time: '10 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
             }
         ],
         'déjeuner': [
@@ -107,6 +212,111 @@ const recipeDatabase = {
                 time: '50 minutes',
                 difficulty: 'Facile',
                 servings: '6 personnes'
+            },
+            {
+                name: 'Pot-au-Feu Traditionnel',
+                ingredients: ['1kg de jarret de bœuf', '1 os à moelle', '4 carottes', '4 poireaux', '1 navet', '1 chou vert', 'Pommes de terre', 'Bouquet garni', 'Gros sel', 'Moutarde'],
+                instructions: [
+                    'Mettez la viande et l\'os dans une grande marmite d\'eau froide.',
+                    'Portez à ébullition et écumez soigneusement.',
+                    'Ajoutez le bouquet garni et laissez mijoter 2 heures.',
+                    'Incorporez les légumes par ordre de temps de cuisson.',
+                    'Cuisez encore 1 heure jusqu\'à tendreté.',
+                    'Servez avec gros sel, cornichons et moutarde.'
+                ],
+                time: '3h30',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Cassoulet de Toulouse',
+                ingredients: ['500g de haricots blancs', '4 cuisses de canard confites', '400g de saucisse de Toulouse', '200g de lard fumé', 'Tomates', 'Oignons', 'Ail', 'Thym', 'Laurier', 'Chapelure'],
+                instructions: [
+                    'Faites tremper les haricots toute la nuit.',
+                    'Cuisez-les avec aromates 1 heure.',
+                    'Faites revenir viandes et légumes.',
+                    'Montez en alternant haricots et viandes.',
+                    'Mouillez avec bouillon, couvrez de chapelure.',
+                    'Enfournez 1h30 en cassant la croûte régulièrement.'
+                ],
+                time: '3h + trempage',
+                difficulty: 'Difficile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Blanquette de Veau à l\'Ancienne',
+                ingredients: ['1.5kg d\'épaule de veau', '3 carottes', '2 oignons', '1 bouquet garni', '250g de champignons', '20cl de crème', '2 jaunes d\'œufs', 'Beurre', 'Farine', 'Citron'],
+                instructions: [
+                    'Découpez le veau et blanchissez-le 5 minutes.',
+                    'Remettez en casserole avec légumes et bouquet garni.',
+                    'Couvrez d\'eau, mijotez 1h30.',
+                    'Préparez un roux avec beurre et farine.',
+                    'Liez avec le bouillon filtré.',
+                    'Terminez avec crème, jaunes et jus de citron.'
+                ],
+                time: '2h15',
+                difficulty: 'Difficile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Salade Niçoise Authentique',
+                ingredients: ['Thon à l\'huile', 'Œufs durs', 'Tomates', 'Anchois', 'Olives noires', 'Poivrons', 'Oignons rouges', 'Basilic', 'Huile d\'olive', 'Vinaigre'],
+                instructions: [
+                    'Coupez tomates et poivrons en quartiers.',
+                    'Émincez finement les oignons rouges.',
+                    'Disposez harmonieusement tous les ingrédients.',
+                    'Effeuilllez le thon et ajoutez anchois.',
+                    'Garnissez d\'œufs durs et olives.',
+                    'Assaisonnez d\'huile d\'olive et vinaigre, parsemez de basilic.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Choucroute Garnie Alsacienne',
+                ingredients: ['1kg de choucroute crue', '4 saucisses de Strasbourg', '4 saucisses fumées', '300g de lard fumé', '4 pommes de terre', 'Vin blanc', 'Baies de genièvre', 'Oignons'],
+                instructions: [
+                    'Rincez et essorez la choucroute.',
+                    'Faites revenir oignons émincés.',
+                    'Ajoutez choucroute, vin blanc et genièvre.',
+                    'Disposez les viandes sur la choucroute.',
+                    'Mijotez 1h30 à couvert.',
+                    'Ajoutez pommes de terre 30 minutes avant la fin.'
+                ],
+                time: '2 heures',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Escargots de Bourgogne',
+                ingredients: ['36 escargots préparés', 'Beurre d\'ail persillé', '3 gousses d\'ail', 'Persil plat', '150g de beurre', 'Échalotes', 'Vin blanc sec', 'Pain de campagne'],
+                instructions: [
+                    'Préparez le beurre d\'ail avec persil haché.',
+                    'Placez un peu de beurre au fond de chaque coquille.',
+                    'Insérez l\'escargot et comblez de beurre.',
+                    'Disposez dans des alvéoles spéciales.',
+                    'Enfournez 10 minutes à 200°C.',
+                    'Servez très chaud avec du pain grillé.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Tartiflette Savoyarde',
+                ingredients: ['1kg de pommes de terre', '200g de lardons fumés', '2 oignons', '1 reblochon fermier', '20cl de crème fraîche', '10cl de vin blanc sec', 'Ciboulette'],
+                instructions: [
+                    'Cuisez les pommes de terre à l\'eau avec la peau.',
+                    'Épluchez et coupez en rondelles.',
+                    'Faites revenir lardons et oignons.',
+                    'Disposez pommes de terre dans un plat beurré.',
+                    'Ajoutez lardons, crème et reblochon coupé.',
+                    'Enfournez 20 minutes à 200°C.'
+                ],
+                time: '1 heure',
+                difficulty: 'Facile',
+                servings: '6 personnes'
             }
         ],
         'dîner': [
@@ -154,6 +364,111 @@ const recipeDatabase = {
                 time: '20 minutes',
                 difficulty: 'Intermédiaire',
                 servings: '4 personnes'
+            },
+            {
+                name: 'Gigot d\'Agneau aux Herbes',
+                ingredients: ['1 gigot d\'agneau 2kg', 'Ail', 'Romarin', 'Thym', 'Huile d\'olive', 'Pommes de terre', 'Haricots verts', 'Vin rouge', 'Beurre'],
+                instructions: [
+                    'Piquez le gigot d\'ail et d\'herbes fraîches.',
+                    'Badigeonnez d\'huile d\'olive et assaisonnez.',
+                    'Rôtissez 20 minutes par kilo à 180°C.',
+                    'Arrosez régulièrement du jus de cuisson.',
+                    'Déglacez au vin rouge pour la sauce.',
+                    'Laissez reposer 15 minutes avant de trancher.'
+                ],
+                time: '1h30',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Coquilles Saint-Jacques à la Bretonne',
+                ingredients: ['12 coquilles Saint-Jacques', 'Poireaux', 'Crème fraîche', 'Vin blanc sec', 'Beurre', 'Gruyère râpé', 'Chapelure', 'Persil'],
+                instructions: [
+                    'Nettoyez les coquilles et détachez les noix.',
+                    'Faites suer les poireaux dans le beurre.',
+                    'Poêlez rapidement les Saint-Jacques.',
+                    'Déglacez au vin blanc, ajoutez la crème.',
+                    'Remettez dans les coquilles avec les poireaux.',
+                    'Gratinez au four avec fromage et chapelure.'
+                ],
+                time: '35 minutes',
+                difficulty: 'Difficile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Magret de Canard aux Cerises',
+                ingredients: ['2 magrets de canard', '300g de cerises', 'Miel', 'Vinaigre balsamique', 'Vin rouge', 'Beurre', 'Thym', 'Sel', 'Poivre'],
+                instructions: [
+                    'Quadrillez la peau des magrets.',
+                    'Cuisez côté peau 8 minutes, retournez 3 minutes.',
+                    'Laissez reposer sous papier alu.',
+                    'Déglacez avec vinaigre, vin et miel.',
+                    'Ajoutez cerises et thym, réduisez.',
+                    'Tranchez les magrets et nappez de sauce.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Bourride Sétoise',
+                ingredients: ['1kg de poissons blancs', 'Pommes de terre', 'Aïoli', 'Bouillon de poisson', 'Safran', 'Vin blanc', 'Persil', 'Croûtons'],
+                instructions: [
+                    'Préparez un fumet avec les arêtes.',
+                    'Cuisez les pommes de terre dans le bouillon.',
+                    'Pochez les poissons dans le fumet saffrané.',
+                    'Liez le bouillon avec l\'aïoli.',
+                    'Disposez poissons et pommes de terre.',
+                    'Nappez de bouillon lié et servez avec croûtons.'
+                ],
+                time: '1h15',
+                difficulty: 'Difficile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Lapin à la Moutarde',
+                ingredients: ['1 lapin découpé', 'Moutarde de Dijon', 'Crème fraîche', 'Vin blanc', 'Échalotes', 'Champignons', 'Estragon', 'Beurre'],
+                instructions: [
+                    'Badigeonnez le lapin de moutarde.',
+                    'Faites dorer dans une cocotte beurrée.',
+                    'Ajoutez échalotes et champignons.',
+                    'Mouillez avec vin blanc et crème.',
+                    'Mijotez 45 minutes à couvert.',
+                    'Parsemez d\'estragon avant de servir.'
+                ],
+                time: '1h15',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Homard à l\'Armoricaine',
+                ingredients: ['2 homards', 'Tomates', 'Cognac', 'Vin blanc', 'Échalotes', 'Ail', 'Estragon', 'Crème', 'Beurre', 'Cayenne'],
+                instructions: [
+                    'Découpez les homards vivants en tronçons.',
+                    'Flambez au cognac dans une sauteuse.',
+                    'Ajoutez échalotes, ail et tomates concassées.',
+                    'Mouillez avec vin blanc et mijotez 15 minutes.',
+                    'Récupérez le corail et mélangez à la crème.',
+                    'Liez la sauce et parsemez d\'estragon.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Très difficile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Daube Provençale',
+                ingredients: ['2kg de bœuf à braiser', 'Vin rouge', 'Carottes', 'Oignons', 'Tomates', 'Olives noires', 'Herbes de Provence', 'Orange', 'Anchois', 'Ail'],
+                instructions: [
+                    'Marinez la viande 24h dans vin et légumes.',
+                    'Égouttez et faites dorer la viande.',
+                    'Remettez avec la marinade filtrée.',
+                    'Ajoutez tomates, olives et zeste d\'orange.',
+                    'Mijotez 3 heures à couvert.',
+                    'Servez avec polenta ou pâtes fraîches.'
+                ],
+                time: '3h30 + marinade',
+                difficulty: 'Difficile',
+                servings: '8 personnes'
             }
         ],
         'dessert': [
@@ -608,6 +923,111 @@ const recipeDatabase = {
                 time: '30 minutes',
                 difficulty: 'Facile',
                 servings: '12 madeleines'
+            },
+            {
+                name: 'Croque-Monsieur Parisien',
+                ingredients: ['Pain de mie', 'Jambon blanc', 'Gruyère râpé', 'Beurre', 'Lait', 'Farine', 'Muscade', 'Moutarde'],
+                instructions: [
+                    'Préparez une béchamel légère.',
+                    'Tartinez le pain de moutarde fine.',
+                    'Garnissez de jambon et fromage.',
+                    'Nappez de béchamel et fromage râpé.',
+                    'Passez au four jusqu\'à dorure.',
+                    'Servez immédiatement bien chaud.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Facile',
+                servings: '4 croques'
+            },
+            {
+                name: 'Gougères Bourguignonnes',
+                ingredients: ['125ml d\'eau', '50g de beurre', '75g de farine', '2 œufs', '100g de gruyère râpé', 'Muscade', 'Sel', 'Poivre'],
+                instructions: [
+                    'Portez eau, beurre et sel à ébullition.',
+                    'Versez la farine d\'un coup et mélangez.',
+                    'Desséchez la pâte 2 minutes sur le feu.',
+                    'Incorporez œufs et fromage hors du feu.',
+                    'Dressez en petits choux sur plaque.',
+                    'Enfournez 20 minutes à 200°C.'
+                ],
+                time: '40 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '20 gougères'
+            },
+            {
+                name: 'Chaussons aux Pommes',
+                ingredients: ['Pâte feuilletée', '4 pommes', 'Sucre', 'Cannelle', 'Beurre', '1 œuf', 'Compote de pommes'],
+                instructions: [
+                    'Épluchez et coupez les pommes en dés.',
+                    'Faites-les compoter avec sucre et cannelle.',
+                    'Découpez la pâte en carrés.',
+                    'Garnissez de compote et refermez en chaussons.',
+                    'Dorez à l\'œuf et enfournez 20 minutes.',
+                    'Servez tièdes saupoudrés de sucre.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Facile',
+                servings: '8 chaussons'
+            },
+            {
+                name: 'Pain aux Raisins',
+                ingredients: ['Pâte feuilletée levée', 'Crème pâtissière', 'Raisins secs', 'Rhum', 'Œuf pour dorure', 'Sucre glace'],
+                instructions: [
+                    'Faites gonfler les raisins dans le rhum.',
+                    'Étalez la pâte et garnissez de crème pâtissière.',
+                    'Parsemez de raisins égouttés.',
+                    'Roulez et coupez en tranches.',
+                    'Dorez et enfournez 20 minutes à 180°C.',
+                    'Saupoudrez de sucre glace tiède.'
+                ],
+                time: '35 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '10 pains aux raisins'
+            },
+            {
+                name: 'Kouglof Alsacien',
+                ingredients: ['500g de farine', '10g de levure', '4 œufs', '100g de beurre', '60g de sucre', '200ml de lait', 'Raisins secs', 'Amandes', 'Kirsch'],
+                instructions: [
+                    'Délayez la levure dans le lait tiède.',
+                    'Mélangez farine, sucre et œufs.',
+                    'Ajoutez lait-levure et pétrissez.',
+                    'Incorporez beurre et raisins au kirsch.',
+                    'Versez dans un moule beurré et garni d\'amandes.',
+                    'Laissez lever 2h et enfournez 45 minutes.'
+                ],
+                time: '3h + levée',
+                difficulty: 'Difficile',
+                servings: '10 personnes'
+            },
+            {
+                name: 'Palmiers Sucrés',
+                ingredients: ['Pâte feuilletée', 'Sucre en poudre', 'Sucre vanillé', '1 œuf'],
+                instructions: [
+                    'Étalez la pâte et saupoudrez généreusement de sucre.',
+                    'Roulez les deux côtés vers le centre.',
+                    'Enveloppez dans film et réfrigérez 30 minutes.',
+                    'Coupez en tranches de 1 cm.',
+                    'Disposez sur plaque et dorez à l\'œuf.',
+                    'Enfournez 15 minutes à 200°C en retournant à mi-cuisson.'
+                ],
+                time: '45 min + réfrigération',
+                difficulty: 'Facile',
+                servings: '20 palmiers'
+            },
+            {
+                name: 'Chouquettes Parisiennes',
+                ingredients: ['125ml d\'eau', '50g de beurre', '75g de farine', '2 œufs', 'Sucre perlé', 'Sel'],
+                instructions: [
+                    'Portez eau, beurre et sel à ébullition.',
+                    'Ajoutez la farine d\'un coup et mélangez vigoureusement.',
+                    'Desséchez 2 minutes sur feu doux.',
+                    'Incorporez les œufs un par un hors du feu.',
+                    'Dressez en petits choux, parsemez de sucre perlé.',
+                    'Enfournez 20 minutes à 200°C.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '25 chouquettes'
             }
         ]
     },
@@ -627,6 +1047,111 @@ const recipeDatabase = {
                 time: '10 minutes',
                 difficulty: 'Facile',
                 servings: '2 personnes'
+            },
+            {
+                name: 'Maritozzo Romano',
+                ingredients: ['Brioche italienne', 'Chantilly', 'Zeste d\'orange', 'Pistaches concassées', 'Sucre glace'],
+                instructions: [
+                    'Coupez la brioche en deux horizontalement.',
+                    'Garnissez généreusement de chantilly.',
+                    'Ajoutez le zeste d\'orange râpé.',
+                    'Parsemez de pistaches concassées.',
+                    'Refermez délicatement.',
+                    'Saupoudrez de sucre glace avant de servir.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Frittata aux Légumes',
+                ingredients: ['8 œufs', 'Courgettes', 'Tomates cerises', 'Basilic frais', 'Parmesan', 'Huile d\'olive', 'Sel', 'Poivre'],
+                instructions: [
+                    'Battez les œufs avec sel et poivre.',
+                    'Faites revenir courgettes et tomates à l\'huile.',
+                    'Versez les œufs sur les légumes.',
+                    'Cuisez sans remuer 5 minutes.',
+                    'Terminez la cuisson au four 10 minutes.',
+                    'Parsemez de parmesan et basilic.'
+                ],
+                time: '25 minutes',
+                difficulty: 'Facile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Bomboloni alla Crema',
+                ingredients: ['Pâte à beignets', 'Crème pâtissière', 'Huile de friture', 'Sucre glace', 'Vanille', 'Lait', 'Œufs', 'Farine'],
+                instructions: [
+                    'Préparez la pâte levée et laissez reposer 2 heures.',
+                    'Formez des boules et laissez lever encore 1 heure.',
+                    'Faites frire dans l\'huile chaude jusqu\'à dorure.',
+                    'Garnissez de crème pâtissière avec une poche.',
+                    'Saupoudrez généreusement de sucre glace.',
+                    'Servez immédiatement.'
+                ],
+                time: '3h + levée',
+                difficulty: 'Difficile',
+                servings: '12 bomboloni'
+            },
+            {
+                name: 'Granita al Caffè',
+                ingredients: ['Café expresso fort', 'Sucre', 'Eau', 'Chantilly', 'Brioche sicilienne'],
+                instructions: [
+                    'Préparez un café très fort et sucrez.',
+                    'Laissez refroidir complètement.',
+                    'Versez dans un plat et congelez.',
+                    'Grattez à la fourchette toutes les 30 minutes.',
+                    'Répétez 4-5 fois pour obtenir des cristaux fins.',
+                    'Servez avec chantilly et brioche.'
+                ],
+                time: '15 min + 3h congélation',
+                difficulty: 'Facile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Focaccia Dolce',
+                ingredients: ['Farine', 'Levure', 'Lait tiède', 'Œufs', 'Sucre', 'Beurre', 'Raisins secs', 'Zeste de citron', 'Sucre perlé'],
+                instructions: [
+                    'Délayez la levure dans le lait tiède sucré.',
+                    'Mélangez farine, œufs et beurre mou.',
+                    'Ajoutez raisins et zeste de citron.',
+                    'Pétrissez et laissez lever 2 heures.',
+                    'Étalez, parsemez de sucre perlé.',
+                    'Enfournez 25 minutes à 180°C.'
+                ],
+                time: '3h + levée',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Caffè Shakerato',
+                ingredients: ['Café expresso', 'Sucre', 'Glace pilée', 'Liqueur Amaretto (optionnel)'],
+                instructions: [
+                    'Préparez un expresso double bien serré.',
+                    'Ajoutez le sucre tant que c\'est chaud.',
+                    'Versez sur glace pilée dans un shaker.',
+                    'Ajoutez quelques gouttes d\'Amaretto si désiré.',
+                    'Secouez vigoureusement 30 secondes.',
+                    'Servez dans un verre givré.'
+                ],
+                time: '5 minutes',
+                difficulty: 'Facile',
+                servings: '1 personne'
+            },
+            {
+                name: 'Biscotti di Prato',
+                ingredients: ['Farine', 'Amandes entières', 'Sucre', 'Œufs', 'Levure', 'Beurre', 'Anis', 'Vin santo'],
+                instructions: [
+                    'Mélangez farine, sucre et levure.',
+                    'Ajoutez œufs, beurre mou et anis.',
+                    'Incorporez les amandes entières.',
+                    'Formez des boudins et enfournez 30 minutes.',
+                    'Coupez en tranches obliques.',
+                    'Repassez au four 15 minutes pour faire sécher.'
+                ],
+                time: '1h15',
+                difficulty: 'Intermédiaire',
+                servings: '20 biscotti'
             }
         ],
         'déjeuner': [
@@ -674,6 +1199,111 @@ const recipeDatabase = {
                 time: '3 heures',
                 difficulty: 'Difficile',
                 servings: '8 personnes'
+            },
+            {
+                name: 'Saltimbocca alla Romana',
+                ingredients: ['8 escalopes de veau', '8 tranches de prosciutto', '8 feuilles de sauge', 'Vin blanc sec', 'Beurre', 'Huile d\'olive', 'Cure-dents'],
+                instructions: [
+                    'Aplatissez légèrement les escalopes.',
+                    'Posez prosciutto et sauge sur chaque escalope.',
+                    'Fixez avec un cure-dent.',
+                    'Poêlez côté sauge 2 minutes, retournez 1 minute.',
+                    'Déglacez au vin blanc.',
+                    'Montez au beurre et servez immédiatement.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Risotto ai Funghi Porcini',
+                ingredients: ['400g de riz Arborio', '50g de porcini séchés', 'Champignons frais', 'Bouillon de légumes', 'Vin blanc', 'Oignon', 'Parmesan', 'Beurre', 'Persil'],
+                instructions: [
+                    'Réhydratez les porcini, gardez l\'eau.',
+                    'Faites revenir oignon et champignons frais.',
+                    'Ajoutez le riz et nacrez 2 minutes.',
+                    'Mouillez avec vin blanc puis bouillon louche par louche.',
+                    'Incorporez porcini et leur eau filtrée.',
+                    'Terminez avec beurre, parmesan et persil.'
+                ],
+                time: '40 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Parmigiana di Melanzane',
+                ingredients: ['3 aubergines', 'Sauce tomate', 'Mozzarella', 'Parmesan', 'Basilic frais', 'Farine', 'Œufs', 'Huile d\'olive'],
+                instructions: [
+                    'Coupez les aubergines en tranches, salez et laissez dégorger.',
+                    'Farinez, passez dans l\'œuf et faites frire.',
+                    'Préparez une sauce tomate basilic.',
+                    'Montez en alternant aubergines, sauce et fromages.',
+                    'Enfournez 40 minutes à 180°C.',
+                    'Laissez reposer 10 minutes avant de servir.'
+                ],
+                time: '1h30',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Gnocchi al Pomodoro e Basilico',
+                ingredients: ['Gnocchi de pommes de terre', 'Tomates San Marzano', 'Basilic frais', 'Ail', 'Parmesan', 'Huile d\'olive extra vierge', 'Sel'],
+                instructions: [
+                    'Faites revenir l\'ail dans l\'huile d\'olive.',
+                    'Ajoutez les tomates écrasées.',
+                    'Laissez mijoter 20 minutes avec le basilic.',
+                    'Cuisez les gnocchi dans l\'eau bouillante salée.',
+                    'Égouttez dès qu\'ils remontent.',
+                    'Mélangez avec la sauce et parmesan.'
+                ],
+                time: '35 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Arancini Sicilieni',
+                ingredients: ['Riz Arborio cuit', 'Ragù bolognaise', 'Mozzarella', 'Petits pois', 'Œufs', 'Chapelure', 'Farine', 'Huile de friture'],
+                instructions: [
+                    'Mélangez le riz avec œufs et parmesan.',
+                    'Formez des boules, creusez au centre.',
+                    'Garnissez de ragù, mozzarella et petits pois.',
+                    'Refermez en boule parfaite.',
+                    'Passez dans farine, œuf et chapelure.',
+                    'Faites frire jusqu\'à dorure dorée.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Difficile',
+                servings: '12 arancini'
+            },
+            {
+                name: 'Vitello Tonnato',
+                ingredients: ['Rôti de veau', 'Thon à l\'huile', 'Anchois', 'Câpres', 'Mayonnaise', 'Citron', 'Œufs durs', 'Vin blanc', 'Légumes aromates'],
+                instructions: [
+                    'Cuisez le veau dans un bouillon aromatique.',
+                    'Laissez refroidir dans son jus.',
+                    'Mixez thon, anchois, câpres avec mayonnaise.',
+                    'Allongez avec jus de cuisson filtré.',
+                    'Tranchez le veau froid très finement.',
+                    'Nappez de sauce tonnato et décorez.'
+                ],
+                time: '2h + refroidissement',
+                difficulty: 'Difficile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Cacio e Pepe',
+                ingredients: ['400g de spaghetti', 'Pecorino Romano', 'Poivre noir fraîchement moulu', 'Eau de cuisson des pâtes'],
+                instructions: [
+                    'Cuisez les spaghetti dans l\'eau salée al dente.',
+                    'Râpez généreusement le Pecorino.',
+                    'Mélangez fromage et poivre avec eau de cuisson.',
+                    'Créez une crème onctueuse.',
+                    'Égouttez les pâtes en gardant l\'eau.',
+                    'Mélangez vigoureusement avec la crème de fromage.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
             }
         ],
         'dîner': [
@@ -706,6 +1336,111 @@ const recipeDatabase = {
                 time: '25 minutes',
                 difficulty: 'Intermédiaire',
                 servings: '4 personnes'
+            },
+            {
+                name: 'Branzino in Crosta di Sale',
+                ingredients: ['1 loup de mer entier', 'Gros sel', 'Blancs d\'œufs', 'Herbes fraîches', 'Citron', 'Huile d\'olive extra vierge'],
+                instructions: [
+                    'Mélangez gros sel et blancs d\'œufs.',
+                    'Farcissez le poisson d\'herbes fraîches.',
+                    'Enrobez complètement de mélange de sel.',
+                    'Enfournez 25 minutes à 200°C.',
+                    'Cassez la croûte et retirez la peau.',
+                    'Servez avec citron et huile d\'olive.'
+                ],
+                time: '40 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Bistecca alla Fiorentina',
+                ingredients: ['Côte de bœuf de 1.5kg', 'Huile d\'olive extra vierge', 'Romarin', 'Ail', 'Gros sel', 'Poivre noir'],
+                instructions: [
+                    'Sortez la viande 1 heure avant cuisson.',
+                    'Allumez un feu de bois ou grill très chaud.',
+                    'Grillez 5 minutes de chaque côté pour saignant.',
+                    'Assaisonnez seulement après cuisson.',
+                    'Arrosez d\'huile d\'olive et herbes.',
+                    'Laissez reposer 5 minutes avant de trancher.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Pollo alla Cacciatora',
+                ingredients: ['1 poulet découpé', 'Tomates pelées', 'Poivrons', 'Champignons', 'Vin rouge', 'Romarin', 'Olives noires', 'Huile d\'olive'],
+                instructions: [
+                    'Faites dorer les morceaux de poulet.',
+                    'Ajoutez poivrons et champignons.',
+                    'Mouillez avec vin rouge et tomates.',
+                    'Ajoutez romarin et olives.',
+                    'Mijotez 45 minutes à couvert.',
+                    'Servez avec polenta crémeuse.'
+                ],
+                time: '1h15',
+                difficulty: 'Facile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Salmone in Salsa Verde',
+                ingredients: ['Filets de saumon', 'Persil plat', 'Câpres', 'Anchois', 'Ail', 'Huile d\'olive', 'Vinaigre', 'Œuf dur'],
+                instructions: [
+                    'Hachez finement persil, câpres, anchois et ail.',
+                    'Mélangez avec huile d\'olive et vinaigre.',
+                    'Ajoutez œuf dur haché.',
+                    'Grillez le saumon 4 minutes de chaque côté.',
+                    'Servez le poisson nappé de salsa verde.',
+                    'Accompagnez de légumes grillés.'
+                ],
+                time: '25 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Involtini di Melanzane',
+                ingredients: ['2 aubergines', 'Ricotta', 'Parmesan', 'Basilic', 'Sauce tomate', 'Mozzarella', 'Huile d\'olive'],
+                instructions: [
+                    'Coupez aubergines en tranches fines.',
+                    'Grillez-les légèrement des deux côtés.',
+                    'Mélangez ricotta, parmesan et basilic.',
+                    'Garnissez chaque tranche de mélange.',
+                    'Roulez et disposez dans sauce tomate.',
+                    'Gratinez avec mozzarella 20 minutes.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Agnello alle Erbe',
+                ingredients: ['Gigot d\'agneau', 'Romarin', 'Thym', 'Ail', 'Huile d\'olive', 'Vin blanc', 'Pommes de terre'],
+                instructions: [
+                    'Piquez l\'agneau d\'ail et herbes.',
+                    'Marinez 2 heures dans huile et herbes.',
+                    'Rôtissez avec pommes de terre 1h30.',
+                    'Arrosez régulièrement de vin blanc.',
+                    'Vérifiez la cuisson à cœur (rosé).',
+                    'Laissez reposer 15 minutes avant découpe.'
+                ],
+                time: '2h + marinade',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Baccalà alla Vicentina',
+                ingredients: ['Morue dessalée', 'Lait', 'Oignons', 'Anchois', 'Parmesan', 'Huile d\'olive', 'Persil', 'Polenta'],
+                instructions: [
+                    'Dessalez la morue 24 heures.',
+                    'Faites revenir oignons et anchois.',
+                    'Ajoutez la morue et couvrez de lait.',
+                    'Mijotez 2 heures très doucement.',
+                    'Incorporez parmesan et persil.',
+                    'Servez avec polenta crémeuse.'
+                ],
+                time: '2h30 + dessalage',
+                difficulty: 'Difficile',
+                servings: '6 personnes'
             }
         ],
         'dessert': [
@@ -890,6 +1625,111 @@ const recipeDatabase = {
                 time: '45 min + turbinage',
                 difficulty: 'Intermédiaire',
                 servings: '6 personnes'
+            },
+            {
+                name: 'Supplì al Telefono',
+                ingredients: ['Riz Arborio cuit', 'Sauce tomate', 'Mozzarella', 'Œufs', 'Chapelure', 'Farine', 'Huile de friture'],
+                instructions: [
+                    'Mélangez riz froid avec sauce tomate.',
+                    'Formez des cylindres avec un cœur de mozzarella.',
+                    'Passez dans farine, œuf battu puis chapelure.',
+                    'Faites frire jusqu\'à dorure.',
+                    'Le fromage doit filer comme un fil de téléphone.',
+                    'Servez immédiatement bien chaud.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '12 supplì'
+            },
+            {
+                name: 'Panzerotti Pugliesi',
+                ingredients: ['Pâte à pizza', 'Tomates', 'Mozzarella', 'Origan', 'Anchois', 'Olives', 'Huile de friture'],
+                instructions: [
+                    'Étalez la pâte en cercles de 12 cm.',
+                    'Garnissez une moitié de tomates, mozzarella et anchois.',
+                    'Ajoutez origan et olives.',
+                    'Refermez en chausson et soudez les bords.',
+                    'Faites frire dans huile chaude.',
+                    'Servez dès la sortie de friture.'
+                ],
+                time: '40 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '8 panzerotti'
+            },
+            {
+                name: 'Tramezzini Veneziani',
+                ingredients: ['Pain de mie', 'Thon', 'Mayonnaise', 'Œufs durs', 'Tomates', 'Salade', 'Câpres'],
+                instructions: [
+                    'Retirez la croûte du pain de mie.',
+                    'Mélangez thon émietté avec mayonnaise.',
+                    'Ajoutez œufs durs hachés et câpres.',
+                    'Garnissez avec tomates et salade.',
+                    'Refermez et coupez en triangles.',
+                    'Servez frais comme en-cas léger.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '8 tramezzini'
+            },
+            {
+                name: 'Focaccia col Formaggio',
+                ingredients: ['Pâte à pain', 'Crescenza', 'Huile d\'olive', 'Gros sel', 'Romarin'],
+                instructions: [
+                    'Étalez la pâte très finement.',
+                    'Étalez crescenza sur la moitié.',
+                    'Repliez et soudez les bords.',
+                    'Badigeonnez d\'huile d\'olive.',
+                    'Parsemez de gros sel et romarin.',
+                    'Enfournez 15 minutes à 220°C.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Olive Ascolane',
+                ingredients: ['Olives vertes géantes', 'Viande hachée', 'Mortadelle', 'Parmesan', 'Œufs', 'Farine', 'Chapelure', 'Huile'],
+                instructions: [
+                    'Dénoyautez délicatement les olives.',
+                    'Préparez une farce avec viandes et parmesan.',
+                    'Farcissez chaque olive et refermez.',
+                    'Passez dans farine, œuf et chapelure.',
+                    'Faites frire jusqu\'à dorure croustillante.',
+                    'Servez chaud en apéritif.'
+                ],
+                time: '1 heure',
+                difficulty: 'Difficile',
+                servings: '20 olives'
+            },
+            {
+                name: 'Cornetti Salati',
+                ingredients: ['Pâte feuilletée', 'Jambon de Parme', 'Mozzarella', 'Tomates séchées', 'Basilic', 'Œuf pour dorure'],
+                instructions: [
+                    'Découpez la pâte en triangles.',
+                    'Garnissez de jambon, mozzarella et tomates.',
+                    'Ajoutez quelques feuilles de basilic.',
+                    'Roulez en cornetti et dorez.',
+                    'Enfournez 15 minutes à 200°C.',
+                    'Servez tièdes pour l\'apéritivo.'
+                ],
+                time: '25 minutes',
+                difficulty: 'Facile',
+                servings: '12 cornetti'
+            },
+            {
+                name: 'Bruschetta Mista',
+                ingredients: ['Pain toscan', 'Tomates cerises', 'Ail', 'Basilic', 'Ricotta', 'Prosciutto', 'Figues', 'Huile d\'olive'],
+                instructions: [
+                    'Grillez les tranches de pain.',
+                    'Frottez à l\'ail et arrosez d\'huile.',
+                    'Préparez différentes garnitures.',
+                    'Tomates-basilic, ricotta-prosciutto, figues.',
+                    'Disposez harmonieusement sur les tranches.',
+                    'Servez immédiatement en antipasti.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Facile',
+                servings: '8 bruschetta'
             }
         ]
     },
@@ -907,6 +1747,111 @@ const recipeDatabase = {
                     'Servez avec ciboules ciselées.'
                 ],
                 time: '1h15',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Onigiri aux Prunes',
+                ingredients: ['Riz à sushi', 'Prunes umeboshi', 'Algue nori', 'Sel', 'Saumon grillé', 'Sésame noir'],
+                instructions: [
+                    'Cuisez le riz selon la méthode japonaise.',
+                    'Salez légèrement et laissez tiédir.',
+                    'Formez des triangles avec garniture au centre.',
+                    'Enveloppez d\'une bande de nori.',
+                    'Variez avec saumon ou prune umeboshi.',
+                    'Parsemez de graines de sésame.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '8 onigiri'
+            },
+            {
+                name: 'Youtiao (Beignets Chinois)',
+                ingredients: ['Farine', 'Levure', 'Bicarbonate', 'Sel', 'Huile', 'Eau tiède', 'Lait de soja chaud'],
+                instructions: [
+                    'Mélangez farine, levure, bicarbonate et sel.',
+                    'Ajoutez eau et huile, pétrissez.',
+                    'Laissez reposer 2 heures.',
+                    'Formez des bâtonnets et faites frire.',
+                    'Égouttez sur papier absorbant.',
+                    'Servez chaud avec lait de soja.'
+                ],
+                time: '2h30 + repos',
+                difficulty: 'Difficile',
+                servings: '12 beignets'
+            },
+            {
+                name: 'Jianbing (Crêpe Chinoise)',
+                ingredients: ['Farine de blé', 'Farine de soja', 'Œufs', 'Ciboules', 'Coriandre', 'Sauce hoisin', 'Pâte de haricots', 'Crackers'],
+                instructions: [
+                    'Préparez une pâte fluide avec les farines.',
+                    'Étalez finement dans une poêle chaude.',
+                    'Cassez un œuf dessus et étalez.',
+                    'Parsemez d\'herbes et retournez.',
+                    'Badigeonnez de sauces et ajoutez crackers.',
+                    'Pliez et servez immédiatement.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 crêpes'
+            },
+            {
+                name: 'Tamagoyaki',
+                ingredients: ['6 œufs', 'Mirin', 'Sauce soja', 'Sucre', 'Dashi', 'Huile'],
+                instructions: [
+                    'Battez œufs avec mirin, soja, sucre et dashi.',
+                    'Huilez une poêle rectangulaire.',
+                    'Versez un tiers du mélange.',
+                    'Roulez l\'omelette vers le fond.',
+                    'Répétez l\'opération 3 fois.',
+                    'Laissez refroidir et tranchez.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Difficile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Pho Bo (Soupe Vietnamienne)',
+                ingredients: ['Nouilles de riz', 'Bouillon d\'os de bœuf', 'Bœuf en lamelles', 'Herbes fraîches', 'Oignons', 'Gingembre', 'Épices', 'Citron vert'],
+                instructions: [
+                    'Préparez un bouillon parfumé 6 heures.',
+                    'Faites tremper les nouilles dans l\'eau chaude.',
+                    'Émincez le bœuf très finement.',
+                    'Disposez nouilles et bœuf cru dans les bols.',
+                    'Versez le bouillon bouillant.',
+                    'Servez avec herbes et condiments.'
+                ],
+                time: '6h30',
+                difficulty: 'Difficile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Baozi aux Légumes',
+                ingredients: ['Pâte levée', 'Champignons shiitakés', 'Chou chinois', 'Carottes', 'Gingembre', 'Sauce soja', 'Huile de sésame'],
+                instructions: [
+                    'Préparez une farce avec légumes émincés.',
+                    'Assaisonnez avec gingembre et sauces.',
+                    'Étalez la pâte en cercles.',
+                    'Garnissez et refermez en chaussons.',
+                    'Laissez lever 30 minutes.',
+                    'Cuisez à la vapeur 15 minutes.'
+                ],
+                time: '1h + levée',
+                difficulty: 'Difficile',
+                servings: '12 baozi'
+            },
+            {
+                name: 'Miso Soup',
+                ingredients: ['Bouillon dashi', 'Pâte miso', 'Tofu soyeux', 'Algues wakame', 'Ciboules', 'Champignons enoki'],
+                instructions: [
+                    'Préparez un dashi avec algues kombu et bonite.',
+                    'Délayez la pâte miso dans un peu de bouillon.',
+                    'Ajoutez au dashi sans faire bouillir.',
+                    'Incorporez tofu en cubes et wakame.',
+                    'Garnissez de ciboules et enoki.',
+                    'Servez immédiatement dans des bols.'
+                ],
+                time: '15 minutes',
                 difficulty: 'Facile',
                 servings: '4 personnes'
             }
@@ -956,6 +1901,111 @@ const recipeDatabase = {
                 time: '1 heure',
                 difficulty: 'Difficile',
                 servings: '4 personnes'
+            },
+            {
+                name: 'Bibimbap Coréen',
+                ingredients: ['Riz', 'Bœuf mariné', 'Épinards', 'Carottes', 'Pousses de soja', 'Champignons', 'Œuf', 'Gochujang', 'Huile de sésame'],
+                instructions: [
+                    'Préparez chaque légume séparément assaisonné.',
+                    'Marinez le bœuf et faites-le sauter.',
+                    'Disposez le riz chaud dans des bols.',
+                    'Arrangez les légumes en sections colorées.',
+                    'Posez un œuf au plat au centre.',
+                    'Servez avec gochujang et huile de sésame.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Dim Sum Vapeur',
+                ingredients: ['Farine de blé', 'Crevettes', 'Porc haché', 'Champignons', 'Sauce soja', 'Vin de riz', 'Huile de sésame', 'Gingembre'],
+                instructions: [
+                    'Préparez une pâte souple avec farine et eau chaude.',
+                    'Mélangez crevettes hachées et porc.',
+                    'Assaisonnez avec sauces et gingembre.',
+                    'Formez des ravioli et placez sur bambou.',
+                    'Cuisez à la vapeur 12 minutes.',
+                    'Servez avec sauce soja-gingembre.'
+                ],
+                time: '1h30',
+                difficulty: 'Difficile',
+                servings: '20 dim sum'
+            },
+            {
+                name: 'Tom Yum Goong',
+                ingredients: ['Crevettes', 'Citronnelle', 'Feuilles de lime', 'Galanga', 'Champignons', 'Tomates cerises', 'Pâte de piment', 'Sauce poisson'],
+                instructions: [
+                    'Portez l\'eau à ébullition avec aromates.',
+                    'Ajoutez citronnelle, galanga et feuilles de lime.',
+                    'Incorporez champignons et tomates.',
+                    'Ajoutez crevettes et pâte de piment.',
+                    'Assaisonnez avec sauce poisson.',
+                    'Parsemez de coriandre fraîche.'
+                ],
+                time: '25 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Yakitori',
+                ingredients: ['Cuisses de poulet', 'Sauce tare', 'Sauce soja', 'Mirin', 'Sucre', 'Saké', 'Ciboules'],
+                instructions: [
+                    'Découpez le poulet en petits morceaux.',
+                    'Enfilez sur des brochettes de bambou.',
+                    'Préparez la sauce tare avec tous les liquides.',
+                    'Grillez en badigeonnant régulièrement.',
+                    'Retournez plusieurs fois pour caraméliser.',
+                    'Parsemez de ciboules avant de servir.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Facile',
+                servings: '12 brochettes'
+            },
+            {
+                name: 'Mapo Tofu',
+                ingredients: ['Tofu soyeux', 'Porc haché', 'Pâte de haricots fermentés', 'Piments', 'Poivre du Sichuan', 'Ciboules', 'Ail', 'Gingembre'],
+                instructions: [
+                    'Coupez le tofu en cubes délicatement.',
+                    'Faites revenir le porc avec ail et gingembre.',
+                    'Ajoutez pâte de haricots et piments.',
+                    'Incorporez le tofu sans le casser.',
+                    'Mijotez avec un peu de bouillon.',
+                    'Parsemez de poivre du Sichuan et ciboules.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Bun Bo Hue',
+                ingredients: ['Nouilles épaisses', 'Bouillon épicé', 'Bœuf', 'Porc', 'Pâte de crevettes', 'Citronnelle', 'Herbes fraîches'],
+                instructions: [
+                    'Préparez un bouillon parfumé et épicé.',
+                    'Cuisez les viandes dans le bouillon.',
+                    'Faites tremper les nouilles.',
+                    'Disposez nouilles et viandes dans les bols.',
+                    'Versez le bouillon bouillant.',
+                    'Garnissez d\'herbes fraîches.'
+                ],
+                time: '2 heures',
+                difficulty: 'Difficile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Gyoza Poêlés',
+                ingredients: ['Pâte à gyoza', 'Porc haché', 'Chou chinois', 'Ciboules', 'Ail', 'Gingembre', 'Sauce soja', 'Huile de sésame'],
+                instructions: [
+                    'Préparez la farce en mélangeant tous les ingrédients.',
+                    'Garnissez les pâtes et pliez en demi-lunes.',
+                    'Poêlez côté plat jusqu\'à dorure.',
+                    'Ajoutez eau et couvrez pour vapeur.',
+                    'Laissez l\'eau s\'évaporer complètement.',
+                    'Servez avec sauce soja-vinaigre.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '24 gyoza'
             }
         ],
         'dîner': [
@@ -973,6 +2023,111 @@ const recipeDatabase = {
                 time: '24h + 2h',
                 difficulty: 'Difficile',
                 servings: '6 personnes'
+            },
+            {
+                name: 'Beef Teriyaki',
+                ingredients: ['Bœuf en lamelles', 'Sauce soja', 'Mirin', 'Saké', 'Sucre', 'Gingembre', 'Ail', 'Huile de sésame'],
+                instructions: [
+                    'Marinez le bœuf 30 minutes dans la moitié des sauces.',
+                    'Préparez la sauce teriyaki avec le reste.',
+                    'Saisissez le bœuf à feu vif.',
+                    'Ajoutez la sauce et laissez caraméliser.',
+                    'Remuez jusqu\'à brillance.',
+                    'Servez sur riz avec légumes vapeur.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Saumon Miso Glacé',
+                ingredients: ['Filets de saumon', 'Pâte miso blanche', 'Mirin', 'Saké', 'Sucre', 'Huile'],
+                instructions: [
+                    'Mélangez miso, mirin, saké et sucre.',
+                    'Marinez le saumon 2 heures.',
+                    'Retirez l\'excès de marinade.',
+                    'Grillez 6 minutes de chaque côté.',
+                    'Badigeonnez en cours de cuisson.',
+                    'Servez avec riz et légumes asiatiques.'
+                ],
+                time: '2h30 + marinade',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Curry Rouge Thaï',
+                ingredients: ['Pâte de curry rouge', 'Lait de coco', 'Poulet', 'Aubergines thaï', 'Basilic thaï', 'Feuilles de lime', 'Sauce poisson'],
+                instructions: [
+                    'Faites revenir la pâte de curry.',
+                    'Ajoutez lait de coco et portez à ébullition.',
+                    'Incorporez poulet en morceaux.',
+                    'Ajoutez aubergines et feuilles de lime.',
+                    'Mijotez jusqu\'à cuisson complète.',
+                    'Terminez avec basilic et sauce poisson.'
+                ],
+                time: '35 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Porc au Caramel Vietnamien',
+                ingredients: ['Échine de porc', 'Sucre de palme', 'Sauce poisson', 'Sauce soja', 'Ail', 'Échalotes', 'Œufs durs'],
+                instructions: [
+                    'Caramélisez le sucre jusqu\'à couleur ambrée.',
+                    'Ajoutez sauce poisson et soja.',
+                    'Incorporez porc en morceaux.',
+                    'Ajoutez ail et échalotes.',
+                    'Mijotez 1 heure avec œufs durs.',
+                    'Servez avec riz et légumes marinés.'
+                ],
+                time: '1h30',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Tempura de Légumes',
+                ingredients: ['Légumes variés', 'Farine tempura', 'Eau glacée', 'Huile de friture', 'Sauce tentsuyu', 'Daikon râpé'],
+                instructions: [
+                    'Préparez une pâte légère avec farine et eau glacée.',
+                    'Coupez légumes en bâtonnets ou rondelles.',
+                    'Trempez dans la pâte et faites frire.',
+                    'Égouttez immédiatement sur papier.',
+                    'Servez très chaud avec sauce.',
+                    'Accompagnez de daikon râpé.'
+                ],
+                time: '25 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Bœuf Satay',
+                ingredients: ['Lamelles de bœuf', 'Lait de coco', 'Curry en poudre', 'Curcuma', 'Ail', 'Sauce cacahuète', 'Concombre'],
+                instructions: [
+                    'Marinez le bœuf dans lait de coco épicé.',
+                    'Enfilez sur brochettes de bambou.',
+                    'Grillez en badigeonnant de marinade.',
+                    'Préparez sauce cacahuète épicée.',
+                    'Servez avec sauce et concombre.',
+                    'Accompagnez de riz gluant.'
+                ],
+                time: '1h + marinade',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Hot Pot Chinois',
+                ingredients: ['Bouillon parfumé', 'Lamelles de bœuf', 'Crevettes', 'Tofu', 'Légumes verts', 'Nouilles', 'Sauces diverses'],
+                instructions: [
+                    'Préparez un bouillon riche et parfumé.',
+                    'Disposez tous les ingrédients crus.',
+                    'Chauffez le bouillon dans un hot pot.',
+                    'Chacun cuit ses ingrédients préférés.',
+                    'Trempez dans sauces personnalisées.',
+                    'Terminez par cuisson des nouilles.'
+                ],
+                time: '1h30',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
             }
         ],
         'dessert': [
@@ -1187,6 +2342,111 @@ const recipeDatabase = {
                 time: '20 minutes',
                 difficulty: 'Facile',
                 servings: '2 verres'
+            },
+            {
+                name: 'Edamame Salé',
+                ingredients: ['Gousses d\'edamame surgelées', 'Gros sel de mer', 'Fleur de sel'],
+                instructions: [
+                    'Portez une grande casserole d\'eau salée à ébullition.',
+                    'Ajoutez les edamame et cuisez 5 minutes.',
+                    'Égouttez et rincez à l\'eau froide.',
+                    'Saupoudrez généreusement de gros sel.',
+                    'Servez tiède ou à température ambiante.',
+                    'Pressez les gousses pour extraire les haricots.'
+                ],
+                time: '10 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Agedashi Tofu',
+                ingredients: ['Tofu ferme', 'Fécule de pomme de terre', 'Bouillon dashi', 'Sauce soja', 'Mirin', 'Gingembre râpé', 'Ciboules'],
+                instructions: [
+                    'Coupez le tofu en cubes et épongez.',
+                    'Enrobez de fécule et faites frire.',
+                    'Préparez une sauce avec dashi, soja et mirin.',
+                    'Disposez le tofu dans des bols.',
+                    'Versez la sauce chaude.',
+                    'Garnissez de gingembre et ciboules.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Nem Rán',
+                ingredients: ['Galettes de riz', 'Porc haché', 'Crevettes', 'Champignons noirs', 'Carottes', 'Vermicelles', 'Huile de friture'],
+                instructions: [
+                    'Réhydratez champignons et vermicelles.',
+                    'Mélangez tous les ingrédients de farce.',
+                    'Garnissez les galettes et roulez serré.',
+                    'Scellez avec blanc d\'œuf.',
+                    'Faites frire jusqu\'à dorure croustillante.',
+                    'Servez avec sauce nuoc-cham.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Difficile',
+                servings: '20 nems'
+            },
+            {
+                name: 'Takoyaki',
+                ingredients: ['Poulpe cuit', 'Farine', 'Dashi', 'Œufs', 'Ciboules', 'Sauce takoyaki', 'Mayonnaise', 'Katsuobushi'],
+                instructions: [
+                    'Préparez une pâte avec farine, dashi et œufs.',
+                    'Chauffez la plaque spéciale takoyaki.',
+                    'Versez pâte et ajoutez poulpe et ciboules.',
+                    'Tournez avec pics pour former des boules.',
+                    'Cuisez jusqu\'à dorure uniforme.',
+                    'Nappez de sauce et décorez.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Difficile',
+                servings: '16 takoyaki'
+            },
+            {
+                name: 'Gua Bao',
+                ingredients: ['Pains bao', 'Poitrine de porc braisée', 'Cacahuètes pilées', 'Coriandre', 'Cornichons taïwanais', 'Sucre'],
+                instructions: [
+                    'Réchauffez les pains bao à la vapeur.',
+                    'Émincez finement le porc braisé.',
+                    'Garnissez chaque pain de viande.',
+                    'Ajoutez cacahuètes, coriandre et cornichons.',
+                    'Saupoudrez légèrement de sucre.',
+                    'Servez immédiatement en street food.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '8 gua bao'
+            },
+            {
+                name: 'Karaage',
+                ingredients: ['Morceaux de poulet', 'Sauce soja', 'Saké', 'Gingembre', 'Ail', 'Fécule de pomme de terre', 'Huile'],
+                instructions: [
+                    'Marinez le poulet dans soja, saké, gingembre et ail.',
+                    'Enrobez de fécule de pomme de terre.',
+                    'Faites frire à 170°C jusqu\'à dorure.',
+                    'Égouttez sur papier absorbant.',
+                    'Servez très chaud avec citron.',
+                    'Accompagnez de mayonnaise japonaise.'
+                ],
+                time: '45 minutes + marinade',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Bánh Mì',
+                ingredients: ['Baguette vietnamienne', 'Pâté', 'Rillettes', 'Cornichons', 'Coriandre', 'Concombre', 'Mayonnaise', 'Sauce soja'],
+                instructions: [
+                    'Coupez la baguette en deux.',
+                    'Tartinez de pâté et mayonnaise.',
+                    'Garnissez de rillettes et cornichons.',
+                    'Ajoutez concombre et coriandre fraîche.',
+                    'Assaisonnez d\'un trait de sauce soja.',
+                    'Servez immédiatement en sandwich.'
+                ],
+                time: '10 minutes',
+                difficulty: 'Facile',
+                servings: '4 bánh mì'
             }
         ]
     },
@@ -1204,6 +2464,111 @@ const recipeDatabase = {
                     'Parsemez de feta et coriandre, servez avec du pain.'
                 ],
                 time: '30 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Börek au Fromage',
+                ingredients: ['Pâte filo', 'Feta', 'Ricotta', 'Œufs', 'Persil', 'Aneth', 'Beurre fondu', 'Lait'],
+                instructions: [
+                    'Mélangez feta écrasée, ricotta et herbes.',
+                    'Battez œufs et incorporez au mélange fromage.',
+                    'Badigeonnez pâte filo de beurre.',
+                    'Alternez couches de pâte et fromage.',
+                    'Arrosez de lait et enfournez 35 minutes.',
+                    'Servez tiède découpé en carrés.'
+                ],
+                time: '1 heure',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Menemen',
+                ingredients: ['Tomates', 'Poivrons verts', 'Œufs', 'Oignon', 'Huile d\'olive', 'Paprika', 'Piment', 'Persil'],
+                instructions: [
+                    'Faites revenir oignon et poivrons.',
+                    'Ajoutez tomates pelées et épices.',
+                    'Laissez réduire 10 minutes.',
+                    'Battez les œufs et versez dans la poêle.',
+                    'Remuez doucement jusqu\'à prise.',
+                    'Parsemez de persil et servez avec pain.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Fattayeh aux Épinards',
+                ingredients: ['Pâte à pizza', 'Épinards', 'Oignon', 'Pignons', 'Sumac', 'Huile d\'olive', 'Citron'],
+                instructions: [
+                    'Faites revenir épinards avec oignon.',
+                    'Ajoutez pignons et sumac.',
+                    'Étalez finement la pâte.',
+                    'Garnissez du mélange d\'épinards.',
+                    'Enfournez 12 minutes à 220°C.',
+                    'Arrosez de citron avant de servir.'
+                ],
+                time: '35 minutes',
+                difficulty: 'Facile',
+                servings: '6 fattayeh'
+            },
+            {
+                name: 'Saganaki',
+                ingredients: ['Fromage kasseri', 'Farine', 'Huile d\'olive', 'Citron', 'Ouzo', 'Poivre'],
+                instructions: [
+                    'Coupez le fromage en tranches épaisses.',
+                    'Farinez légèrement les tranches.',
+                    'Faites dorer dans l\'huile chaude.',
+                    'Flambez à l\'ouzo si désiré.',
+                    'Arrosez de jus de citron.',
+                    'Servez immédiatement avec pain grillé.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Lahmacun',
+                ingredients: ['Pâte fine', 'Agneau haché', 'Tomates', 'Oignon', 'Persil', 'Épices', 'Pâte de tomate'],
+                instructions: [
+                    'Mélangez viande, légumes hachés et épices.',
+                    'Étalez la pâte très finement.',
+                    'Garnissez uniformément de mélange.',
+                    'Enfournez 8 minutes à 250°C.',
+                    'Servez avec persil et citron.',
+                    'Roulez avec légumes frais.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '8 lahmacun'
+            },
+            {
+                name: 'Pita Pain Maison',
+                ingredients: ['Farine', 'Levure', 'Eau tiède', 'Huile d\'olive', 'Sel', 'Sucre'],
+                instructions: [
+                    'Délayez levure dans eau tiède sucrée.',
+                    'Mélangez farine et sel.',
+                    'Ajoutez eau levurée et huile.',
+                    'Pétrissez et laissez lever 1 heure.',
+                    'Formez des boules, aplatissez et enfournez.',
+                    'Cuisez 5 minutes à 240°C pour gonfler.'
+                ],
+                time: '2h + levée',
+                difficulty: 'Intermédiaire',
+                servings: '12 pitas'
+            },
+            {
+                name: 'Œufs à la Grecque',
+                ingredients: ['Œufs', 'Tomates', 'Feta', 'Olives Kalamata', 'Origan', 'Huile d\'olive'],
+                instructions: [
+                    'Faites revenir tomates concassées.',
+                    'Ajoutez olives et origan.',
+                    'Creusez des puits et cassez les œufs.',
+                    'Parsemez de feta émiettée.',
+                    'Couvrez et cuisez jusqu\'à prise des blancs.',
+                    'Servez avec pain grec et huile d\'olive.'
+                ],
+                time: '20 minutes',
                 difficulty: 'Facile',
                 servings: '4 personnes'
             }
@@ -1238,6 +2603,111 @@ const recipeDatabase = {
                 time: '45 minutes',
                 difficulty: 'Difficile',
                 servings: '6 personnes'
+            },
+            {
+                name: 'Pastitsio Grec',
+                ingredients: ['Pâtes tubulaires', 'Agneau haché', 'Béchamel', 'Tomates', 'Oignons', 'Cannelle', 'Fromage grec', 'Huile d\'olive'],
+                instructions: [
+                    'Cuisez les pâtes al dente.',
+                    'Préparez la sauce à l\'agneau épicée.',
+                    'Montez en alternant pâtes et viande.',
+                    'Nappez généreusement de béchamel.',
+                    'Parsemez de fromage râpé.',
+                    'Enfournez 45 minutes à 180°C.'
+                ],
+                time: '1h30',
+                difficulty: 'Difficile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Couscous Royal',
+                ingredients: ['Semoule', 'Agneau', 'Poulet', 'Merguez', 'Légumes variés', 'Pois chiches', 'Harissa', 'Bouillon', 'Épices'],
+                instructions: [
+                    'Préparez un bouillon parfumé avec les viandes.',
+                    'Cuisez les légumes dans le bouillon.',
+                    'Préparez la semoule à la vapeur.',
+                    'Disposez viandes et légumes sur la semoule.',
+                    'Servez avec bouillon et harissa.',
+                    'Accompagnez de légumes marinés.'
+                ],
+                time: '2 heures',
+                difficulty: 'Difficile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Falafel Maison',
+                ingredients: ['Pois chiches', 'Persil', 'Coriandre', 'Oignon', 'Ail', 'Cumin', 'Coriandre moulue', 'Huile de friture'],
+                instructions: [
+                    'Faites tremper les pois chiches 24h.',
+                    'Mixez avec herbes, oignon et épices.',
+                    'Formez des boulettes avec les mains mouillées.',
+                    'Faites frire dans huile chaude.',
+                    'Égouttez sur papier absorbant.',
+                    'Servez avec sauce tahini et pain pita.'
+                ],
+                time: '45 min + trempage',
+                difficulty: 'Intermédiaire',
+                servings: '20 falafels'
+            },
+            {
+                name: 'Dolmades',
+                ingredients: ['Feuilles de vigne', 'Riz', 'Oignons', 'Pignons', 'Raisins secs', 'Herbes fraîches', 'Citron', 'Huile d\'olive'],
+                instructions: [
+                    'Blanchissez les feuilles de vigne.',
+                    'Préparez la farce avec riz et aromates.',
+                    'Garnissez chaque feuille et roulez serré.',
+                    'Disposez dans une casserole.',
+                    'Couvrez d\'eau citronnée et huile.',
+                    'Mijotez 45 minutes à couvert.'
+                ],
+                time: '1h30',
+                difficulty: 'Difficile',
+                servings: '30 dolmades'
+            },
+            {
+                name: 'Seafood Paella',
+                ingredients: ['Riz bomba', 'Fruits de mer', 'Crevettes', 'Moules', 'Safran', 'Ail', 'Tomates', 'Petits pois'],
+                instructions: [
+                    'Préparez un fumet avec têtes de crevettes.',
+                    'Faites revenir ail et tomates.',
+                    'Ajoutez riz et safran.',
+                    'Versez fumet chaud progressivement.',
+                    'Incorporez fruits de mer et petits pois.',
+                    'Cuisez sans remuer 18 minutes.'
+                ],
+                time: '50 minutes',
+                difficulty: 'Difficile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Lamb Kofta',
+                ingredients: ['Agneau haché', 'Oignon', 'Persil', 'Menthe', 'Cumin', 'Coriandre', 'Cannelle', 'Yaourt grec'],
+                instructions: [
+                    'Mélangez viande, herbes et épices.',
+                    'Formez des boulettes allongées.',
+                    'Enfilez sur brochettes.',
+                    'Grillez en retournant régulièrement.',
+                    'Préparez sauce au yaourt.',
+                    'Servez avec pain pita et salade.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Facile',
+                servings: '12 brochettes'
+            },
+            {
+                name: 'Spanakopita',
+                ingredients: ['Épinards', 'Feta', 'Ricotta', 'Œufs', 'Pâte filo', 'Oignon', 'Aneth', 'Beurre fondu'],
+                instructions: [
+                    'Faites revenir épinards avec oignon.',
+                    'Mélangez avec fromages, œufs et aneth.',
+                    'Badigeonnez pâte filo de beurre.',
+                    'Alternez couches de pâte et farce.',
+                    'Enfournez 40 minutes à 180°C.',
+                    'Laissez reposer avant de découper.'
+                ],
+                time: '1h15',
+                difficulty: 'Intermédiaire',
+                servings: '10 personnes'
             }
         ],
         'dîner': [
@@ -1253,6 +2723,111 @@ const recipeDatabase = {
                     'Parsemez d\'amandes et servez avec semoule.'
                 ],
                 time: '2h15',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Loup de Mer en Croûte de Sel',
+                ingredients: ['1 loup entier', 'Gros sel', 'Blancs d\'œufs', 'Herbes de Provence', 'Citron', 'Huile d\'olive'],
+                instructions: [
+                    'Mélangez sel et blancs d\'œufs.',
+                    'Farcissez le poisson d\'herbes.',
+                    'Enrobez complètement de croûte de sel.',
+                    'Enfournez 35 minutes à 200°C.',
+                    'Cassez la croûte devant les convives.',
+                    'Servez avec citron et huile d\'olive.'
+                ],
+                time: '1 heure',
+                difficulty: 'Difficile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Rouget aux Olives',
+                ingredients: ['Filets de rouget', 'Olives noires', 'Tomates cerises', 'Basilic', 'Ail', 'Vin blanc', 'Huile d\'olive'],
+                instructions: [
+                    'Poêlez les filets côté peau.',
+                    'Réservez et faites revenir ail et tomates.',
+                    'Déglacez au vin blanc.',
+                    'Ajoutez olives et basilic.',
+                    'Remettez le poisson 2 minutes.',
+                    'Servez avec la compotée d\'olives.'
+                ],
+                time: '25 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Souvlaki de Porc',
+                ingredients: ['Échine de porc', 'Citron', 'Origan', 'Ail', 'Huile d\'olive', 'Pain pita', 'Tzatziki', 'Oignons rouges'],
+                instructions: [
+                    'Marinez la viande 2 heures.',
+                    'Coupez en cubes et enfilez sur brochettes.',
+                    'Grillez à feu vif 12 minutes.',
+                    'Réchauffez le pain pita.',
+                    'Garnissez de viande, tzatziki et oignons.',
+                    'Servez avec salade grecque.'
+                ],
+                time: '30 min + marinade',
+                difficulty: 'Facile',
+                servings: '8 brochettes'
+            },
+            {
+                name: 'Tagine de Poisson',
+                ingredients: ['Poisson blanc', 'Tomates', 'Olives vertes', 'Citrons confits', 'Coriandre', 'Persil', 'Gingembre', 'Safran'],
+                instructions: [
+                    'Disposez légumes dans le tagine.',
+                    'Posez les morceaux de poisson dessus.',
+                    'Assaisonnez avec épices et herbes.',
+                    'Ajoutez olives et citrons confits.',
+                    'Cuisez 25 minutes à feu doux.',
+                    'Parsemez de coriandre fraîche.'
+                ],
+                time: '40 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Branzino à la Plancha',
+                ingredients: ['Bar entier', 'Thym', 'Romarin', 'Citron', 'Huile d\'olive', 'Fleur de sel', 'Poivre'],
+                instructions: [
+                    'Incisez le poisson et farcissez d\'herbes.',
+                    'Badigeonnez d\'huile d\'olive.',
+                    'Cuisez sur plancha très chaude.',
+                    'Retournez une seule fois.',
+                    'Arrosez de citron en fin de cuisson.',
+                    'Servez avec fleur de sel.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Mechoui d\'Agneau',
+                ingredients: ['Gigot d\'agneau', 'Ras el hanout', 'Ail', 'Beurre', 'Miel', 'Menthe fraîche'],
+                instructions: [
+                    'Piquez l\'agneau d\'ail.',
+                    'Badigeonnez de beurre aux épices.',
+                    'Rôtissez à la broche ou au four.',
+                    'Arrosez de miel en fin de cuisson.',
+                    'Laissez reposer 15 minutes.',
+                    'Parsemez de menthe avant service.'
+                ],
+                time: '2 heures',
+                difficulty: 'Difficile',
+                servings: '10 personnes'
+            },
+            {
+                name: 'Salade de Poulpe',
+                ingredients: ['Poulpe', 'Pommes de terre', 'Olives', 'Tomates cerises', 'Câpres', 'Persil', 'Citron', 'Huile d\'olive'],
+                instructions: [
+                    'Cuisez le poulpe 45 minutes.',
+                    'Laissez refroidir et coupez en morceaux.',
+                    'Cuisez pommes de terre en robe.',
+                    'Mélangez tous les ingrédients.',
+                    'Assaisonnez généreusement.',
+                    'Laissez mariner 1 heure avant service.'
+                ],
+                time: '1h30 + marinade',
                 difficulty: 'Intermédiaire',
                 servings: '6 personnes'
             }
@@ -1349,6 +2924,111 @@ const recipeDatabase = {
                 time: '15 minutes',
                 difficulty: 'Facile',
                 servings: '6 personnes'
+            },
+            {
+                name: 'Baba Ganoush',
+                ingredients: ['2 aubergines', 'Tahini', 'Citron', 'Ail', 'Persil', 'Huile d\'olive', 'Grenade'],
+                instructions: [
+                    'Grillez aubergines jusqu\'à chair tendre.',
+                    'Récupérez la pulpe et mixez.',
+                    'Ajoutez tahini, citron et ail.',
+                    'Assaisonnez et fouettez.',
+                    'Garnissez de persil et graines de grenade.',
+                    'Servez avec pain grillé.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Facile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Tapenade d\'Olives',
+                ingredients: ['Olives noires', 'Câpres', 'Anchois', 'Ail', 'Huile d\'olive', 'Cognac', 'Pain de campagne'],
+                instructions: [
+                    'Dénoyautez les olives.',
+                    'Mixez avec câpres, anchois et ail.',
+                    'Incorporez huile et cognac.',
+                    'Obtenez une pâte grossière.',
+                    'Tartinez sur pain grillé.',
+                    'Décorez de tomates cerises.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '8 tartines'
+            },
+            {
+                name: 'Kibbeh Frites',
+                ingredients: ['Boulgour', 'Agneau haché', 'Oignons', 'Pignons', 'Épices libanaises', 'Huile de friture'],
+                instructions: [
+                    'Préparez la pâte avec boulgour et viande.',
+                    'Formez des boulettes creuses.',
+                    'Garnissez de farce aux pignons.',
+                    'Refermez en forme ovale.',
+                    'Faites frire jusqu\'à dorure.',
+                    'Servez chaud avec yaourt.'
+                ],
+                time: '1 heure',
+                difficulty: 'Difficile',
+                servings: '20 kibbeh'
+            },
+            {
+                name: 'Börek Feuilleté',
+                ingredients: ['Pâte filo', 'Épinards', 'Feta', 'Ricotta', 'Œuf', 'Beurre fondu', 'Graines de nigelle'],
+                instructions: [
+                    'Mélangez épinards, fromages et œuf.',
+                    'Badigeonnez pâte filo de beurre.',
+                    'Garnissez et roulez en cigares.',
+                    'Disposez sur plaque beurrée.',
+                    'Parsemez de graines de nigelle.',
+                    'Enfournez 20 minutes à 180°C.'
+                ],
+                time: '40 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '15 börek'
+            },
+            {
+                name: 'Mezze Assortiment',
+                ingredients: ['Houmous', 'Tapenade', 'Fromage de chèvre', 'Olives', 'Tomates séchées', 'Pain pita', 'Figues'],
+                instructions: [
+                    'Disposez harmonieusement tous les éléments.',
+                    'Variez textures et couleurs.',
+                    'Ajoutez pain pita grillé.',
+                    'Garnissez d\'olives et figues.',
+                    'Arrosez d\'huile d\'olive.',
+                    'Servez à température ambiante.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Facile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Pita Chips Épicés',
+                ingredients: ['Pain pita', 'Huile d\'olive', 'Za\'atar', 'Sumac', 'Sel de mer', 'Paprika'],
+                instructions: [
+                    'Coupez pita en triangles.',
+                    'Badigeonnez d\'huile d\'olive.',
+                    'Mélangez épices et sel.',
+                    'Saupoudrez sur le pain.',
+                    'Enfournez 10 minutes à 200°C.',
+                    'Servez croustillant avec dips.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Sambousek',
+                ingredients: ['Pâte à chaussons', 'Épinards', 'Fromage akkawi', 'Oignon', 'Sumac', 'Pignons', 'Huile'],
+                instructions: [
+                    'Faites revenir épinards et oignon.',
+                    'Mélangez avec fromage et pignons.',
+                    'Garnissez pâte et formez chaussons.',
+                    'Scellez bords à la fourchette.',
+                    'Faites frire jusqu\'à dorure.',
+                    'Servez chaud avec citron.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '20 sambousek'
             }
         ]
     },
@@ -1368,6 +3048,111 @@ const recipeDatabase = {
                 time: '25 minutes',
                 difficulty: 'Facile',
                 servings: '4 personnes'
+            },
+            {
+                name: 'Chilaquiles Verdes',
+                ingredients: ['Tortillas frites', 'Salsa verde', 'Crème fraîche', 'Fromage frais', 'Oignon rouge', 'Œufs', 'Avocat'],
+                instructions: [
+                    'Chauffez salsa verde dans une poêle.',
+                    'Ajoutez tortillas et mélangez délicatement.',
+                    'Laissez absorber 5 minutes.',
+                    'Garnissez de crème et fromage.',
+                    'Ajoutez œuf poché si désiré.',
+                    'Servez avec avocat et oignon.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Quesadillas aux Champignons',
+                ingredients: ['Tortillas de blé', 'Champignons variés', 'Fromage Oaxaca', 'Épazote', 'Oignon', 'Beurre'],
+                instructions: [
+                    'Faites revenir champignons et oignon.',
+                    'Assaisonnez avec épazote.',
+                    'Garnissez tortilla de fromage et champignons.',
+                    'Refermez et cuisez dans poêle beurrée.',
+                    'Retournez quand doré.',
+                    'Coupez en quartiers et servez chaud.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Facile',
+                servings: '4 quesadillas'
+            },
+            {
+                name: 'Pan Dulce Mexicain',
+                ingredients: ['Farine', 'Levure', 'Sucre', 'Beurre', 'Œufs', 'Lait', 'Vanille', 'Pâte streusel'],
+                instructions: [
+                    'Préparez une pâte levée sucrée.',
+                    'Laissez lever 2 heures.',
+                    'Formez des boules de pâte.',
+                    'Garnissez de pâte streusel colorée.',
+                    'Laissez lever 1 heure.',
+                    'Enfournez 18 minutes à 180°C.'
+                ],
+                time: '4h + levée',
+                difficulty: 'Difficile',
+                servings: '12 pains'
+            },
+            {
+                name: 'Café de Olla',
+                ingredients: ['Café moulu', 'Cannelle', 'Piloncillo', 'Eau', 'Clous de girofle'],
+                instructions: [
+                    'Portez eau à ébullition avec épices.',
+                    'Ajoutez piloncillo et laissez fondre.',
+                    'Incorporez café moulu.',
+                    'Laissez infuser 5 minutes.',
+                    'Filtrez et servez très chaud.',
+                    'Accompagnez de pan dulce.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '4 tasses'
+            },
+            {
+                name: 'Molletes',
+                ingredients: ['Bolillos', 'Haricots refritos', 'Fromage Oaxaca', 'Pico de gallo', 'Avocat', 'Piment chipotle'],
+                instructions: [
+                    'Coupez bolillos en deux.',
+                    'Étalez haricots refritos.',
+                    'Parsemez généreusement de fromage.',
+                    'Gratinez jusqu\'à fonte du fromage.',
+                    'Garnissez de pico de gallo.',
+                    'Servez avec avocat et chipotle.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '4 molletes'
+            },
+            {
+                name: 'Agua Fresca de Jamaica',
+                ingredients: ['Fleurs d\'hibiscus', 'Eau', 'Sucre', 'Citron vert', 'Glace'],
+                instructions: [
+                    'Faites bouillir eau avec hibiscus.',
+                    'Laissez infuser 20 minutes.',
+                    'Filtrez et sucrez selon goût.',
+                    'Ajoutez jus de citron vert.',
+                    'Servez sur glace.',
+                    'Décorez de rondelles de citron.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Facile',
+                servings: '1 litre'
+            },
+            {
+                name: 'Tamales de Dulce',
+                ingredients: ['Masa harina', 'Saindoux', 'Sucre', 'Raisins secs', 'Ananas', 'Cannelle', 'Feuilles de maïs'],
+                instructions: [
+                    'Battez saindoux jusqu\'à blanchiment.',
+                    'Incorporez masa, sucre et cannelle.',
+                    'Ajoutez fruits et raisins.',
+                    'Garnissez feuilles de maïs.',
+                    'Formez tamales et ficellez.',
+                    'Cuisez à vapeur 1 heure.'
+                ],
+                time: '2 heures',
+                difficulty: 'Difficile',
+                servings: '20 tamales'
             }
         ],
         'déjeuner': [
@@ -1400,6 +3185,111 @@ const recipeDatabase = {
                 time: '1 heure',
                 difficulty: 'Difficile',
                 servings: '4 personnes'
+            },
+            {
+                name: 'Pozole Rojo',
+                ingredients: ['Porc', 'Maïs hominy', 'Piments guajillo', 'Piments ancho', 'Ail', 'Oignon', 'Origan', 'Chou', 'Radis', 'Lime'],
+                instructions: [
+                    'Cuisez le porc 2 heures dans l\'eau.',
+                    'Préparez sauce rouge avec piments grillés.',
+                    'Ajoutez maïs et sauce au bouillon.',
+                    'Effilochez la viande et remettez.',
+                    'Mijotez 30 minutes.',
+                    'Servez avec garnitures fraîches.'
+                ],
+                time: '3 heures',
+                difficulty: 'Difficile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Enchiladas Verdes',
+                ingredients: ['Tortillas', 'Poulet', 'Salsa verde', 'Crème', 'Fromage frais', 'Oignon', 'Coriandre'],
+                instructions: [
+                    'Effilochez le poulet cuit.',
+                    'Réchauffez tortillas dans salsa verde.',
+                    'Garnissez de poulet et roulez.',
+                    'Disposez dans plat et nappez de salsa.',
+                    'Parsemez de fromage et crème.',
+                    'Gratinez 15 minutes au four.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Carnitas de Michoacán',
+                ingredients: ['Échine de porc', 'Saindoux', 'Orange', 'Lait', 'Cannelle', 'Laurier', 'Sel'],
+                instructions: [
+                    'Coupez porc en gros morceaux.',
+                    'Cuisez dans saindoux avec aromates.',
+                    'Laissez confire 3 heures doucement.',
+                    'Augmentez feu pour dorer.',
+                    'Effilochez la viande.',
+                    'Servez avec tortillas et salsa.'
+                ],
+                time: '3h30',
+                difficulty: 'Difficile',
+                servings: '10 personnes'
+            },
+            {
+                name: 'Sopa de Tortilla',
+                ingredients: ['Bouillon de poule', 'Tortillas', 'Tomates', 'Oignon', 'Ail', 'Piments chipotle', 'Avocat', 'Fromage', 'Crème'],
+                instructions: [
+                    'Faites frire tortillas en lanières.',
+                    'Préparez base avec tomates et oignon.',
+                    'Ajoutez bouillon et piments chipotle.',
+                    'Mijotez 20 minutes.',
+                    'Disposez tortillas dans bols.',
+                    'Versez soupe et garnissez.'
+                ],
+                time: '40 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Cochinita Pibil',
+                ingredients: ['Épaule de porc', 'Achiote', 'Orange amère', 'Ail', 'Cumin', 'Feuilles de bananier', 'Oignon rouge mariné'],
+                instructions: [
+                    'Marinez porc 24h dans pâte d\'achiote.',
+                    'Enveloppez dans feuilles de bananier.',
+                    'Cuisez 4 heures au four ou enterré.',
+                    'Effilochez la viande tendre.',
+                    'Préparez oignon rouge mariné.',
+                    'Servez avec tortillas et habanero.'
+                ],
+                time: '4h + marinade',
+                difficulty: 'Très difficile',
+                servings: '12 personnes'
+            },
+            {
+                name: 'Quesabirria',
+                ingredients: ['Viande de birria', 'Fromage Oaxaca', 'Tortillas', 'Consommé', 'Oignon', 'Coriandre', 'Lime'],
+                instructions: [
+                    'Trempez tortilla dans gras de birria.',
+                    'Garnissez de viande et fromage.',
+                    'Pliez et cuisez jusqu\'à croustillant.',
+                    'Retournez délicatement.',
+                    'Servez avec consommé chaud.',
+                    'Garnissez d\'oignon et coriandre.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '8 quesabirria'
+            },
+            {
+                name: 'Pescado a la Veracruzana',
+                ingredients: ['Poisson blanc', 'Tomates', 'Olives', 'Câpres', 'Piments jalapeños', 'Oignon', 'Ail', 'Laurier'],
+                instructions: [
+                    'Poêlez filets de poisson.',
+                    'Réservez et préparez sauce.',
+                    'Faites revenir oignon et ail.',
+                    'Ajoutez tomates, olives et câpres.',
+                    'Remettez poisson 10 minutes.',
+                    'Servez avec riz blanc.'
+                ],
+                time: '35 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
             }
         ],
         'dîner': [
