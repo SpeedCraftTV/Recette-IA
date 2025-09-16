@@ -11,6 +11,77 @@ body {
     color: #333;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     min-height: 100vh;
+    padding-bottom: 80px; /* Space for mobile quick actions */
+}
+
+/* Accessibility improvements */
+.visually-hidden {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 6px;
+    background: #000;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 4px;
+    z-index: 1000;
+    transition: top 0.3s;
+}
+
+.skip-link:focus {
+    top: 6px;
+}
+
+/* Focus styles */
+*:focus-visible {
+    outline: 2px solid #4CAF50;
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+/* Locale switcher */
+.locale-switcher {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    display: flex;
+    gap: 5px;
+}
+
+.locale-btn {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.locale-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.05);
+}
+
+.locale-btn.active {
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
 }
 
 .container {
@@ -476,6 +547,89 @@ footer {
     margin-top: 40px;
     color: white;
     opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Analytics opt-in button */
+.analytics-btn {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    width: auto;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.analytics-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.05);
+}
+
+.analytics-btn.active {
+    background: #4CAF50;
+    border-color: #4CAF50;
+}
+
+/* Mobile quick actions */
+.mobile-quick-actions {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1000;
+}
+
+.quick-action-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quick-action-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
+/* Hide quick actions on desktop */
+@media (min-width: 769px) {
+    .mobile-quick-actions {
+        display: none;
+    }
+}
+
+/* Fieldset styling for accessibility */
+fieldset {
+    border: 1px solid #e1e5e9;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0;
+}
+
+legend {
+    font-weight: 600;
+    color: #555;
+    padding: 0 10px;
 }
 
 /* Responsive design */
@@ -515,6 +669,16 @@ footer {
         flex-direction: column;
         gap: 15px;
     }
+    
+    .locale-switcher {
+        top: 10px;
+        right: 10px;
+    }
+    
+    .locale-btn {
+        padding: 6px 10px;
+        font-size: 0.8rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -532,5 +696,16 @@ footer {
     .form-container h2,
     .recipe-container h2 {
         font-size: 1.5rem;
+    }
+    
+    .quick-action-btn {
+        width: 45px;
+        height: 45px;
+        font-size: 1rem;
+    }
+    
+    .mobile-quick-actions {
+        bottom: 15px;
+        right: 15px;
     }
 }
