@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recette-IA - Générateur de Recettes par IA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🍳 Recette-IA</h1>
+            <p>Générez des recettes délicieuses avec l'intelligence artificielle</p>
+        </header>
+
+        <main>
+            <section class="generator-section">
+                <div class="form-container">
+                    <h2>Créer une nouvelle recette</h2>
+                    <form id="recipe-form">
+                        <div class="form-group">
+                            <label for="cuisine-type">Type de cuisine :</label>
+                            <select id="cuisine-type" name="cuisineType">
+                                <option value="française">Française</option>
+                                <option value="italienne">Italienne</option>
+                                <option value="asiatique">Asiatique</option>
+                                <option value="méditerranéenne">Méditerranéenne</option>
+                                <option value="mexicaine">Mexicaine</option>
+                                <option value="indienne">Indienne</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="meal-type">Type de repas :</label>
+                            <select id="meal-type" name="mealType">
+                                <option value="petit-déjeuner">Petit-déjeuner</option>
+                                <option value="déjeuner">Déjeuner</option>
+                                <option value="dîner">Dîner</option>
+                                <option value="dessert">Dessert</option>
+                                <option value="collation">Collation</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="dietary-restrictions">Restrictions alimentaires :</label>
+                            <select id="dietary-restrictions" name="dietaryRestrictions">
+                                <option value="aucune">Aucune</option>
+                                <option value="végétarien">Végétarien</option>
+                                <option value="végétalien">Végétalien</option>
+                                <option value="sans-gluten">Sans gluten</option>
+                                <option value="sans-lactose">Sans lactose</option>
+                                <option value="cétogène">Cétogène</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cooking-time">Temps de cuisson souhaité :</label>
+                            <select id="cooking-time" name="cookingTime">
+                                <option value="rapide">Rapide (moins de 30 min)</option>
+                                <option value="moyen">Moyen (30-60 min)</option>
+                                <option value="long">Long (plus d'1 heure)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="ingredients">Ingrédients disponibles (optionnel) :</label>
+                            <input type="text" id="ingredients" name="ingredients" 
+                                   placeholder="Ex: tomates, basilic, mozzarella...">
+                        </div>
+
+                        <button type="submit" id="generate-btn">
+                            <span class="btn-text">Générer une recette</span>
+                            <span class="loading" style="display: none;">Génération en cours...</span>
+                        </button>
+                    </form>
+                </div>
+            </section>
+
+            <section class="recipe-section" id="recipe-section" style="display: none;">
+                <div class="recipe-container">
+                    <h2>Votre recette générée</h2>
+                    <div id="recipe-content">
+                        <!-- Recipe content will be inserted here -->
+                    </div>
+                    <button id="new-recipe-btn" class="secondary-btn">Générer une nouvelle recette</button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Recette-IA - Propulsé par l'intelligence artificielle</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
