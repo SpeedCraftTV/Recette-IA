@@ -3541,6 +3541,141 @@ export const recipeDatabase = {
                 time: '25 minutes',
                 difficulty: 'Facile',
                 servings: '4 personnes'
+            },
+            {
+                name: 'Chilaquiles Verdes',
+                ingredients: ['Tortillas frites', 'Salsa verde', 'Crème fraîche', 'Fromage frais', 'Oignon rouge', 'Coriandre', 'Œufs frits', 'Avocat'],
+                instructions: [
+                    'Préparez salsa verde avec tomatillos.',
+                    'Réchauffez tortillas frites dans salsa.',
+                    'Disposez dans assiettes chaudes.',
+                    'Couronnez d\'œufs frits.',
+                    'Ajoutez crème et fromage émietté.',
+                    'Garnissez d\'avocat et coriandre.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Molletes Mexicains',
+                ingredients: ['Petits pains bolillo', 'Haricots refritos', 'Fromage Oaxaca', 'Pico de gallo', 'Avocat', 'Piment serrano', 'Lime'],
+                instructions: [
+                    'Coupez pains en deux et grillez.',
+                    'Étalez couche généreuse de haricots.',
+                    'Parsemez de fromage râpé.',
+                    'Gratinez jusqu\'à fromage fondu.',
+                    'Servez avec pico de gallo frais.',
+                    'Accompagnez d\'avocat et lime.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Machaca con Huevos',
+                ingredients: ['Bœuf séché effiloché', '6 œufs', 'Tomates', 'Oignons', 'Piments serranos', 'Tortillas de farine', 'Fromage'],
+                instructions: [
+                    'Réhydratez légèrement la machaca.',
+                    'Faites revenir avec légumes hachés.',
+                    'Scramlez les œufs avec le mélange.',
+                    'Cuisez jusqu\'à œufs pris.',
+                    'Servez avec tortillas chaudes.',
+                    'Garnissez de fromage et herbes.'
+                ],
+                time: '25 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Tamales de Dulce',
+                ingredients: ['Masa harina', 'Saindoux', 'Sucre', 'Raisins secs', 'Ananas', 'Cannelle', 'Feuilles de maïs', 'Colorant rose'],
+                instructions: [
+                    'Préparez masa sucrée avec saindoux.',
+                    'Ajoutez fruits et épices.',
+                    'Colorez délicatement en rose.',
+                    'Étalez sur feuilles de maïs trempées.',
+                    'Roulez et attachez soigneusement.',
+                    'Cuisez à la vapeur 1 heure.'
+                ],
+                time: '2 heures + trempage',
+                difficulty: 'Difficile',
+                servings: '12 tamales'
+            },
+            {
+                name: 'Quesadillas de Flor de Calabaza',
+                ingredients: ['Tortillas fraîches', 'Fleurs de courgette', 'Fromage Oaxaca', 'Épazote', 'Oignon', 'Beurre'],
+                instructions: [
+                    'Nettoyez et hachez fleurs de courgette.',
+                    'Faites revenir avec oignon et épazote.',
+                    'Garnissez tortillas de fromage et fleurs.',
+                    'Pliez et cuisez dans poêle beurrée.',
+                    'Retournez délicatement à mi-cuisson.',
+                    'Servez immédiatement bien chaudes.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Café de Olla',
+                ingredients: ['Café moulu grossier', 'Cannelle en bâton', 'Piloncillo (sucre de canne)', 'Clous de girofle', 'Zeste d\'orange'],
+                instructions: [
+                    'Portez eau à ébullition avec épices.',
+                    'Ajoutez piloncillo et laissez fondre.',
+                    'Incorporez café moulu.',
+                    'Laissez infuser 5 minutes sans bouillir.',
+                    'Filtrez et servez dans tasses en terre.',
+                    'Accompagnez de pain dulce.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '4 tasses'
+            },
+            {
+                name: 'Gorditas de Nata',
+                ingredients: ['Masa harina', 'Crème fraîche épaisse', 'Sucre', 'Levure', 'Œuf', 'Sel', 'Huile de friture'],
+                instructions: [
+                    'Mélangez masa, crème et œuf.',
+                    'Ajoutez sucre, levure et sel.',
+                    'Formez pâte homogène et laissez reposer.',
+                    'Façonnez petites galettes épaisses.',
+                    'Faites frire jusqu\'à gonflement doré.',
+                    'Servez chaudes saupoudrées de sucre.'
+                ],
+                time: '45 minutes + repos',
+                difficulty: 'Intermédiaire',
+                servings: '8 gorditas'
+            },
+            {
+                name: 'Licuado de Frutas',
+                ingredients: ['Mangue', 'Banane', 'Fraises', 'Lait', 'Sucre', 'Glace', 'Cannelle'],
+                instructions: [
+                    'Coupez fruits en morceaux.',
+                    'Mixez avec lait et sucre.',
+                    'Ajoutez glace pour texture onctueuse.',
+                    'Saupoudrez de cannelle.',
+                    'Servez dans grands verres.',
+                    'Décorez de fruits frais.'
+                ],
+                time: '10 minutes',
+                difficulty: 'Facile',
+                servings: '4 verres'
+            },
+            {
+                name: 'Pan Tostado con Frijoles',
+                ingredients: ['Pain artisanal', 'Haricots noirs', 'Avocat', 'Fromage frais', 'Tomate', 'Coriandre', 'Lime', 'Piment'],
+                instructions: [
+                    'Grillez tranches de pain.',
+                    'Réchauffez haricots avec épices.',
+                    'Écrasez avocat avec lime.',
+                    'Étalez haricots sur pain grillé.',
+                    'Ajoutez avocat et fromage émietté.',
+                    'Garnissez de tomate et coriandre.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
             }
         ],
         'déjeuner': [
@@ -3573,6 +3708,126 @@ export const recipeDatabase = {
                 time: '1 heure',
                 difficulty: 'Difficile',
                 servings: '4 personnes'
+            },
+            {
+                name: 'Pozole Rojo',
+                ingredients: ['Maïs hominy', 'Porc à braiser', 'Piments guajillo', 'Piments ancho', 'Ail', 'Oignon', 'Origan', 'Radis', 'Chou', 'Lime'],
+                instructions: [
+                    'Cuisez porc dans bouillon aromatisé 2 heures.',
+                    'Préparez sauce rouge avec piments grillés.',
+                    'Ajoutez maïs hominy égoutté.',
+                    'Incorporez sauce rouge et mijotez.',
+                    'Effilochez viande et remettez.',
+                    'Servez avec garnitures fraîches.'
+                ],
+                time: '3 heures',
+                difficulty: 'Difficile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Enchiladas Verdes',
+                ingredients: ['Tortillas de maïs', 'Poulet cuit', 'Salsa verde', 'Crème fraîche', 'Fromage frais', 'Oignon blanc', 'Coriandre'],
+                instructions: [
+                    'Préparez salsa verde avec tomatillos.',
+                    'Réchauffez tortillas et garnissez de poulet.',
+                    'Roulez et disposez dans plat.',
+                    'Nappez généreusement de salsa verde.',
+                    'Parsemez de fromage et crème.',
+                    'Gratinez légèrement et garnissez d\'herbes.'
+                ],
+                time: '40 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Mole Poblano',
+                ingredients: ['1 poulet', '6 piments différents', 'Chocolat noir', 'Graines de sésame', 'Amandes', 'Raisins secs', 'Tomates', 'Oignon', 'Ail', '20 épices différentes'],
+                instructions: [
+                    'Grillez et réhydratez tous les piments.',
+                    'Toastez graines, noix et épices séparément.',
+                    'Mixez tous les ingrédients avec un peu de bouillon.',
+                    'Passez au tamis pour une texture lisse.',
+                    'Mijotez la sauce 2 heures en remuant.',
+                    'Servez le poulet nappé de mole avec riz.'
+                ],
+                time: '4 heures',
+                difficulty: 'Très difficile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Carnitas Michoacanas',
+                ingredients: ['2kg de porc (épaule)', 'Saindoux', 'Orange', 'Lait', 'Cannelle', 'Laurier', 'Thym', 'Tortillas', 'Salsa verde'],
+                instructions: [
+                    'Coupez porc en gros morceaux.',
+                    'Confisez dans saindoux avec aromates.',
+                    'Cuisez 2 heures à feu très doux.',
+                    'Montez feu pour caraméliser.',
+                    'Effilochez viande croustillante.',
+                    'Servez avec tortillas et salsa.'
+                ],
+                time: '2h30',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Tostadas de Ceviche',
+                ingredients: ['Tortillas frites', 'Poisson blanc frais', 'Lime', 'Tomates', 'Oignon rouge', 'Coriandre', 'Avocat', 'Piment serrano'],
+                instructions: [
+                    'Coupez poisson en petits dés.',
+                    'Marinez dans jus de lime 2 heures.',
+                    'Mélangez avec légumes hachés fins.',
+                    'Assaisonnez avec sel et piment.',
+                    'Garnissez tostadas croustillantes.',
+                    'Décorez d\'avocat et coriandre.'
+                ],
+                time: '30 min + 2h marinade',
+                difficulty: 'Facile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Cochinita Pibil',
+                ingredients: ['Porc (épaule)', 'Achiote', 'Orange amère', 'Feuilles de bananier', 'Oignon rouge mariné', 'Habanero', 'Tortillas'],
+                instructions: [
+                    'Marinez porc dans pâte d\'achiote 24h.',
+                    'Enveloppez dans feuilles de bananier.',
+                    'Cuisez au four 4 heures à 150°C.',
+                    'Effilochez viande tendre.',
+                    'Servez avec oignon mariné.',
+                    'Accompagnez de tortillas chaudes.'
+                ],
+                time: '4h + 24h marinade',
+                difficulty: 'Difficile',
+                servings: '10 personnes'
+            },
+            {
+                name: 'Sopa de Tortilla',
+                ingredients: ['Bouillon de poulet', 'Tortillas frites', 'Tomates', 'Oignon', 'Ail', 'Piment chipotle', 'Avocat', 'Fromage frais', 'Crème'],
+                instructions: [
+                    'Préparez base avec tomates grillées.',
+                    'Mixez avec bouillon et chipotle.',
+                    'Portez à ébullition et mijotez.',
+                    'Disposez tortillas frites dans bols.',
+                    'Versez soupe chaude par-dessus.',
+                    'Garnissez avocat, fromage et crème.'
+                ],
+                time: '35 minutes',
+                difficulty: 'Facile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Tamales de Rajas con Queso',
+                ingredients: ['Masa harina', 'Saindoux', 'Bouillon', 'Piments poblanos', 'Fromage Monterrey', 'Crème', 'Feuilles de maïs'],
+                instructions: [
+                    'Préparez masa avec saindoux et bouillon.',
+                    'Grillez poblanos et coupez en rajas.',
+                    'Mélangez avec fromage et crème.',
+                    'Étalez masa sur feuilles trempées.',
+                    'Garnissez et roulez soigneusement.',
+                    'Cuisez à la vapeur 90 minutes.'
+                ],
+                time: '3 heures + trempage',
+                difficulty: 'Très difficile',
+                servings: '20 tamales'
             }
         ],
         'dîner': [
@@ -3589,6 +3844,141 @@ export const recipeDatabase = {
                 ],
                 time: '4 heures',
                 difficulty: 'Très difficile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Pescado a la Veracruzana',
+                ingredients: ['Poisson entier (huachinango)', 'Tomates', 'Olives vertes', 'Câpres', 'Oignon', 'Ail', 'Laurier', 'Piments jalapeños', 'Persil'],
+                instructions: [
+                    'Farinez et saisissez le poisson.',
+                    'Préparez sofrito avec légumes.',
+                    'Ajoutez tomates, olives et câpres.',
+                    'Placez poisson dans sauce.',
+                    'Mijotez 20 minutes à couvert.',
+                    'Servez garni de persil frais.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Barbacoa de Borrego',
+                ingredients: ['Agneau (épaule)', 'Feuilles d\'agave', 'Piments chipotle', 'Ail', 'Cumin', 'Origan', 'Vinaigre', 'Tortillas', 'Salsa verde'],
+                instructions: [
+                    'Marinez agneau dans épices et vinaigre.',
+                    'Enveloppez dans feuilles d\'agave.',
+                    'Cuisez dans trou de terre traditionnel.',
+                    'Ou au four 6 heures à 140°C.',
+                    'Effilochez viande fondante.',
+                    'Servez avec tortillas et salsa.'
+                ],
+                time: '6h + marinade',
+                difficulty: 'Très difficile',
+                servings: '12 personnes'
+            },
+            {
+                name: 'Chiles en Nogada',
+                ingredients: ['Piments poblanos', 'Viande hachée', 'Fruits', 'Sauce aux noix', 'Graines de grenade', 'Persil', 'Fromage frais'],
+                instructions: [
+                    'Grillez et pelez poblanos soigneusement.',
+                    'Préparez farce sucrée-salée.',
+                    'Farcissez piments délicatement.',
+                    'Préparez sauce blanche aux noix.',
+                    'Nappez piments de sauce froide.',
+                    'Décorez grenade et persil (couleurs du drapeau).'
+                ],
+                time: '2 heures',
+                difficulty: 'Très difficile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Mixiotes de Cordero',
+                ingredients: ['Agneau en morceaux', 'Piments guajillo', 'Ail', 'Cumin', 'Origan', 'Vinaigre', 'Papier mixiote', 'Nopal'],
+                instructions: [
+                    'Préparez adobo avec piments et épices.',
+                    'Marinez agneau 4 heures.',
+                    'Enveloppez dans papier mixiote.',
+                    'Cuisez à la vapeur 2 heures.',
+                    'Ouvrez papillotes à table.',
+                    'Servez avec tortillas et nopal.'
+                ],
+                time: '2h30 + marinade',
+                difficulty: 'Difficile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Cabrito en Salsa Verde',
+                ingredients: ['Cabrito (chevreau)', 'Tomatillos', 'Piments serranos', 'Coriandre', 'Oignon', 'Ail', 'Bouillon', 'Épazote'],
+                instructions: [
+                    'Coupez cabrito en morceaux.',
+                    'Grillez tomatillos et piments.',
+                    'Mixez avec herbes et bouillon.',
+                    'Saisissez viande puis ajoutez sauce.',
+                    'Mijotez 1h30 avec épazote.',
+                    'Servez avec haricots et tortillas.'
+                ],
+                time: '2h15',
+                difficulty: 'Difficile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Pollo Pibil',
+                ingredients: ['Poulet entier', 'Achiote', 'Orange amère', 'Feuilles de bananier', 'Cebolla morada', 'Habanero', 'Epazote'],
+                instructions: [
+                    'Marinez poulet dans pâte d\'achiote.',
+                    'Enveloppez dans feuilles de bananier.',
+                    'Cuisez en cocotte fermée 2 heures.',
+                    'Préparez oignon rouge mariné.',
+                    'Servez poulet effiloché.',
+                    'Accompagnez de cebolla et habanero.'
+                ],
+                time: '2h30 + marinade',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Birria Jalisciense',
+                ingredients: ['Chèvre et bœuf', 'Piments variés', 'Tomates', 'Oignon', 'Ail', 'Épices', 'Bouillon', 'Tortillas', 'Fromage'],
+                instructions: [
+                    'Marinez viandes dans adobo rouge.',
+                    'Cuisez au four dans consommé.',
+                    'Mijotez 3 heures jusqu\'à tendreté.',
+                    'Servez bouillon à part.',
+                    'Effilochez viandes pour tacos.',
+                    'Trempez tacos dans consommé.'
+                ],
+                time: '4 heures',
+                difficulty: 'Très difficile',
+                servings: '10 personnes'
+            },
+            {
+                name: 'Pulpo en su Tinta',
+                ingredients: ['Poulpe', 'Encre de seiche', 'Tomates', 'Oignon', 'Ail', 'Vin blanc', 'Piment chipotle', 'Riz blanc'],
+                instructions: [
+                    'Nettoyez et attendrissez poulpe.',
+                    'Cuisez 1 heure dans bouillon.',
+                    'Préparez sofrito aromatique.',
+                    'Ajoutez encre et poulpe coupé.',
+                    'Mijotez dans sauce noire.',
+                    'Servez sur riz blanc parfumé.'
+                ],
+                time: '1h45',
+                difficulty: 'Difficile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Mole de Olla',
+                ingredients: ['Bœuf à pot-au-feu', 'Piments guajillo', 'Xoconostle', 'Ejotes', 'Calabacitas', 'Chayote', 'Maïs', 'Épazote'],
+                instructions: [
+                    'Cuisez bœuf dans bouillon épicé.',
+                    'Préparez sauce rouge avec piments.',
+                    'Ajoutez légumes selon cuisson.',
+                    'Incorporez sauce aux légumes.',
+                    'Mijotez ensemble 30 minutes.',
+                    'Parfumez avec épazote en fin.'
+                ],
+                time: '2h30',
+                difficulty: 'Intermédiaire',
                 servings: '8 personnes'
             }
         ],
@@ -3667,6 +4057,81 @@ export const recipeDatabase = {
                 time: '1h + 3h trempage + turbinage',
                 difficulty: 'Difficile',
                 servings: '8 personnes'
+            },
+            {
+                name: 'Buñuelos de Viento',
+                ingredients: ['Farine', 'Œufs', 'Lait', 'Beurre', 'Sucre', 'Cannelle', 'Anis', 'Huile de friture', 'Sirop au piloncillo'],
+                instructions: [
+                    'Préparez pâte légère avec tous ingrédients.',
+                    'Étalez très finement en disques.',
+                    'Faites frire jusqu\'à croustillant doré.',
+                    'Préparez sirop avec piloncillo et cannelle.',
+                    'Nappez buñuelos de sirop chaud.',
+                    'Servez immédiatement bien croustillants.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '12 buñuelos'
+            },
+            {
+                name: 'Capirotada',
+                ingredients: ['Pain rassis', 'Piloncillo', 'Cannelle', 'Clous de girofle', 'Fromage', 'Raisins secs', 'Cacahuètes', 'Beurre'],
+                instructions: [
+                    'Préparez sirop épicé avec piloncillo.',
+                    'Faites griller tranches de pain.',
+                    'Montez en couches avec fromage et fruits.',
+                    'Arrosez chaque couche de sirop.',
+                    'Parsemez de cacahuètes.',
+                    'Enfournez 30 minutes à 180°C.'
+                ],
+                time: '1h15',
+                difficulty: 'Facile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Dulce de Leche Mexicain',
+                ingredients: ['1L de lait entier', '300g de sucre', 'Bicarbonate de soude', 'Vanille', 'Cannelle'],
+                instructions: [
+                    'Chauffez lait avec sucre et cannelle.',
+                    'Ajoutez pincée de bicarbonate.',
+                    'Cuisez en remuant jusqu\'à caramélisation.',
+                    'Continuez 1 heure à feu doux.',
+                    'Parfumez à la vanille.',
+                    'Servez en verrines ou avec crêpes.'
+                ],
+                time: '1h30',
+                difficulty: 'Intermédiaire',
+                servings: '1L de dulce'
+            },
+            {
+                name: 'Chongos Zamoranos',
+                ingredients: ['Lait entier', 'Présure', 'Sucre', 'Cannelle en bâton', 'Vanille'],
+                instructions: [
+                    'Tiédissez lait et ajoutez présure.',
+                    'Laissez cailler puis coupez en carrés.',
+                    'Cuisez doucement avec sucre et cannelle.',
+                    'Mijotez 1 heure jusqu\'à caramélisation.',
+                    'Parfumez à la vanille.',
+                    'Servez froid avec sirop.'
+                ],
+                time: '2 heures + refroidissement',
+                difficulty: 'Difficile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Cocada',
+                ingredients: ['Noix de coco râpée', 'Lait concentré', 'Œufs', 'Sucre', 'Vanille', 'Cannelle'],
+                instructions: [
+                    'Mélangez coco et lait concentré.',
+                    'Ajoutez œufs battus et vanille.',
+                    'Cuisez en remuant jusqu\'à épaississement.',
+                    'Formez boules ou étalez en plaque.',
+                    'Saupoudrez de cannelle.',
+                    'Laissez refroidir avant de découper.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Facile',
+                servings: '20 pièces'
             }
         ],
         'collation': [
