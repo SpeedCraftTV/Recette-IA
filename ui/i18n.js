@@ -74,6 +74,26 @@ const translations = {
         fr: 'Nouvelle recherche',
         en: 'New search'
     },
+    'search.no_results': {
+        fr: 'Aucune recette trouvée. Essayez avec d\'autres mots-clés.',
+        en: 'No recipes found. Try different keywords.'
+    },
+    'search.main_ingredients': {
+        fr: 'Ingrédients principaux',
+        en: 'Main ingredients'
+    },
+    'search.results_found': {
+        fr: 'recette(s) trouvée(s)',
+        en: 'recipe(s) found'
+    },
+    'search.first_shown': {
+        fr: '12 premières affichées',
+        en: 'first 12 shown'
+    },
+    'search.empty_query': {
+        fr: 'Veuillez saisir un terme de recherche ou sélectionner un filtre.',
+        en: 'Please enter a search term or select a filter.'
+    },
     'generator.title': {
         fr: 'Créer une nouvelle recette',
         en: 'Create a new recipe'
@@ -117,6 +137,34 @@ const translations = {
     'recipe.new_recipe': {
         fr: 'Générer une nouvelle recette',
         en: 'Generate new recipe'
+    },
+    'recipe.prep_time': {
+        fr: 'Temps de préparation',
+        en: 'Preparation time'
+    },
+    'recipe.difficulty': {
+        fr: 'Difficulté',
+        en: 'Difficulty'
+    },
+    'recipe.servings': {
+        fr: 'Portions',
+        en: 'Servings'
+    },
+    'recipe.ingredients': {
+        fr: 'Ingrédients',
+        en: 'Ingredients'
+    },
+    'recipe.instructions': {
+        fr: 'Instructions',
+        en: 'Instructions'
+    },
+    'recipe.generated': {
+        fr: 'Recette générée',
+        en: 'Recipe generated'
+    },
+    'recipe.restrictions_applied': {
+        fr: 'Restrictions appliquées',
+        en: 'Applied restrictions'
     },
     'cuisines.french': {
         fr: 'Française',
