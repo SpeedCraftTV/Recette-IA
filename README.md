@@ -2,6 +2,10 @@
 
 Un générateur de recettes intelligent propulsé par l'IA qui crée des recettes personnalisées selon vos préférences culinaires.
 
+## 🌐 Accès direct au site
+
+**[🚀 Visitez Recette-IA en ligne](https://speedcrafttv.github.io/Recette-IA/)**
+
 ![Recette-IA Demo](https://github.com/user-attachments/assets/4124daba-5271-4cae-b21d-5316de3da91b)
 
 ## ✨ Fonctionnalités
