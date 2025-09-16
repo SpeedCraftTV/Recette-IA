@@ -201,6 +201,81 @@ const recipeDatabase = {
                 time: '1 heure',
                 difficulty: 'Difficile',
                 servings: '8 personnes'
+            },
+            {
+                name: 'Mille-Feuille Traditionnel',
+                ingredients: ['3 rectangles de pâte feuilletée', '500ml de lait', '6 jaunes d\'œufs', '100g de sucre', '40g de fécule de maïs', '1 gousse de vanille', 'Fondant blanc', 'Chocolat fondu'],
+                instructions: [
+                    'Cuisez les rectangles de pâte feuilletée jusqu\'à dorure.',
+                    'Préparez une crème pâtissière avec lait, œufs, sucre et vanille.',
+                    'Montez le mille-feuille en alternant pâte et crème.',
+                    'Nappez le dessus de fondant blanc.',
+                    'Tracez des lignes de chocolat et créez un motif en plume.',
+                    'Réfrigérez 2 heures avant de servir.'
+                ],
+                time: '2 heures + réfrigération',
+                difficulty: 'Difficile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Tarte au Citron Meringuée',
+                ingredients: ['1 pâte sablée', '4 citrons', '3 œufs entiers', '2 jaunes', '150g de sucre', '100g de beurre', '4 blancs d\'œufs', '120g de sucre pour meringue'],
+                instructions: [
+                    'Cuisez la pâte sablée à blanc 15 minutes.',
+                    'Préparez la curd de citron en cuisant œufs, jus de citron et sucre.',
+                    'Montez le beurre froid dans la curd chaude.',
+                    'Garnissez le fond de tarte de curd de citron.',
+                    'Montez les blancs en neige avec le sucre.',
+                    'Dressez la meringue et dorez au four 5 minutes.'
+                ],
+                time: '1h30',
+                difficulty: 'Difficile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Soufflé au Grand Marnier',
+                ingredients: ['500ml de lait', '40g de farine', '40g de beurre', '5 jaunes d\'œufs', '6 blancs d\'œufs', '100g de sucre', '60ml de Grand Marnier', 'Sucre glace'],
+                instructions: [
+                    'Préparez une panade avec lait, beurre et farine.',
+                    'Incorporez les jaunes et le Grand Marnier.',
+                    'Montez les blancs en neige avec le sucre.',
+                    'Mélangez délicatement 1/3 des blancs puis le reste.',
+                    'Remplissez des ramequins beurrés et sucrés.',
+                    'Enfournez 15 minutes à 190°C sans ouvrir le four.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Difficile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Paris-Brest',
+                ingredients: ['Pâte à choux', 'Crème pralinée', '100g d\'amandes', '100g de noisettes', '200g de sucre', '500ml de crème', '4 jaunes d\'œufs', 'Amandes effilées'],
+                instructions: [
+                    'Dressez la pâte à choux en couronnes et enfournez.',
+                    'Préparez un pralin avec amandes, noisettes et sucre.',
+                    'Réalisez une crème pâtissière au pralin.',
+                    'Coupez les choux en deux horizontalement.',
+                    'Garnissez généreusement de crème pralinée.',
+                    'Refermez et saupoudrez d\'amandes effilées.'
+                ],
+                time: '2 heures',
+                difficulty: 'Très difficile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Clafoutis aux Cerises',
+                ingredients: ['500g de cerises', '4 œufs', '100g de sucre', '100g de farine', '400ml de lait', '50g de beurre', '1 pincée de sel', 'Vanille'],
+                instructions: [
+                    'Préchauffez le four à 180°C et beurrez un moule.',
+                    'Disposez les cerises dénoyautées dans le moule.',
+                    'Battez œufs et sucre jusqu\'à blanchiment.',
+                    'Ajoutez farine, lait, vanille et beurre fondu.',
+                    'Versez l\'appareil sur les cerises.',
+                    'Enfournez 45 minutes jusqu\'à coloration dorée.'
+                ],
+                time: '1 heure',
+                difficulty: 'Facile',
+                servings: '6 personnes'
             }
         ],
         'collation': [
@@ -348,6 +423,66 @@ const recipeDatabase = {
                 time: '20 min + 4h réfrigération',
                 difficulty: 'Facile',
                 servings: '6 personnes'
+            },
+            {
+                name: 'Cannoli Siciliens',
+                ingredients: ['Tubes à cannoli', '500g de ricotta', '200g de sucre glace', '100g de chocolat noir', '50g de pistaches', 'Zeste d\'orange', 'Marsala', 'Sucre glace'],
+                instructions: [
+                    'Mélangez ricotta, sucre glace et Marsala.',
+                    'Ajoutez zeste d\'orange et chocolat haché.',
+                    'Remplissez les tubes de cannoli avec la crème.',
+                    'Trempez les extrémités dans les pistaches hachées.',
+                    'Saupoudrez de sucre glace.',
+                    'Servez immédiatement pour garder le croustillant.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '8 cannoli'
+            },
+            {
+                name: 'Zabaione',
+                ingredients: ['6 jaunes d\'œufs', '100g de sucre', '120ml de Marsala', 'Biscuits amaretti'],
+                instructions: [
+                    'Battez les jaunes d\'œufs avec le sucre dans un bain-marie.',
+                    'Ajoutez progressivement le Marsala en fouettant.',
+                    'Continuez à fouetter jusqu\'à épaississement.',
+                    'La texture doit être mousseuse et nappe la cuillère.',
+                    'Servez immédiatement dans des coupes.',
+                    'Accompagnez de biscuits amaretti.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Semifreddo aux Amaretti',
+                ingredients: ['300ml de crème liquide', '4 jaunes d\'œufs', '100g de sucre', '200g d\'amaretti', '100ml d\'Amaretto', 'Amandes grillées'],
+                instructions: [
+                    'Montez la crème en chantilly ferme.',
+                    'Battez jaunes et sucre jusqu\'à blanchiment.',
+                    'Incorporez délicatement la chantilly.',
+                    'Émiettez les amaretti et imbibez d\'Amaretto.',
+                    'Incorporez les biscuits dans la crème.',
+                    'Moule et congélez 4 heures minimum.'
+                ],
+                time: '30 min + 4h congélation',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Granita Sicilienne',
+                ingredients: ['500ml d\'eau', '150g de sucre', '200ml de jus de citron', 'Zeste de citron', 'Brioches siciliennes'],
+                instructions: [
+                    'Préparez un sirop avec eau et sucre.',
+                    'Ajoutez jus et zeste de citron.',
+                    'Versez dans un plat et placez au congélateur.',
+                    'Grattez à la fourchette toutes les 30 minutes.',
+                    'Répétez l\'opération 4-5 fois pour obtenir des cristaux fins.',
+                    'Servez dans des verres avec brioche.'
+                ],
+                time: '15 min + 3h congélation',
+                difficulty: 'Facile',
+                servings: '6 personnes'
             }
         ],
         'collation': [
@@ -465,6 +600,81 @@ const recipeDatabase = {
                 time: '30 minutes',
                 difficulty: 'Intermédiaire',
                 servings: '8 pièces'
+            },
+            {
+                name: 'Dorayaki (Pancakes Japonais)',
+                ingredients: ['200g de farine', '3 œufs', '100g de sucre', '200ml de lait', '1 cuillère à café de levure', 'Pâte de haricots rouges (anko)', 'Miel'],
+                instructions: [
+                    'Battez œufs et sucre jusqu\'à blanchiment.',
+                    'Ajoutez lait, farine et levure.',
+                    'Laissez reposer la pâte 30 minutes.',
+                    'Cuisez de petits pancakes épais dans une poêle.',
+                    'Garnissez de pâte de haricots rouges.',
+                    'Assemblez deux pancakes et badigeonnez de miel.'
+                ],
+                time: '1 heure',
+                difficulty: 'Facile',
+                servings: '10 dorayaki'
+            },
+            {
+                name: 'Boba de Taro',
+                ingredients: ['Perles de tapioca', '200g de taro', '400ml de lait de coco', '100g de sucre', 'Glace pilée', 'Crème fouettée'],
+                instructions: [
+                    'Cuisez les perles de tapioca selon les instructions.',
+                    'Cuisez le taro à la vapeur puis écrasez-le.',
+                    'Mélangez taro, lait de coco et sucre.',
+                    'Placez perles et taro dans des verres.',
+                    'Ajoutez glace pilée et crème fouettée.',
+                    'Servez avec une grosse paille.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 verres'
+            },
+            {
+                name: 'Mango Sticky Rice',
+                ingredients: ['300g de riz gluant', '400ml de lait de coco', '100g de sucre', '1 pincée de sel', '2 mangues mûres', 'Graines de sésame'],
+                instructions: [
+                    'Faites tremper le riz gluant 4 heures.',
+                    'Cuisez à la vapeur 25 minutes.',
+                    'Chauffez lait de coco, sucre et sel.',
+                    'Mélangez la moitié avec le riz cuit.',
+                    'Coupez les mangues en tranches.',
+                    'Servez riz, mangues et sauce au lait de coco.'
+                ],
+                time: '45 min + 4h trempage',
+                difficulty: 'Facile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Matcha Ice Cream',
+                ingredients: ['500ml de crème liquide', '200ml de lait', '150g de sucre', '6 jaunes d\'œufs', '3 cuillères à soupe de poudre de matcha', 'Chocolat blanc'],
+                instructions: [
+                    'Chauffez lait et crème.',
+                    'Battez jaunes, sucre et matcha.',
+                    'Réalisez une crème anglaise.',
+                    'Laissez refroidir puis turbinez.',
+                    'Servez en boules avec copeaux de chocolat blanc.',
+                    'Décorez de poudre de matcha.'
+                ],
+                time: '45 min + turbinage',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Castella (Gâteau Japonais)',
+                ingredients: ['6 œufs', '150g de sucre', '150g de farine', '50ml de miel', '50ml d\'eau chaude'],
+                instructions: [
+                    'Battez œufs et sucre 15 minutes jusqu\'à tripler de volume.',
+                    'Diluez le miel dans l\'eau chaude.',
+                    'Incorporez délicatement farine puis miel.',
+                    'Versez dans un moule chemisé.',
+                    'Enfournez 50 minutes à 160°C.',
+                    'Laissez refroidir avant de démouler.'
+                ],
+                time: '1h30',
+                difficulty: 'Difficile',
+                servings: '10 personnes'
             }
         ],
         'collation': [
@@ -567,6 +777,66 @@ const recipeDatabase = {
                 time: '1 heure',
                 difficulty: 'Difficile',
                 servings: '12 parts'
+            },
+            {
+                name: 'Galaktoboureko',
+                ingredients: ['6 feuilles de pâte filo', '500ml de lait', '4 œufs', '100g de sucre', '60g de semoule fine', 'Vanille', 'Beurre fondu', 'Sirop au miel'],
+                instructions: [
+                    'Préparez une crème pâtissière épaisse avec lait, œufs et semoule.',
+                    'Badigeonnez les feuilles de filo de beurre.',
+                    'Disposez 3 feuilles dans un moule, ajoutez la crème.',
+                    'Recouvrez des 3 autres feuilles beurrées.',
+                    'Enfournez 45 minutes jusqu\'à dorure.',
+                    'Arrosez du sirop froid sur le gâteau chaud.'
+                ],
+                time: '1h30',
+                difficulty: 'Difficile',
+                servings: '10 personnes'
+            },
+            {
+                name: 'Loukoumades',
+                ingredients: ['250g de farine', '1 sachet de levure', '250ml d\'eau tiède', '1 cuillère à café de sel', 'Huile de friture', 'Miel', 'Cannelle', 'Noix concassées'],
+                instructions: [
+                    'Mélangez farine, levure, eau et sel.',
+                    'Laissez lever la pâte 1 heure.',
+                    'Formez des boulettes avec une cuillère.',
+                    'Faites frire dans l\'huile chaude jusqu\'à dorure.',
+                    'Égouttez sur papier absorbant.',
+                    'Arrosez de miel, cannelle et noix.'
+                ],
+                time: '1h30 + levée',
+                difficulty: 'Intermédiaire',
+                servings: '20 pièces'
+            },
+            {
+                name: 'Halva de Semoule',
+                ingredients: ['200g de semoule fine', '200g de sucre', '500ml d\'eau', '100ml d\'huile d\'olive', 'Cannelle', 'Amandes grillées', 'Raisins secs'],
+                instructions: [
+                    'Faites griller la semoule dans l\'huile jusqu\'à dorure.',
+                    'Préparez un sirop avec eau et sucre.',
+                    'Versez le sirop chaud sur la semoule en remuant.',
+                    'Ajoutez cannelle, amandes et raisins.',
+                    'Laissez gonfler 10 minutes hors du feu.',
+                    'Servez tiède ou froid.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Facile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Yogourt au Miel et Noix',
+                ingredients: ['500g de yaourt grec', '100g de miel', '100g de noix', '50g de pistaches', 'Cannelle', 'Zeste d\'orange'],
+                instructions: [
+                    'Égouttez le yaourt grec 2 heures.',
+                    'Concassez grossièrement noix et pistaches.',
+                    'Disposez le yaourt dans des verrines.',
+                    'Arrosez généreusement de miel.',
+                    'Parsemez de fruits secs et cannelle.',
+                    'Décorez de zeste d\'orange frais.'
+                ],
+                time: '15 min + égouttage',
+                difficulty: 'Facile',
+                servings: '6 personnes'
             }
         ],
         'collation': [
@@ -669,6 +939,66 @@ const recipeDatabase = {
                 time: '1h + 4h réfrigération',
                 difficulty: 'Facile',
                 servings: '10 personnes'
+            },
+            {
+                name: 'Churros con Chocolate',
+                ingredients: ['250ml d\'eau', '50g de beurre', '150g de farine', '3 œufs', 'Huile de friture', 'Sucre', 'Cannelle', '200g de chocolat noir', '200ml de crème'],
+                instructions: [
+                    'Préparez une pâte à choux avec eau, beurre et farine.',
+                    'Incorporez les œufs un par un.',
+                    'Dressez en bâtonnets et faites frire.',
+                    'Roulez dans le mélange sucre-cannelle.',
+                    'Préparez une sauce chocolat avec crème et chocolat.',
+                    'Servez les churros avec la sauce chaude.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Flan Mexicain',
+                ingredients: ['200g de sucre', '6 œufs', '400ml de lait concentré', '300ml de lait évaporé', '200ml de lait entier', 'Vanille'],
+                instructions: [
+                    'Préparez un caramel avec 100g de sucre.',
+                    'Versez dans le moule et laissez durcir.',
+                    'Battez œufs, laits, sucre restant et vanille.',
+                    'Versez sur le caramel et couvrez.',
+                    'Cuisez au bain-marie 1 heure.',
+                    'Réfrigérez 4 heures avant de démouler.'
+                ],
+                time: '1h30 + réfrigération',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Sopapillas',
+                ingredients: ['300g de farine', '1 cuillère à café de levure', '1 cuillère à café de sel', '30g de saindoux', '200ml d\'eau tiède', 'Huile de friture', 'Miel', 'Cannelle'],
+                instructions: [
+                    'Mélangez farine, levure et sel.',
+                    'Incorporez saindoux et eau pour former une pâte.',
+                    'Laissez reposer 30 minutes.',
+                    'Étalez et découpez en carrés.',
+                    'Faites frire jusqu\'à gonflement et dorure.',
+                    'Servez chaud avec miel et cannelle.'
+                ],
+                time: '1 heure',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Horchata Ice Cream',
+                ingredients: ['500ml de lait', '200ml de crème', '150g de sucre', '6 jaunes d\'œufs', '100g de riz', 'Cannelle', 'Vanille', 'Amandes'],
+                instructions: [
+                    'Faites tremper riz et amandes 3 heures.',
+                    'Mixez avec eau et passez au tamis.',
+                    'Chauffez avec lait, crème et cannelle.',
+                    'Réalisez une crème anglaise avec les jaunes.',
+                    'Ajoutez l\'extrait de riz-amandes.',
+                    'Turbinez et servez avec cannelle.'
+                ],
+                time: '1h + 3h trempage + turbinage',
+                difficulty: 'Difficile',
+                servings: '8 personnes'
             }
         ],
         'collation': [
@@ -771,6 +1101,66 @@ const recipeDatabase = {
                 time: '1h + 2h absorption',
                 difficulty: 'Difficile',
                 servings: '12 pièces'
+            },
+            {
+                name: 'Rasmalai',
+                ingredients: ['1L de lait entier', 'Jus de citron', '500ml de lait', '100g de sucre', 'Cardamome', 'Pistaches', 'Safran'],
+                instructions: [
+                    'Préparez du paneer en caillant le lait.',
+                    'Formez des galettes et pochéz dans l\'eau sucrée.',
+                    'Préparez un lait réduit parfumé au safran.',
+                    'Plongez les galettes dans le lait parfumé.',
+                    'Réfrigérez 4 heures.',
+                    'Servez garni de pistaches hachées.'
+                ],
+                time: '2h + réfrigération',
+                difficulty: 'Difficile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Kheer (Riz au Lait)',
+                ingredients: ['100g de riz basmati', '1L de lait entier', '100g de sucre', 'Cardamome', 'Amandes', 'Pistaches', 'Safran', 'Eau de rose'],
+                instructions: [
+                    'Faites cuire le riz dans le lait en remuant.',
+                    'Laissez réduire jusqu\'à consistance crémeuse.',
+                    'Ajoutez sucre, cardamome et safran.',
+                    'Incorporez amandes et pistaches hachées.',
+                    'Parfumez à l\'eau de rose.',
+                    'Servez chaud ou froid.'
+                ],
+                time: '1h30',
+                difficulty: 'Facile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Kulfi',
+                ingredients: ['1L de lait entier', '150g de sucre', '50g d\'amandes', '50g de pistaches', 'Cardamome', 'Safran'],
+                instructions: [
+                    'Réduisez le lait de moitié en remuant constamment.',
+                    'Ajoutez sucre, cardamome et safran.',
+                    'Incorporez amandes et pistaches hachées.',
+                    'Versez dans des moules à kulfi.',
+                    'Congelez 6 heures minimum.',
+                    'Démoulez et servez garni de pistaches.'
+                ],
+                time: '1h + 6h congélation',
+                difficulty: 'Facile',
+                servings: '8 kulfi'
+            },
+            {
+                name: 'Gajar Halwa',
+                ingredients: ['1kg de carottes', '500ml de lait', '100g de sucre', '50g de ghee', 'Cardamome', 'Amandes', 'Raisins secs'],
+                instructions: [
+                    'Râpez finement les carottes.',
+                    'Cuisez avec le lait jusqu\'à évaporation.',
+                    'Ajoutez sucre et ghee, continuez la cuisson.',
+                    'Incorporez cardamome et fruits secs.',
+                    'Cuisez jusqu\'à consistance épaisse.',
+                    'Servez chaud garni d\'amandes.'
+                ],
+                time: '1h30',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
             }
         ],
         'collation': [
@@ -953,6 +1343,60 @@ class AIRecipeGenerator {
         this.isGenerating = false;
     }
 
+    // Search recipes in database
+    searchRecipes(query, filters = {}) {
+        const results = [];
+        const searchTerms = query.toLowerCase().split(' ').filter(term => term.length > 1);
+        
+        // Search through all cuisines
+        Object.keys(recipeDatabase).forEach(cuisine => {
+            // Apply cuisine filter
+            if (filters.cuisine && cuisine !== filters.cuisine) return;
+            
+            Object.keys(recipeDatabase[cuisine]).forEach(mealType => {
+                // Apply meal type filter
+                if (filters.mealType && mealType !== filters.mealType) return;
+                
+                recipeDatabase[cuisine][mealType].forEach(recipe => {
+                    // Apply difficulty filter
+                    if (filters.difficulty && recipe.difficulty !== filters.difficulty) return;
+                    
+                    let matchScore = 0;
+                    const searchableText = [
+                        recipe.name,
+                        ...recipe.ingredients,
+                        ...recipe.instructions,
+                        cuisine,
+                        mealType
+                    ].join(' ').toLowerCase();
+                    
+                    // Calculate match score
+                    searchTerms.forEach(term => {
+                        if (searchableText.includes(term)) {
+                            matchScore++;
+                            // Boost score for name matches
+                            if (recipe.name.toLowerCase().includes(term)) {
+                                matchScore += 2;
+                            }
+                        }
+                    });
+                    
+                    if (matchScore > 0 || searchTerms.length === 0) {
+                        results.push({
+                            ...recipe,
+                            cuisine,
+                            mealType,
+                            matchScore
+                        });
+                    }
+                });
+            });
+        });
+        
+        // Sort by match score
+        return results.sort((a, b) => b.matchScore - a.matchScore);
+    }
+
     // Generate recipe based on user preferences
     async generateRecipe(preferences) {
         this.isGenerating = true;
@@ -1088,15 +1532,92 @@ class AIRecipeGenerator {
     // Generate cooking tips
     generateCookingTips(preferences) {
         const tipDatabase = {
-            'française': 'Conseil du chef : Utilisez du beurre de qualité pour révéler toutes les saveurs.',
-            'italienne': 'Conseil du chef : La qualité des ingrédients est primordiale en cuisine italienne.',
-            'asiatique': 'Conseil du chef : Préparez tous vos ingrédients avant de commencer la cuisson.',
-            'méditerranéenne': 'Conseil du chef : L\'huile d\'olive extra vierge fait toute la différence.',
-            'mexicaine': 'Conseil du chef : Ajustez le piquant selon vos goûts.',
-            'indienne': 'Conseil du chef : Faites griller les épices à sec pour intensifier leurs arômes.'
+            'française': [
+                'Conseil du chef : Utilisez du beurre de qualité pour révéler toutes les saveurs.',
+                'Conseil du chef : Laissez toujours reposer la pâte pour une meilleure texture.',
+                'Conseil du chef : Le secret d\'une bonne sauce française est la patience et le temps de réduction.',
+                'Conseil du chef : Utilisez du vin blanc sec pour déglacer et sublimer vos plats.',
+                'Conseil du chef : La température est cruciale - laissez vos ingrédients atteindre la température ambiante.',
+                'Conseil du chef : Pour un caramel parfait, ne remuez jamais le sucre pendant la cuisson.',
+                'Conseil du chef : Les herbes fraîches s\'ajoutent en fin de cuisson pour préserver leurs arômes.'
+            ],
+            'italienne': [
+                'Conseil du chef : La qualité des ingrédients est primordiale en cuisine italienne.',
+                'Conseil du chef : L\'eau de cuisson des pâtes salée comme la mer donne le goût authentique.',
+                'Conseil du chef : Ajoutez toujours un peu d\'eau de cuisson des pâtes dans votre sauce.',
+                'Conseil du chef : Le parmesan se râpe juste avant de servir pour un maximum de saveur.',
+                'Conseil du chef : Pour un risotto crémeux, ajoutez le bouillon chaud louche par louche.',
+                'Conseil du chef : L\'huile d\'olive extra vierge se verse en fin de cuisson, jamais pendant.',
+                'Conseil du chef : Les tomates San Marzano font toute la différence dans les sauces.'
+            ],
+            'asiatique': [
+                'Conseil du chef : Préparez tous vos ingrédients avant de commencer la cuisson.',
+                'Conseil du chef : Le wok doit être très chaud pour saisir rapidement les aliments.',
+                'Conseil du chef : L\'équilibre des 5 saveurs (sucré, salé, acide, amer, umami) est essentiel.',
+                'Conseil du chef : Faites griller les épices à sec pour intensifier leurs arômes.',
+                'Conseil du chef : La sauce soja de qualité vieillie apporte une profondeur incomparable.',
+                'Conseil du chef : Pour un riz parfait, respectez le ratio 1:1.5 (riz:eau).',
+                'Conseil du chef : Les légumes doivent garder leur croquant, ne les surcuisez jamais.'
+            ],
+            'méditerranéenne': [
+                'Conseil du chef : L\'huile d\'olive extra vierge fait toute la différence.',
+                'Conseil du chef : Les herbes de Provence s\'épanouissent avec un peu de chaleur.',
+                'Conseil du chef : Laissez mariner vos légumes dans l\'huile et les herbes pour plus de goût.',
+                'Conseil du chef : Le citron rehausse tous les plats méditerranéens, ajoutez-le en fin de cuisson.',
+                'Conseil du chef : Les olives apportent l\'umami méditerranéen, n\'hésitez pas à les utiliser.',
+                'Conseil du chef : Grillez vos légumes pour développer leurs saveurs naturelles.',
+                'Conseil du chef : Le zaatar et le sumac sont les épices secrètes de la Méditerranée.'
+            ],
+            'mexicaine': [
+                'Conseil du chef : Ajustez le piquant selon vos goûts.',
+                'Conseil du chef : Grillez vos piments pour développer leurs arômes fumés.',
+                'Conseil du chef : La lime fraîche est indispensable, elle équilibre les épices.',
+                'Conseil du chef : Faites vos tortillas maison, ça change tout !',
+                'Conseil du chef : Le cumin moulu frais a un arôme incomparable.',
+                'Conseil du chef : L\'avocat doit être parfaitement mûr mais encore ferme.',
+                'Conseil du chef : Laissez reposer votre guacamole 30 minutes pour que les saveurs se mélangent.'
+            ],
+            'indienne': [
+                'Conseil du chef : Faites griller les épices à sec pour intensifier leurs arômes.',
+                'Conseil du chef : Le garam masala s\'ajoute en fin de cuisson pour préserver ses arômes.',
+                'Conseil du chef : Tempérez vos épices dans l\'huile chaude avant d\'ajouter les autres ingrédients.',
+                'Conseil du chef : Le yaourt naturel équilibre parfaitement les plats épicés.',
+                'Conseil du chef : Broyez vos épices juste avant utilisation pour un maximum de fraîcheur.',
+                'Conseil du chef : La cardamome se marie parfaitement avec les desserts et le thé.',
+                'Conseil du chef : Laissez mijoter vos currys longtemps pour développer les saveurs complexes.'
+            ]
         };
         
-        return tipDatabase[preferences.cuisineType] || 'Conseil du chef : Goûtez et ajustez l\'assaisonnement en cours de cuisson.';
+        const tips = tipDatabase[preferences.cuisineType] || [
+            'Conseil du chef : Goûtez et ajustez l\'assaisonnement en cours de cuisson.',
+            'Conseil du chef : La patience est la clé d\'une cuisine réussie.',
+            'Conseil du chef : Utilisez des ingrédients de saison pour plus de saveur.'
+        ];
+        
+        // Add meal-specific tips
+        const mealTips = {
+            'dessert': [
+                'Conseil du chef : Pesez précisément vos ingrédients en pâtisserie.',
+                'Conseil du chef : Les œufs à température ambiante montent mieux en neige.',
+                'Conseil du chef : Laissez refroidir complètement avant de démouler.',
+                'Conseil du chef : Un bain-marie permet une cuisson douce et uniforme.',
+                'Conseil du chef : Tamisez votre farine pour éviter les grumeaux.'
+            ],
+            'petit-déjeuner': [
+                'Conseil du chef : Préparez certains éléments la veille pour gagner du temps.',
+                'Conseil du chef : Les fruits frais apportent vitamines et fraîcheur au réveil.',
+                'Conseil du chef : Un petit-déjeuner équilibré vous donne de l\'énergie pour la journée.'
+            ]
+        };
+        
+        // Combine cuisine and meal-specific tips
+        let allTips = [...tips];
+        if (mealTips[preferences.mealType]) {
+            allTips = [...allTips, ...mealTips[preferences.mealType]];
+        }
+        
+        // Return a random tip
+        return allTips[Math.floor(Math.random() * allTips.length)];
     }
 
     // Utility function for delays
@@ -1115,9 +1636,17 @@ class RecipeUI {
     initializeEventListeners() {
         const form = document.getElementById('recipe-form');
         const newRecipeBtn = document.getElementById('new-recipe-btn');
+        const searchBtn = document.getElementById('search-btn');
+        const searchInput = document.getElementById('search-input');
+        const clearSearchBtn = document.getElementById('clear-search-btn');
         
         form.addEventListener('submit', (e) => this.handleFormSubmit(e));
         newRecipeBtn.addEventListener('click', () => this.showGeneratorForm());
+        searchBtn.addEventListener('click', () => this.handleSearch());
+        searchInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') this.handleSearch();
+        });
+        clearSearchBtn.addEventListener('click', () => this.clearSearch());
     }
 
     async handleFormSubmit(event) {
@@ -1251,15 +1780,113 @@ class RecipeUI {
         generatorSection.scrollIntoView({ behavior: 'smooth' });
     }
 
+    handleSearch() {
+        const searchInput = document.getElementById('search-input');
+        const searchCuisine = document.getElementById('search-cuisine');
+        const searchMeal = document.getElementById('search-meal');
+        const searchDifficulty = document.getElementById('search-difficulty');
+        
+        const query = searchInput.value.trim();
+        const filters = {
+            cuisine: searchCuisine.value,
+            mealType: searchMeal.value,
+            difficulty: searchDifficulty.value
+        };
+        
+        // Remove empty filters
+        Object.keys(filters).forEach(key => {
+            if (!filters[key]) delete filters[key];
+        });
+        
+        const results = this.generator.searchRecipes(query, filters);
+        this.displaySearchResults(results);
+    }
+
+    displaySearchResults(results) {
+        const searchResultsSection = document.getElementById('search-results');
+        const searchResultsContainer = document.getElementById('search-results-container');
+        
+        if (results.length === 0) {
+            searchResultsContainer.innerHTML = `
+                <div class="no-results">
+                    <p>Aucune recette trouvée. Essayez avec d'autres mots-clés.</p>
+                </div>
+            `;
+        } else {
+            searchResultsContainer.innerHTML = `
+                <div class="search-results-grid">
+                    ${results.slice(0, 12).map(recipe => `
+                        <div class="recipe-preview" onclick="recipeUI.selectSearchResult('${recipe.cuisine}', '${recipe.mealType}', '${recipe.name}')">
+                            <h4>${recipe.name}</h4>
+                            <div class="recipe-meta-preview">
+                                <span class="cuisine-tag">${recipe.cuisine}</span>
+                                <span>${recipe.time}</span>
+                                <span>${recipe.difficulty}</span>
+                            </div>
+                            <div class="ingredients-preview">
+                                <strong>Ingrédients principaux:</strong> ${recipe.ingredients.slice(0, 3).join(', ')}${recipe.ingredients.length > 3 ? '...' : ''}
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+                <div class="search-summary">
+                    <p><strong>${results.length}</strong> recette(s) trouvée(s)${results.length > 12 ? ' (12 premières affichées)' : ''}</p>
+                </div>
+            `;
+        }
+        
+        // Hide other sections and show search results
+        document.querySelector('.generator-section').style.display = 'none';
+        document.getElementById('recipe-section').style.display = 'none';
+        searchResultsSection.style.display = 'block';
+        
+        // Scroll to results
+        searchResultsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    selectSearchResult(cuisine, mealType, recipeName) {
+        // Find the recipe in the database
+        const recipe = recipeDatabase[cuisine][mealType].find(r => r.name === recipeName);
+        if (recipe) {
+            // Add cuisine and meal type info for display
+            const enrichedRecipe = {
+                ...recipe,
+                cuisineStyle: cuisine,
+                mealCategory: mealType,
+                tips: this.generator.generateCookingTips({ cuisineType: cuisine, mealType: mealType })
+            };
+            
+            this.displayRecipe(enrichedRecipe);
+        }
+    }
+
+    clearSearch() {
+        // Clear search inputs
+        document.getElementById('search-input').value = '';
+        document.getElementById('search-cuisine').value = '';
+        document.getElementById('search-meal').value = '';
+        document.getElementById('search-difficulty').value = '';
+        
+        // Hide search results and show generator form
+        document.getElementById('search-results').style.display = 'none';
+        document.querySelector('.generator-section').style.display = 'block';
+        document.getElementById('recipe-section').style.display = 'none';
+        
+        // Scroll to generator
+        document.querySelector('.generator-section').scrollIntoView({ behavior: 'smooth' });
+    }
     showError(message) {
         this.hideLoading();
         alert(message);
     }
 }
 
+// Global variable to access UI from onclick handlers
+let recipeUI;
+
 // Initialize the application when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
-    new RecipeUI();
+    recipeUI = new RecipeUI();
 });
 
 // Add some interactive enhancements
