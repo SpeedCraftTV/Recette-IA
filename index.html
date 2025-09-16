@@ -14,6 +14,59 @@
         </header>
 
         <main>
+            <section class="search-section">
+                <div class="search-container">
+                    <h2>🔍 Rechercher une recette</h2>
+                    <div class="search-form">
+                        <div class="search-input-group">
+                            <input type="text" id="search-input" placeholder="Rechercher par nom, ingrédient, cuisine...">
+                            <button type="button" id="search-btn">Rechercher</button>
+                        </div>
+                        <div class="search-filters">
+                            <div class="filter-group">
+                                <label for="search-cuisine">Cuisine :</label>
+                                <select id="search-cuisine">
+                                    <option value="">Toutes les cuisines</option>
+                                    <option value="française">Française</option>
+                                    <option value="italienne">Italienne</option>
+                                    <option value="asiatique">Asiatique</option>
+                                    <option value="méditerranéenne">Méditerranéenne</option>
+                                    <option value="mexicaine">Mexicaine</option>
+                                    <option value="indienne">Indienne</option>
+                                </select>
+                            </div>
+                            <div class="filter-group">
+                                <label for="search-meal">Type de repas :</label>
+                                <select id="search-meal">
+                                    <option value="">Tous les repas</option>
+                                    <option value="petit-déjeuner">Petit-déjeuner</option>
+                                    <option value="déjeuner">Déjeuner</option>
+                                    <option value="dîner">Dîner</option>
+                                    <option value="dessert">Dessert</option>
+                                    <option value="collation">Collation</option>
+                                </select>
+                            </div>
+                            <div class="filter-group">
+                                <label for="search-difficulty">Difficulté :</label>
+                                <select id="search-difficulty">
+                                    <option value="">Toutes les difficultés</option>
+                                    <option value="Facile">Facile</option>
+                                    <option value="Intermédiaire">Intermédiaire</option>
+                                    <option value="Difficile">Difficile</option>
+                                    <option value="Très difficile">Très difficile</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="search-results" class="search-results" style="display: none;">
+                        <h3>Résultats de recherche</h3>
+                        <div id="search-results-container"></div>
+                        <button id="clear-search-btn" class="secondary-btn">Nouvelle recherche</button>
+                    </div>
+                </div>
+            </section>
+
             <section class="generator-section">
                 <div class="form-container">
                     <h2>Créer une nouvelle recette</h2>
