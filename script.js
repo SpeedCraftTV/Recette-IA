@@ -45,6 +45,126 @@ const recipeDatabase = {
                 time: '45 minutes',
                 difficulty: 'Intermédiaire',
                 servings: '4 personnes'
+            },
+            {
+                name: 'Tartines de Chèvre Chaud au Miel',
+                ingredients: ['4 tranches de pain de campagne', '200g de fromage de chèvre', '4 cuillères à soupe de miel', 'Noix concassées', 'Salade de roquette', 'Figues fraîches'],
+                instructions: [
+                    'Grrillez légèrement les tranches de pain.',
+                    'Étalez généreusement le fromage de chèvre.',
+                    'Arrosez de miel et parsemez de noix.',
+                    'Passez au four 5 minutes jusqu\'à ce que le fromage soit doré.',
+                    'Servez avec roquette et figues en accompagnement.',
+                    'Dégustez tiède.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Œufs à la Coque et Mouillettes',
+                ingredients: ['4 œufs extra frais', 'Pain de mie', 'Beurre demi-sel', 'Ciboulette', 'Sel de Guérande', 'Poivre du moulin'],
+                instructions: [
+                    'Sortez les œufs 30 minutes avant pour qu\'ils soient à température ambiante.',
+                    'Portez de l\'eau salée à ébullition.',
+                    'Plongez délicatement les œufs et cuisez 3 minutes exactement.',
+                    'Préparez les mouillettes en coupant le pain beurré en bâtonnets.',
+                    'Servez immédiatement dans des coquetiers.',
+                    'Parsemez de ciboulette et assaisonnez.'
+                ],
+                time: '10 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Bowlcake Banane-Avoine',
+                ingredients: ['40g de flocons d\'avoine', '1 banane mûre', '1 œuf', '100ml de lait d\'amande', '1 cuillère à café de cannelle', 'Miel', 'Fruits rouges', 'Graines de chia'],
+                instructions: [
+                    'Écrasez la banane à la fourchette.',
+                    'Mélangez avec l\'œuf battu et le lait d\'amande.',
+                    'Ajoutez avoine, cannelle et miel.',
+                    'Versez dans un bol et cuisez 90 secondes au micro-ondes.',
+                    'Laissez reposer 1 minute.',
+                    'Garnissez de fruits rouges et graines de chia.'
+                ],
+                time: '5 minutes',
+                difficulty: 'Facile',
+                servings: '1 personne'
+            },
+            {
+                name: 'Granola Maison aux Fruits Secs',
+                ingredients: ['300g de flocons d\'avoine', '100g d\'amandes effilées', '50g de graines de tournesol', '50g de miel', '3 cuillères à soupe d\'huile de coco', 'Cannelle', 'Fruits secs variés', 'Yaourt grec'],
+                instructions: [
+                    'Préchauffez le four à 160°C.',
+                    'Mélangez avoine, amandes, graines et cannelle.',
+                    'Chauffez miel et huile de coco, versez sur le mélange.',
+                    'Étalez sur une plaque et enfournez 20 minutes en remuant.',
+                    'Laissez refroidir et ajoutez les fruits secs.',
+                    'Servez avec yaourt grec.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Facile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Chocolat Chaud à l\'Ancienne',
+                ingredients: ['500ml de lait entier', '100g de chocolat noir 70%', '2 cuillères à soupe de sucre', '1 cuillère à café de vanille', 'Chantilly', 'Copeaux de chocolat'],
+                instructions: [
+                    'Chauffez le lait à feu doux sans le faire bouillir.',
+                    'Hachez finement le chocolat noir.',
+                    'Ajoutez le chocolat et le sucre au lait chaud.',
+                    'Fouettez énergiquement jusqu\'à dissolution complète.',
+                    'Parfumez à la vanille.',
+                    'Servez dans des tasses avec chantilly et copeaux.'
+                ],
+                time: '10 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Brioche Perdue aux Pommes',
+                ingredients: ['6 tranches de brioche', '3 pommes', '3 œufs', '200ml de lait', 'Cannelle', 'Beurre', 'Sucre roux', 'Caramel au beurre salé'],
+                instructions: [
+                    'Émincez les pommes et faites-les compoter avec cannelle et sucre.',
+                    'Battez œufs et lait pour préparer l\'appareil.',
+                    'Trempez les tranches de brioche dans le mélange.',
+                    'Faites dorer dans une poêle beurrée.',
+                    'Servez avec compotée de pommes chaude.',
+                    'Arrosez de caramel au beurre salé.'
+                ],
+                time: '25 minutes',
+                difficulty: 'Facile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Smoothie Bowl Açaï-Fruits Rouges',
+                ingredients: ['100g de pulpe d\'açaï', '150g de fruits rouges surgelés', '1 banane', '100ml de jus de pomme', 'Granola', 'Noix de coco râpée', 'Graines de lin'],
+                instructions: [
+                    'Mixez açaï, fruits rouges, banane et jus de pomme.',
+                    'Versez dans un bol en obtenant une consistance épaisse.',
+                    'Disposez harmonieusement granola sur la surface.',
+                    'Parsemez de noix de coco et graines de lin.',
+                    'Décorez avec des fruits frais.',
+                    'Servez immédiatement bien frais.'
+                ],
+                time: '10 minutes',
+                difficulty: 'Facile',
+                servings: '2 personnes'
+            },
+            {
+                name: 'Galettes de Sarrasin Complètes',
+                ingredients: ['250g de farine de sarrasin', '1 œuf', '600ml d\'eau', 'Sel', '4 œufs pour garniture', 'Jambon de Bayonne', 'Gruyère râpé', 'Beurre', 'Ciboulette'],
+                instructions: [
+                    'Préparez la pâte à galettes et laissez reposer 2 heures.',
+                    'Cuisez de fines galettes dans une poêle chaude.',
+                    'Garnissez chaque galette de jambon et fromage.',
+                    'Cassez un œuf au centre de chaque galette.',
+                    'Repliez les bords et laissez cuire l\'œuf.',
+                    'Servez chaud parsemé de ciboulette.'
+                ],
+                time: '45 minutes + repos',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
             }
         ],
         'déjeuner': [
@@ -107,6 +227,126 @@ const recipeDatabase = {
                 time: '50 minutes',
                 difficulty: 'Facile',
                 servings: '6 personnes'
+            },
+            {
+                name: 'Pot-au-Feu Grand-Mère',
+                ingredients: ['1kg de bœuf à pot-au-feu', '4 carottes', '4 navets', '4 poireaux', '1 chou vert', '8 pommes de terre', 'Os à moelle', 'Bouquet garni', 'Gros sel', 'Cornichons', 'Moutarde'],
+                instructions: [
+                    'Placez la viande et l\'os à moelle dans une grande marmite d\'eau froide.',
+                    'Portez doucement à ébullition et écumez régulièrement.',
+                    'Ajoutez le bouquet garni et laissez mijoter 2 heures.',
+                    'Ajoutez les légumes selon leur temps de cuisson.',
+                    'Cuisez encore 1 heure jusqu\'à tendreté.',
+                    'Servez le bouillon en entrée, puis viande et légumes avec condiments.'
+                ],
+                time: '3h30',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Salade Niçoise Authentique',
+                ingredients: ['400g de thon à l\'huile d\'olive', '4 tomates', '4 œufs durs', '1 concombre', '1 poivron rouge', 'Radis', 'Olives noires de Nice', 'Anchois', 'Basilic', 'Huile d\'olive', 'Vinaigre'],
+                instructions: [
+                    'Coupez tomates, concombre et poivron en morceaux.',
+                    'Disposez harmonieusement tous les légumes dans le saladier.',
+                    'Ajoutez les œufs durs coupés en quartiers.',
+                    'Parsemez d\'olives, anchois et thon émietté.',
+                    'Assaisonnez d\'huile d\'olive et vinaigre.',
+                    'Décorez de basilic frais et servez immédiatement.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Cassoulet de Castelnaudary',
+                ingredients: ['500g de haricots blancs', '4 cuisses de canard confites', '400g de saucisse de Toulouse', '200g de poitrine fumée', '4 tomates', '1 oignon', 'Ail', 'Herbes de Provence', 'Chapelure'],
+                instructions: [
+                    'Faites tremper les haricots 12 heures puis cuisez-les 1 heure.',
+                    'Faites revenir viandes, oignon et tomates.',
+                    'Dans une cassole, alternez haricots et viandes.',
+                    'Couvrez de bouillon et enfournez 1 heure à 160°C.',
+                    'Cassez la croûte qui se forme plusieurs fois.',
+                    'Servez dans la cassole traditionnelle.'
+                ],
+                time: '3 heures + trempage',
+                difficulty: 'Difficile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Gratin Dauphinois',
+                ingredients: ['2kg de pommes de terre', '500ml de lait', '300ml de crème liquide', '2 gousses d\'ail', '100g de gruyère', 'Beurre', 'Muscade', 'Sel', 'Poivre'],
+                instructions: [
+                    'Épluchez et émincez finement les pommes de terre.',
+                    'Frottez un plat d\'ail et beurrez-le généreusement.',
+                    'Disposez les pommes de terre en couches régulières.',
+                    'Mélangez lait, crème, muscade, sel et poivre.',
+                    'Versez sur les pommes de terre et parsemez de fromage.',
+                    'Enfournez 1h15 à 180°C jusqu\'à coloration dorée.'
+                ],
+                time: '1h30',
+                difficulty: 'Facile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Croque-Monsieur Traditionnel',
+                ingredients: ['8 tranches de pain de mie', '4 tranches de jambon blanc', '200g de gruyère râpé', 'Béchamel', 'Beurre', 'Muscade'],
+                instructions: [
+                    'Préparez une béchamel légère parfumée à la muscade.',
+                    'Beurrez les tranches de pain de mie.',
+                    'Garnissez de jambon et recouvrez de béchamel.',
+                    'Refermez avec une seconde tranche de pain.',
+                    'Nappez de béchamel et parsemez de gruyère.',
+                    'Gratinez au four jusqu\'à coloration dorée.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Soupe à l\'Oignon Gratinée',
+                ingredients: ['6 gros oignons', '1L de bouillon de bœuf', '100ml de vin blanc sec', '4 tranches de pain grillé', '200g de gruyère râpé', 'Beurre', 'Thym', 'Laurier'],
+                instructions: [
+                    'Émincez finement les oignons et faites-les fondre doucement.',
+                    'Laissez caraméliser 30 minutes en remuant régulièrement.',
+                    'Ajoutez vin blanc, bouillon et herbes.',
+                    'Mijotez 20 minutes puis répartissez dans des bols.',
+                    'Posez pain grillé et recouvrez de fromage.',
+                    'Gratinez au four jusqu\'à belle coloration.'
+                ],
+                time: '1 heure',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Blanquette de Veau à l\'Ancienne',
+                ingredients: ['1.5kg d\'épaule de veau', '3 carottes', '2 navets', '12 petits oignons', '250g de champignons', 'Bouquet garni', '3 jaunes d\'œufs', '200ml de crème', 'Citron', 'Riz pilaf'],
+                instructions: [
+                    'Coupez le veau en morceaux et blanchissez-le.',
+                    'Remettez en casserole avec bouquet garni et eau froide.',
+                    'Mijotez 1h30, ajoutez légumes selon temps de cuisson.',
+                    'Préparez une liaison avec jaunes, crème et citron.',
+                    'Liez la sauce hors du feu en remuant doucement.',
+                    'Servez avec riz pilaf et persil haché.'
+                ],
+                time: '2h30',
+                difficulty: 'Difficile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Tartine de Rillettes du Mans',
+                ingredients: ['Pain de campagne', '300g de rillettes du Mans', 'Cornichons', 'Radis roses', 'Beurre demi-sel', 'Fleur de sel', 'Poivre du moulin'],
+                instructions: [
+                    'Sortez les rillettes 30 minutes avant pour qu\'elles soient souples.',
+                    'Grillhez légèrement les tranches de pain.',
+                    'Beurrez finement puis étalez généreusement les rillettes.',
+                    'Disposez cornichons et radis en accompagnement.',
+                    'Assaisonnez d\'une pincée de fleur de sel.',
+                    'Servez avec un verre de vin blanc sec.'
+                ],
+                time: '10 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
             }
         ],
         'dîner': [
@@ -153,6 +393,126 @@ const recipeDatabase = {
                 ],
                 time: '20 minutes',
                 difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Côte de Bœuf aux Échalotes',
+                ingredients: ['1 côte de bœuf de 2kg', '8 échalotes', '200ml de vin rouge', 'Beurre', 'Thym', 'Romarin', 'Sel de Guérande', 'Poivre noir'],
+                instructions: [
+                    'Sortez la viande 2 heures avant cuisson.',
+                    'Préchauffez le four à 220°C.',
+                    'Saisissez la côte de bœuf sur toutes les faces.',
+                    'Enfournez 15 minutes puis baissez à 180°C.',
+                    'Ajoutez échalotes et herbes, continuez selon cuisson désirée.',
+                    'Déglacez au vin rouge et servez avec le jus.'
+                ],
+                time: '1h30',
+                difficulty: 'Difficile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Magret de Canard aux Cerises',
+                ingredients: ['2 magrets de canard', '300g de cerises', '100ml de porto', '2 échalotes', 'Miel', 'Vinaigre balsamique', 'Beurre', 'Thym'],
+                instructions: [
+                    'Quadrillez la peau des magrets et assaisonnez.',
+                    'Cuisez côté peau 8 minutes, retournez 4 minutes.',
+                    'Réservez au chaud sous papier aluminium.',
+                    'Faites compoter cerises, échalotes, porto et miel.',
+                    'Ajoutez vinaigre et montez au beurre.',
+                    'Tranchez les magrets et nappez de sauce.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Gigot d\'Agneau aux Herbes de Provence',
+                ingredients: ['1 gigot d\'agneau de 2kg', 'Herbes de Provence', '6 gousses d\'ail', 'Huile d\'olive', 'Romarin', 'Flageolets', 'Tomates confites'],
+                instructions: [
+                    'Piquez le gigot d\'ail et badigeonnez d\'huile aux herbes.',
+                    'Laissez mariner 4 heures au frais.',
+                    'Préchauffez le four à 200°C.',
+                    'Saisissez le gigot puis enfournez 45 minutes.',
+                    'Arrosez régulièrement du jus de cuisson.',
+                    'Servez avec flageolets et tomates confites.'
+                ],
+                time: '1h15 + marinade',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Lotte à l\'Armoricaine',
+                ingredients: ['1kg de lotte', '4 tomates', '1 oignon', '2 échalotes', 'Cognac', 'Vin blanc', 'Beurre', 'Estragon', 'Crème liquide'],
+                instructions: [
+                    'Coupez la lotte en tronçons et saisissez-la.',
+                    'Flambez au cognac puis réservez.',
+                    'Faites revenir oignon, échalotes et tomates.',
+                    'Ajoutez vin blanc et laissez réduire.',
+                    'Remettez la lotte et mijotez 15 minutes.',
+                    'Liez avec crème et estragon avant de servir.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Difficile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Lapin aux Pruneaux',
+                ingredients: ['1 lapin découpé', '250g de pruneaux', '200ml de vin blanc sec', '2 oignons', 'Lardons', 'Bouquet garni', 'Moutarde à l\'ancienne', 'Crème'],
+                instructions: [
+                    'Faites dorer les morceaux de lapin et les lardons.',
+                    'Ajoutez oignons émincés et faites blondir.',
+                    'Versez le vin blanc et ajoutez pruneaux.',
+                    'Incorporez bouquet garni et laissez mijoter 1 heure.',
+                    'Liez avec moutarde et crème en fin de cuisson.',
+                    'Servez avec pommes de terre vapeur.'
+                ],
+                time: '1h30',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Escalope de Veau à la Crème',
+                ingredients: ['4 escalopes de veau', '200g de champignons de Paris', '200ml de crème liquide', 'Vin blanc sec', 'Échalotes', 'Beurre', 'Persil'],
+                instructions: [
+                    'Aplatissez les escalopes et assaisonnez-les.',
+                    'Faites-les dorer rapidement des deux côtés.',
+                    'Réservez au chaud sous papier aluminium.',
+                    'Faites revenir échalottes et champignons.',
+                    'Déglacez au vin blanc, ajoutez la crème.',
+                    'Nappez les escalopes de sauce et persil.'
+                ],
+                time: '25 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Choucroute Garnie Alsacienne',
+                ingredients: ['1kg de choucroute crue', '4 saucisses de Strasbourg', '4 saucisses de Montbéliard', '500g de lard fumé', 'Knacks', 'Vin blanc d\'Alsace', 'Genièvre', 'Pommes de terre'],
+                instructions: [
+                    'Rincez et égouttez soigneusement la choucroute.',
+                    'Disposez-la dans une cocotte avec lard et épices.',
+                    'Mouillez de vin blanc et laissez mijoter 1 heure.',
+                    'Ajoutez les saucisses selon leur temps de cuisson.',
+                    'Cuisez les pommes de terre à part.',
+                    'Servez très chaud avec moutarde forte.'
+                ],
+                time: '1h45',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Saint-Jacques à la Bretonne',
+                ingredients: ['12 noix de Saint-Jacques', '4 poireaux', 'Cidre brut', 'Crème liquide', 'Beurre demi-sel', 'Algues', 'Fleur de sel', 'Poivre blanc'],
+                instructions: [
+                    'Nettoyez et émincez finement les poireaux.',
+                    'Faites-les fondre doucement au beurre.',
+                    'Saisissez les Saint-Jacques 1 minute de chaque côté.',
+                    'Déglacez les poireaux au cidre et crème.',
+                    'Dressez sur les poireaux avec algues.',
+                    'Finissez par une pointe de fleur de sel.'
+                ],
+                time: '25 minutes',
+                difficulty: 'Difficile',
                 servings: '4 personnes'
             }
         ],
@@ -591,6 +951,126 @@ const recipeDatabase = {
                 time: '1 heure',
                 difficulty: 'Facile',
                 servings: '8 personnes'
+            },
+            {
+                name: 'Saint-Tropez',
+                ingredients: ['Pâte sablée', 'Crème pâtissière', 'Chantilly', 'Sucre perlé', 'Vanille', 'Amandes effilées', '400ml de lait', '4 jaunes d\'œufs', '80g de sucre'],
+                instructions: [
+                    'Cuisez la pâte sablée à blanc avec sucre perlé.',
+                    'Préparez une crème pâtissière vanille onctueuse.',
+                    'Montez la crème liquide en chantilly ferme.',
+                    'Mélangez délicatement crème et chantilly.',
+                    'Garnissez le fond de tarte de cette crème.',
+                    'Décorez d\'amandes effilées grillées.'
+                ],
+                time: '1h30',
+                difficulty: 'Difficile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Gâteau Basque aux Cerises',
+                ingredients: ['300g de farine', '200g de beurre', '200g de sucre', '3 œufs', 'Levure', 'Rhum', 'Cerises noires', 'Confiture de cerises', 'Amandes en poudre'],
+                instructions: [
+                    'Mélangez farine, beurre, sucre et œufs pour la pâte.',
+                    'Ajoutez levure et parfumez au rhum.',
+                    'Étalez la moitié dans un moule beurré.',
+                    'Garnissez de confiture et cerises dénoyautées.',
+                    'Recouvrez du reste de pâte en treillis.',
+                    'Enfournez 45 minutes à 180°C.'
+                ],
+                time: '1h15',
+                difficulty: 'Intermédiaire',
+                servings: '10 personnes'
+            },
+            {
+                name: 'Riz au Lait Grand-Mère',
+                ingredients: ['200g de riz rond', '1L de lait entier', '100g de sucre', '1 gousse de vanille', 'Cannelle', '50g de beurre', 'Jaunes d\'œufs'],
+                instructions: [
+                    'Faites cuire le riz dans le lait vanillé 45 minutes.',
+                    'Remuez régulièrement pour éviter l\'accrochage.',
+                    'Ajoutez sucre et beurre en fin de cuisson.',
+                    'Incorporez les jaunes battus hors du feu.',
+                    'Versez dans des ramequins individuels.',
+                    'Saupoudrez de cannelle et servez tiède ou froid.'
+                ],
+                time: '1 heure',
+                difficulty: 'Facile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Nougat de Montélimar',
+                ingredients: ['300g de miel', '300g de sucre', '3 blancs d\'œufs', '200g d\'amandes mondées', '100g de pistaches', 'Pain azyme', 'Vanille'],
+                instructions: [
+                    'Chauffez miel et sucre à 120°C au thermomètre.',
+                    'Montez les blancs en neige très ferme.',
+                    'Versez le sirop chaud sur les blancs en fouettant.',
+                    'Ajoutez amandes et pistaches grillées.',
+                    'Versez entre deux feuilles de pain azyme.',
+                    'Laissez prendre 24 heures avant de découper.'
+                ],
+                time: '1h + 24h prise',
+                difficulty: 'Très difficile',
+                servings: '20 personnes'
+            },
+            {
+                name: 'Pets de Nonne',
+                ingredients: ['125ml d\'eau', '50g de beurre', '75g de farine', '2 œufs', 'Levure', 'Huile de friture', 'Sucre glace', 'Vanille'],
+                instructions: [
+                    'Préparez une pâte à choux légère avec la levure.',
+                    'Laissez reposer 30 minutes.',
+                    'Chauffez l\'huile à 170°C.',
+                    'Formez des boulettes avec deux cuillères.',
+                    'Faites frire jusqu\'à gonflement et dorure.',
+                    'Égouttez et saupoudrez généreusement de sucre glace.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '20 pièces'
+            },
+            {
+                name: 'Croquignoles Lyonnaises',
+                ingredients: ['250g de farine', '100g de sucre', '100g de beurre', '2 œufs', 'Levure', 'Fleur d\'oranger', 'Huile de friture', 'Sucre cristallisé'],
+                instructions: [
+                    'Mélangez farine, sucre, beurre et œufs.',
+                    'Parfumez à la fleur d\'oranger et ajoutez levure.',
+                    'Pétrissez en pâte souple et laissez reposer.',
+                    'Abaissez finement et découpez en losanges.',
+                    'Faites frire dans l\'huile chaude.',
+                    'Roulez dans le sucre cristallisé encore chaud.'
+                ],
+                time: '1 heure + repos',
+                difficulty: 'Intermédiaire',
+                servings: '30 pièces'
+            },
+            {
+                name: 'Bugnes de Carnaval',
+                ingredients: ['500g de farine', '3 œufs', '50g de sucre', '50g de beurre', 'Levure de boulanger', 'Rhum', 'Zeste de citron', 'Huile de friture', 'Sucre glace'],
+                instructions: [
+                    'Préparez une pâte avec tous les ingrédients.',
+                    'Pétrissez longuement puis laissez lever 2 heures.',
+                    'Abaissez finement et découpez en rectangles.',
+                    'Pratiquez une fente au centre et passez une extrémité.',
+                    'Faites frire dans l\'huile chaude jusqu\'à dorure.',
+                    'Saupoudrez de sucre glace et servez tiède.'
+                ],
+                time: '1h + 2h levée',
+                difficulty: 'Difficile',
+                servings: '25 pièces'
+            },
+            {
+                name: 'Flan Pâtissier Parisien',
+                ingredients: ['Pâte brisée', '1L de lait', '6 œufs entiers', '150g de sucre', '80g de fécule de maïs', 'Vanille bourbon', 'Beurre'],
+                instructions: [
+                    'Foncez un moule de pâte brisée.',
+                    'Chauffez le lait avec la vanille.',
+                    'Battez œufs, sucre et fécule jusqu\'à blanchiment.',
+                    'Versez le lait chaud en remuant constamment.',
+                    'Remettez sur feu doux jusqu\'à épaississement.',
+                    'Versez dans le moule et enfournez 45 minutes à 180°C.'
+                ],
+                time: '1h30',
+                difficulty: 'Intermédiaire',
+                servings: '10 personnes'
             }
         ],
         'collation': [
@@ -608,6 +1088,126 @@ const recipeDatabase = {
                 time: '30 minutes',
                 difficulty: 'Facile',
                 servings: '12 madeleines'
+            },
+            {
+                name: 'Pain d\'Épices de Dijon',
+                ingredients: ['300g de farine de seigle', '200g de miel', '100g de sucre roux', '1 œuf', 'Épices à pain d\'épices', 'Bicarbonate', 'Lait', 'Orange confite'],
+                instructions: [
+                    'Chauffez miel et sucre jusqu\'à dissolution.',
+                    'Mélangez farine, épices et bicarbonate.',
+                    'Incorporez le miel tiède, œuf et lait.',
+                    'Ajoutez orange confite hachée.',
+                    'Versez dans un moule et enfournez 50 minutes à 160°C.',
+                    'Démoulez froid et laissez rassir 2 jours.'
+                ],
+                time: '1h + 2 jours',
+                difficulty: 'Facile',
+                servings: '12 tranches'
+            },
+            {
+                name: 'Quatre-Quarts Breton',
+                ingredients: ['125g de farine', '125g de sucre', '125g de beurre demi-sel', '125g d\'œufs (environ 2-3 œufs)', 'Levure', 'Rhum', 'Vanille'],
+                instructions: [
+                    'Crémerez le beurre avec le sucre.',
+                    'Ajoutez les œufs un par un en battant.',
+                    'Incorporez farine et levure délicatement.',
+                    'Parfumez au rhum et vanille.',
+                    'Versez dans un moule beurré.',
+                    'Enfournez 45 minutes à 180°C.'
+                ],
+                time: '1 heure',
+                difficulty: 'Facile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Palmiers Feuilletés',
+                ingredients: ['1 pâte feuilletée', '100g de sucre en poudre', 'Sucre cristallisé', 'Œuf pour dorure'],
+                instructions: [
+                    'Étalez la pâte feuilletée et saupoudrez de sucre.',
+                    'Roulez les deux côtés vers le centre.',
+                    'Réfrigérez 30 minutes puis coupez en tranches.',
+                    'Disposez sur plaque et badigeonnez d\'œuf.',
+                    'Saupoudrez de sucre cristallisé.',
+                    'Enfournez 15 minutes à 200°C jusqu\'à caramélisation.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Facile',
+                servings: '20 pièces'
+            },
+            {
+                name: 'Sablés de Caen',
+                ingredients: ['250g de farine', '125g de beurre', '100g de sucre', '1 œuf', '1 jaune pour dorure', 'Vanille', 'Fleur de sel'],
+                instructions: [
+                    'Mélangez farine, beurre, sucre et œuf.',
+                    'Parfumez à la vanille et ajoutez une pincée de sel.',
+                    'Formez une boule et réfrigérez 1 heure.',
+                    'Abaissez et découpez à l\'emporte-pièce.',
+                    'Dorez au jaune d\'œuf et parsemez de fleur de sel.',
+                    'Enfournez 12 minutes à 180°C.'
+                ],
+                time: '45 min + 1h repos',
+                difficulty: 'Facile',
+                servings: '25 sablés'
+            },
+            {
+                name: 'Chouquettes Parisiennes',
+                ingredients: ['125ml d\'eau', '50g de beurre', '75g de farine', '2 œufs', 'Sucre perlé', '1 pincée de sel'],
+                instructions: [
+                    'Préparez une pâte à choux classique.',
+                    'Dressez des petites boules sur plaque beurrée.',
+                    'Parsemez généreusement de sucre perlé.',
+                    'Enfournez 20 minutes à 200°C sans ouvrir.',
+                    'Laissez refroidir sur grille.',
+                    'Servez le jour même pour le croustillant.'
+                ],
+                time: '40 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '30 chouquettes'
+            },
+            {
+                name: 'Pains au Chocolat Maison',
+                ingredients: ['Pâte feuilletée levée', 'Barres de chocolat pâtissier', 'Œuf pour dorure', 'Lait', 'Levure boulangère'],
+                instructions: [
+                    'Préparez la pâte feuilletée levée et donnez 3 tours.',
+                    'Abaissez en rectangle et découpez en bandes.',
+                    'Placez une barre de chocolat et roulez.',
+                    'Soudez les bords et disposez sur plaque.',
+                    'Laissez pousser 2 heures puis dorez.',
+                    'Enfournez 18 minutes à 200°C.'
+                ],
+                time: '4h + pâte',
+                difficulty: 'Très difficile',
+                servings: '12 pièces'
+            },
+            {
+                name: 'Tartelettes aux Fruits',
+                ingredients: ['Pâte sablée', 'Crème pâtissière', 'Fruits de saison', 'Nappage neutre', 'Amandes effilées', 'Pistaches'],
+                instructions: [
+                    'Foncez des moules à tartelettes de pâte sablée.',
+                    'Cuisez à blanc 12 minutes.',
+                    'Garnissez de crème pâtissière refroidie.',
+                    'Disposez harmonieusement les fruits.',
+                    'Badigeonnez de nappage pour la brillance.',
+                    'Décorez d\'amandes et pistaches concassées.'
+                ],
+                time: '1 heure',
+                difficulty: 'Intermédiaire',
+                servings: '8 tartelettes'
+            },
+            {
+                name: 'Croque-Cake Salé',
+                ingredients: ['300g de farine', '4 œufs', '150ml d\'huile', '200ml de lait', 'Levure', 'Jambon blanc', 'Gruyère râpé', 'Olives vertes', 'Herbes de Provence'],
+                instructions: [
+                    'Battez œufs, huile et lait dans un saladier.',
+                    'Ajoutez farine et levure, mélangez rapidement.',
+                    'Incorporez jambon, fromage, olives et herbes.',
+                    'Versez dans un moule à cake beurré.',
+                    'Enfournez 45 minutes à 180°C.',
+                    'Démoulez tiède et servez en tranches.'
+                ],
+                time: '1 heure',
+                difficulty: 'Facile',
+                servings: '8 tranches'
             }
         ]
     },
