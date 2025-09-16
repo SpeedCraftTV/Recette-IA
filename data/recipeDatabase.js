@@ -1234,6 +1234,36 @@ export const recipeDatabase = {
                 time: '30 minutes',
                 difficulty: 'Facile',
                 servings: '4 personnes'
+            },
+            {
+                name: 'Bourek aux Épinards',
+                ingredients: ['Pâte filo', '500g d\'épinards', '200g de feta', '1 oignon', '3 œufs', 'Aneth', 'Persil', 'Huile d\'olive', 'Beurre fondu'],
+                instructions: [
+                    'Faites revenir l\'oignon et les épinards hachés.',
+                    'Mélangez avec feta émiettée, œufs battus et herbes.',
+                    'Badigeonnez les feuilles de filo de beurre.',
+                    'Disposez la farce et roulez en triangle.',
+                    'Enfournez 25 minutes à 180°C jusqu\'à dorure.',
+                    'Servez chaud avec yaourt grec.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Menemen Turc',
+                ingredients: ['4 tomates', '2 poivrons verts', '1 oignon', '4 œufs', 'Piment rouge', 'Paprika', 'Huile d\'olive', 'Fromage blanc', 'Pain pita'],
+                instructions: [
+                    'Faites revenir oignon et poivrons émincés.',
+                    'Ajoutez tomates concassées et épices.',
+                    'Laissez mijoter 10 minutes pour épaissir.',
+                    'Cassez les œufs directement dans la poêle.',
+                    'Brouinez légèrement sans trop mélanger.',
+                    'Servez avec fromage blanc et pain chaud.'
+                ],
+                time: '25 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
             }
         ],
         'déjeuner': [
@@ -1266,6 +1296,36 @@ export const recipeDatabase = {
                 time: '45 minutes',
                 difficulty: 'Difficile',
                 servings: '6 personnes'
+            },
+            {
+                name: 'Dolmas (Feuilles de Vigne Farcies)',
+                ingredients: ['30 feuilles de vigne', '200g de riz', '1 oignon', 'Persil', 'Aneth', 'Menthe', 'Pignons', 'Raisins secs', 'Huile d\'olive', 'Citron'],
+                instructions: [
+                    'Blanchissez les feuilles de vigne 2 minutes.',
+                    'Préparez la farce avec riz, oignon et herbes.',
+                    'Disposez la farce sur chaque feuille et roulez.',
+                    'Rangez dans une casserole avec huile et citron.',
+                    'Cuisez à feu doux 45 minutes sous un linge.',
+                    'Servez tiède avec sauce au yaourt.'
+                ],
+                time: '1h30',
+                difficulty: 'Difficile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Salade Grecque Traditionnelle',
+                ingredients: ['4 tomates', '1 concombre', '1 oignon rouge', '200g de feta', 'Olives Kalamata', 'Origan séché', 'Huile d\'olive extra vierge', 'Vinaigre de vin'],
+                instructions: [
+                    'Coupez tomates et concombre en gros morceaux.',
+                    'Émincez finement l\'oignon rouge.',
+                    'Disposez tous les légumes dans un saladier.',
+                    'Ajoutez la feta en gros cubes et les olives.',
+                    'Assaisonnez avec origan, huile et vinaigre.',
+                    'Laissez mariner 30 minutes avant de servir.'
+                ],
+                time: '15 minutes + marinade',
+                difficulty: 'Facile',
+                servings: '4 personnes'
             }
         ],
         'dîner': [
@@ -1283,6 +1343,51 @@ export const recipeDatabase = {
                 time: '2h15',
                 difficulty: 'Intermédiaire',
                 servings: '6 personnes'
+            },
+            {
+                name: 'Poisson à la Chermoula',
+                ingredients: ['1kg de dorade', 'Coriandre', 'Persil', 'Ail', 'Citron confit', 'Cumin', 'Paprika', 'Piment rouge', 'Huile d\'olive', 'Pommes de terre'],
+                instructions: [
+                    'Préparez la chermoula avec herbes et épices.',
+                    'Marinez le poisson 2 heures dans la chermoula.',
+                    'Disposez pommes de terre en rondelles dans un plat.',
+                    'Placez le poisson mariné par-dessus.',
+                    'Enfournez 35 minutes à 200°C.',
+                    'Arrosez du jus de cuisson et servez chaud.'
+                ],
+                time: '45 min + marinade',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Kefta aux Tomates',
+                ingredients: ['500g d\'agneau haché', '1 oignon', 'Persil', 'Coriandre', 'Cumin', 'Paprika', '800g de tomates', 'Œufs', 'Huile d\'olive', 'Pain'],
+                instructions: [
+                    'Mélangez la viande avec oignon, herbes et épices.',
+                    'Formez des boulettes et faites-les dorer.',
+                    'Préparez une sauce tomate parfumée.',
+                    'Ajoutez les boulettes dans la sauce.',
+                    'Cassez des œufs sur le dessus en fin de cuisson.',
+                    'Servez avec pain frais.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Couscous Royal',
+                ingredients: ['Semoule de couscous', 'Agneau', 'Poulet', 'Merguez', 'Légumes variés', 'Pois chiches', 'Harissa', 'Ras el hanout', 'Bouillon'],
+                instructions: [
+                    'Préparez le bouillon avec viandes et épices.',
+                    'Cuisez les légumes dans le bouillon parfumé.',
+                    'Préparez la semoule à la vapeur.',
+                    'Grillez les merguez à part.',
+                    'Dressez la semoule avec viandes et légumes.',
+                    'Servez avec harissa et bouillon.'
+                ],
+                time: '2 heures',
+                difficulty: 'Difficile',
+                servings: '8 personnes'
             }
         ],
         'dessert': [
@@ -1377,6 +1482,36 @@ export const recipeDatabase = {
                 time: '15 minutes',
                 difficulty: 'Facile',
                 servings: '6 personnes'
+            },
+            {
+                name: 'Baba Ganoush',
+                ingredients: ['2 grosses aubergines', '3 gousses d\'ail', '60ml de tahini', '2 citrons', 'Cumin', 'Paprika fumé', 'Huile d\'olive', 'Persil'],
+                instructions: [
+                    'Grillez les aubergines entières jusqu\'à tendreté.',
+                    'Retirez la chair et mixez avec ail et tahini.',
+                    'Ajoutez jus de citron et épices.',
+                    'Montez avec l\'huile d\'olive.',
+                    'Rectifiez l\'assaisonnement.',
+                    'Décorez de paprika et persil.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Facile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Fattoush',
+                ingredients: ['Pain pita', 'Tomates', 'Concombre', 'Radis', 'Laitue', 'Persil', 'Menthe', 'Sumac', 'Huile d\'olive', 'Citron'],
+                instructions: [
+                    'Grillez et cassez le pain pita en morceaux.',
+                    'Coupez tous les légumes en dés.',
+                    'Hachez finement les herbes fraîches.',
+                    'Mélangez légumes, herbes et pain grillé.',
+                    'Assaisonnez avec sumac, huile et citron.',
+                    'Servez immédiatement pour garder le croustillant.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Facile',
+                servings: '6 personnes'
             }
         ]
     },
@@ -1394,6 +1529,36 @@ export const recipeDatabase = {
                     'Garnissez d\'avocat, fromage et coriandre.'
                 ],
                 time: '25 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Chilaquiles Verdes',
+                ingredients: ['Tortillas', 'Salsa verde', 'Œufs', 'Crème fraîche', 'Fromage frais', 'Oignon rouge', 'Avocat', 'Coriandre', 'Lime'],
+                instructions: [
+                    'Coupez les tortillas en triangles et faites frire.',
+                    'Préparez une salsa verde aux tomatillos.',
+                    'Mélangez tortillas frites avec salsa chaude.',
+                    'Ajoutez œufs brouillés ou au plat.',
+                    'Garnissez de crème, fromage et avocat.',
+                    'Terminez par oignon rouge et coriandre.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Migas Mexicaines',
+                ingredients: ['Tortillas rassises', 'Œufs', 'Tomates', 'Oignon', 'Piments serrano', 'Fromage', 'Avocat', 'Haricots', 'Salsa'],
+                instructions: [
+                    'Émietez les tortillas rassises.',
+                    'Faites revenir oignon et piments.',
+                    'Ajoutez tomates et tortillas émiettées.',
+                    'Incorporez les œufs battus et brouillez.',
+                    'Ajoutez le fromage en fin de cuisson.',
+                    'Servez avec avocat et haricots.'
+                ],
+                time: '20 minutes',
                 difficulty: 'Facile',
                 servings: '4 personnes'
             }
@@ -1428,6 +1593,36 @@ export const recipeDatabase = {
                 time: '1 heure',
                 difficulty: 'Difficile',
                 servings: '4 personnes'
+            },
+            {
+                name: 'Pozole Rojo',
+                ingredients: ['Maïs hominy', 'Porc', 'Piments guajillo', 'Piments ancho', 'Ail', 'Oignon', 'Origan', 'Radis', 'Laitue', 'Lime', 'Oregano'],
+                instructions: [
+                    'Cuisez le porc dans un bouillon épicé.',
+                    'Préparez une sauce rouge avec piments grillés.',
+                    'Ajoutez le maïs hominy au bouillon.',
+                    'Incorporez la sauce rouge et laissez mijoter.',
+                    'Effilochez la viande cuite.',
+                    'Servez avec garnitures fraîches.'
+                ],
+                time: '2 heures',
+                difficulty: 'Difficile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Enchiladas Verdes',
+                ingredients: ['Tortillas', 'Poulet', 'Salsa verde', 'Fromage', 'Crème', 'Oignon', 'Coriandre', 'Avocat', 'Tomatillos'],
+                instructions: [
+                    'Préparez une salsa verde avec tomatillos.',
+                    'Farcissez les tortillas de poulet effiloché.',
+                    'Roulez et disposez dans un plat.',
+                    'Nappez de salsa verde et fromage.',
+                    'Enfournez jusqu\'à ce que le fromage fonde.',
+                    'Garnissez de crème et avocat.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
             }
         ],
         'dîner': [
@@ -1444,6 +1639,36 @@ export const recipeDatabase = {
                 ],
                 time: '4 heures',
                 difficulty: 'Très difficile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Cochinita Pibil',
+                ingredients: ['2kg d\'épaule de porc', 'Achiote', 'Orange amère', 'Ail', 'Cumin', 'Origan', 'Feuilles de bananier', 'Oignon rouge', 'Habanero'],
+                instructions: [
+                    'Marinez le porc avec achiote et jus d\'orange.',
+                    'Enveloppez dans des feuilles de bananier.',
+                    'Cuisez lentement 4 heures au four ou barbacoa.',
+                    'Effilochez la viande cuite.',
+                    'Préparez oignon rouge mariné aux agrumes.',
+                    'Servez avec tortillas et sauce habanero.'
+                ],
+                time: '4h + marinade',
+                difficulty: 'Difficile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Carnitas',
+                ingredients: ['2kg d\'épaule de porc', 'Saindoux', 'Orange', 'Lait', 'Cannelle', 'Laurier', 'Thym', 'Ail', 'Sel', 'Tortillas'],
+                instructions: [
+                    'Coupez le porc en gros morceaux.',
+                    'Confisez lentement dans le saindoux avec aromates.',
+                    'Cuisez 2 heures jusqu\'à tendreté.',
+                    'Augmentez le feu pour caraméliser.',
+                    'Effilochez et assaisonnez.',
+                    'Servez avec tortillas et salsa.'
+                ],
+                time: '3 heures',
+                difficulty: 'Difficile',
                 servings: '8 personnes'
             }
         ],
@@ -1539,6 +1764,36 @@ export const recipeDatabase = {
                 time: '15 minutes',
                 difficulty: 'Facile',
                 servings: '4 personnes'
+            },
+            {
+                name: 'Guacamole',
+                ingredients: ['4 avocats', '1 lime', '1 tomate', '1 oignon blanc', '2 piments jalapeños', 'Coriandre', 'Ail', 'Sel', 'Tortilla chips'],
+                instructions: [
+                    'Écrasez grossièrement les avocats à la fourchette.',
+                    'Ajoutez jus de lime immédiatement.',
+                    'Incorporez tomate, oignon et piments hachés.',
+                    'Ajoutez coriandre et ail écrasé.',
+                    'Assaisonnez de sel et mélangez délicatement.',
+                    'Servez avec tortilla chips croustillants.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Quesadillas',
+                ingredients: ['Tortillas de farine', 'Fromage Oaxaca', 'Chorizo', 'Champignons', 'Oignon', 'Coriandre', 'Salsa', 'Crème'],
+                instructions: [
+                    'Faites revenir chorizo et champignons.',
+                    'Garnissez une tortilla de fromage et farce.',
+                    'Recouvrez d\'une seconde tortilla.',
+                    'Cuisez à la plancha jusqu\'à dorure.',
+                    'Retournez délicatement et terminez la cuisson.',
+                    'Découpez et servez avec salsa et crème.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
             }
         ]
     },
@@ -1572,6 +1827,21 @@ export const recipeDatabase = {
                 ],
                 time: '45 minutes',
                 difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Tostada con Tomate',
+                ingredients: ['Pain de campagne', 'Tomates mûres', 'Ail', 'Huile d\'olive extra vierge', 'Sel de mer', 'Jamón ibérico'],
+                instructions: [
+                    'Grillez les tranches de pain.',
+                    'Frottez avec une gousse d\'ail.',
+                    'Frottez avec la tomate coupée en deux.',
+                    'Arrosez généreusement d\'huile d\'olive.',
+                    'Saupoudrez de sel de mer.',
+                    'Ajoutez le jamón si désiré.'
+                ],
+                time: '10 minutes',
+                difficulty: 'Facile',
                 servings: '4 personnes'
             }
         ],
