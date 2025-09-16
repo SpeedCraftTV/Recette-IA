@@ -45,6 +45,111 @@ const recipeDatabase = {
                 time: '45 minutes',
                 difficulty: 'Intermédiaire',
                 servings: '4 personnes'
+            },
+            {
+                name: 'Brioche Vendéenne',
+                ingredients: ['500g de farine', '10g de levure fraîche', '4 œufs', '150g de beurre', '80g de sucre', '10g de sel', '150ml de lait tiède', 'Sucre perlé'],
+                instructions: [
+                    'Délayez la levure dans le lait tiède.',
+                    'Mélangez farine, sucre et sel dans un saladier.',
+                    'Ajoutez œufs et mélange lait-levure.',
+                    'Pétrissez puis incorporez le beurre mou.',
+                    'Laissez lever 2 heures, façonnez et parsemez de sucre perlé.',
+                    'Enfournez 25 minutes à 180°C.'
+                ],
+                time: '3 heures + levée',
+                difficulty: 'Difficile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Bol de Céréales à la Française',
+                ingredients: ['Flocons d\'avoine', 'Lait entier', 'Confiture de fraises', 'Noix concassées', 'Miel de lavande', 'Fruits de saison'],
+                instructions: [
+                    'Versez les flocons d\'avoine dans un bol.',
+                    'Chauffez légèrement le lait et versez sur les céréales.',
+                    'Laissez gonfler 3 minutes.',
+                    'Ajoutez une cuillère de confiture.',
+                    'Parsemez de noix et fruits frais.',
+                    'Arrosez d\'un filet de miel.'
+                ],
+                time: '10 minutes',
+                difficulty: 'Facile',
+                servings: '1 personne'
+            },
+            {
+                name: 'Gaufres Liégeoises',
+                ingredients: ['500g de farine', '25g de levure fraîche', '4 œufs', '300g de beurre', '100g de sucre', '250ml de lait', 'Sucre perlé', 'Vanille'],
+                instructions: [
+                    'Délayez la levure dans le lait tiède.',
+                    'Mélangez farine et sucre, creusez un puits.',
+                    'Ajoutez œufs, lait-levure et vanille.',
+                    'Incorporez le beurre fondu et le sucre perlé.',
+                    'Laissez lever 1 heure puis cuisez au gaufrier.',
+                    'Servez tièdes avec du sucre glace.'
+                ],
+                time: '1h30 + levée',
+                difficulty: 'Intermédiaire',
+                servings: '12 gaufres'
+            },
+            {
+                name: 'Chocolat Chaud à l\'Ancienne',
+                ingredients: ['200g de chocolat noir', '500ml de lait entier', '50g de sucre', '1 cuillère à café de vanille', 'Chantilly', 'Cacao en poudre'],
+                instructions: [
+                    'Hachez finement le chocolat.',
+                    'Chauffez le lait avec le sucre et la vanille.',
+                    'Versez le lait chaud sur le chocolat en fouettant.',
+                    'Remettez sur feu doux en remuant constamment.',
+                    'Obtenez une consistance onctueuse.',
+                    'Servez dans des tasses avec chantilly et cacao.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Tartines Campagnardes',
+                ingredients: ['Pain de campagne', 'Beurre fermier', 'Confiture de figues', 'Fromage de chèvre', 'Miel d\'acacia', 'Noix fraîches'],
+                instructions: [
+                    'Grillez légèrement les tranches de pain.',
+                    'Tartinez généreusement de beurre fermier.',
+                    'Sur une moitié, étalez confiture de figues.',
+                    'Sur l\'autre, émettez le fromage de chèvre.',
+                    'Arrosez de miel et parsemez de noix.',
+                    'Servez immédiatement avec café au lait.'
+                ],
+                time: '10 minutes',
+                difficulty: 'Facile',
+                servings: '2 personnes'
+            },
+            {
+                name: 'Pain Doré Normand',
+                ingredients: ['4 tranches de pain brioché', '2 œufs', '200ml de crème fraîche', '30g de sucre', 'Calvados', 'Pommes', 'Beurre', 'Cannelle'],
+                instructions: [
+                    'Battez œufs, crème, sucre et une cuillère de calvados.',
+                    'Trempez les tranches de pain dans ce mélange.',
+                    'Faites dorer dans le beurre chaud.',
+                    'Poêlez les pommes avec cannelle.',
+                    'Dressez le pain doré garni de pommes.',
+                    'Flambez avec le calvados restant.'
+                ],
+                time: '25 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Muesli Maison aux Fruits Secs',
+                ingredients: ['Flocons d\'avoine', 'Flocons de blé', 'Amandes effilées', 'Noisettes', 'Raisins secs', 'Figues séchées', 'Yaourt nature', 'Miel'],
+                instructions: [
+                    'Mélangez tous les flocons et fruits secs.',
+                    'Hachez grossièrement figues et noisettes.',
+                    'Incorporez à la base de céréales.',
+                    'Servez dans un bol avec yaourt.',
+                    'Arrosez généreusement de miel.',
+                    'Laissez gonfler quelques minutes avant de déguster.'
+                ],
+                time: '10 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
             }
         ],
         'déjeuner': [
@@ -107,6 +212,111 @@ const recipeDatabase = {
                 time: '50 minutes',
                 difficulty: 'Facile',
                 servings: '6 personnes'
+            },
+            {
+                name: 'Pot-au-Feu Traditionnel',
+                ingredients: ['1kg de jarret de bœuf', '1 os à moelle', '4 carottes', '4 poireaux', '1 navet', '1 chou vert', 'Pommes de terre', 'Bouquet garni', 'Gros sel', 'Moutarde'],
+                instructions: [
+                    'Mettez la viande et l\'os dans une grande marmite d\'eau froide.',
+                    'Portez à ébullition et écumez soigneusement.',
+                    'Ajoutez le bouquet garni et laissez mijoter 2 heures.',
+                    'Incorporez les légumes par ordre de temps de cuisson.',
+                    'Cuisez encore 1 heure jusqu\'à tendreté.',
+                    'Servez avec gros sel, cornichons et moutarde.'
+                ],
+                time: '3h30',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Cassoulet de Toulouse',
+                ingredients: ['500g de haricots blancs', '4 cuisses de canard confites', '400g de saucisse de Toulouse', '200g de lard fumé', 'Tomates', 'Oignons', 'Ail', 'Thym', 'Laurier', 'Chapelure'],
+                instructions: [
+                    'Faites tremper les haricots toute la nuit.',
+                    'Cuisez-les avec aromates 1 heure.',
+                    'Faites revenir viandes et légumes.',
+                    'Montez en alternant haricots et viandes.',
+                    'Mouillez avec bouillon, couvrez de chapelure.',
+                    'Enfournez 1h30 en cassant la croûte régulièrement.'
+                ],
+                time: '3h + trempage',
+                difficulty: 'Difficile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Blanquette de Veau à l\'Ancienne',
+                ingredients: ['1.5kg d\'épaule de veau', '3 carottes', '2 oignons', '1 bouquet garni', '250g de champignons', '20cl de crème', '2 jaunes d\'œufs', 'Beurre', 'Farine', 'Citron'],
+                instructions: [
+                    'Découpez le veau et blanchissez-le 5 minutes.',
+                    'Remettez en casserole avec légumes et bouquet garni.',
+                    'Couvrez d\'eau, mijotez 1h30.',
+                    'Préparez un roux avec beurre et farine.',
+                    'Liez avec le bouillon filtré.',
+                    'Terminez avec crème, jaunes et jus de citron.'
+                ],
+                time: '2h15',
+                difficulty: 'Difficile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Salade Niçoise Authentique',
+                ingredients: ['Thon à l\'huile', 'Œufs durs', 'Tomates', 'Anchois', 'Olives noires', 'Poivrons', 'Oignons rouges', 'Basilic', 'Huile d\'olive', 'Vinaigre'],
+                instructions: [
+                    'Coupez tomates et poivrons en quartiers.',
+                    'Émincez finement les oignons rouges.',
+                    'Disposez harmonieusement tous les ingrédients.',
+                    'Effeuilllez le thon et ajoutez anchois.',
+                    'Garnissez d\'œufs durs et olives.',
+                    'Assaisonnez d\'huile d\'olive et vinaigre, parsemez de basilic.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Choucroute Garnie Alsacienne',
+                ingredients: ['1kg de choucroute crue', '4 saucisses de Strasbourg', '4 saucisses fumées', '300g de lard fumé', '4 pommes de terre', 'Vin blanc', 'Baies de genièvre', 'Oignons'],
+                instructions: [
+                    'Rincez et essorez la choucroute.',
+                    'Faites revenir oignons émincés.',
+                    'Ajoutez choucroute, vin blanc et genièvre.',
+                    'Disposez les viandes sur la choucroute.',
+                    'Mijotez 1h30 à couvert.',
+                    'Ajoutez pommes de terre 30 minutes avant la fin.'
+                ],
+                time: '2 heures',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Escargots de Bourgogne',
+                ingredients: ['36 escargots préparés', 'Beurre d\'ail persillé', '3 gousses d\'ail', 'Persil plat', '150g de beurre', 'Échalotes', 'Vin blanc sec', 'Pain de campagne'],
+                instructions: [
+                    'Préparez le beurre d\'ail avec persil haché.',
+                    'Placez un peu de beurre au fond de chaque coquille.',
+                    'Insérez l\'escargot et comblez de beurre.',
+                    'Disposez dans des alvéoles spéciales.',
+                    'Enfournez 10 minutes à 200°C.',
+                    'Servez très chaud avec du pain grillé.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Tartiflette Savoyarde',
+                ingredients: ['1kg de pommes de terre', '200g de lardons fumés', '2 oignons', '1 reblochon fermier', '20cl de crème fraîche', '10cl de vin blanc sec', 'Ciboulette'],
+                instructions: [
+                    'Cuisez les pommes de terre à l\'eau avec la peau.',
+                    'Épluchez et coupez en rondelles.',
+                    'Faites revenir lardons et oignons.',
+                    'Disposez pommes de terre dans un plat beurré.',
+                    'Ajoutez lardons, crème et reblochon coupé.',
+                    'Enfournez 20 minutes à 200°C.'
+                ],
+                time: '1 heure',
+                difficulty: 'Facile',
+                servings: '6 personnes'
             }
         ],
         'dîner': [
@@ -154,6 +364,111 @@ const recipeDatabase = {
                 time: '20 minutes',
                 difficulty: 'Intermédiaire',
                 servings: '4 personnes'
+            },
+            {
+                name: 'Gigot d\'Agneau aux Herbes',
+                ingredients: ['1 gigot d\'agneau 2kg', 'Ail', 'Romarin', 'Thym', 'Huile d\'olive', 'Pommes de terre', 'Haricots verts', 'Vin rouge', 'Beurre'],
+                instructions: [
+                    'Piquez le gigot d\'ail et d\'herbes fraîches.',
+                    'Badigeonnez d\'huile d\'olive et assaisonnez.',
+                    'Rôtissez 20 minutes par kilo à 180°C.',
+                    'Arrosez régulièrement du jus de cuisson.',
+                    'Déglacez au vin rouge pour la sauce.',
+                    'Laissez reposer 15 minutes avant de trancher.'
+                ],
+                time: '1h30',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Coquilles Saint-Jacques à la Bretonne',
+                ingredients: ['12 coquilles Saint-Jacques', 'Poireaux', 'Crème fraîche', 'Vin blanc sec', 'Beurre', 'Gruyère râpé', 'Chapelure', 'Persil'],
+                instructions: [
+                    'Nettoyez les coquilles et détachez les noix.',
+                    'Faites suer les poireaux dans le beurre.',
+                    'Poêlez rapidement les Saint-Jacques.',
+                    'Déglacez au vin blanc, ajoutez la crème.',
+                    'Remettez dans les coquilles avec les poireaux.',
+                    'Gratinez au four avec fromage et chapelure.'
+                ],
+                time: '35 minutes',
+                difficulty: 'Difficile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Magret de Canard aux Cerises',
+                ingredients: ['2 magrets de canard', '300g de cerises', 'Miel', 'Vinaigre balsamique', 'Vin rouge', 'Beurre', 'Thym', 'Sel', 'Poivre'],
+                instructions: [
+                    'Quadrillez la peau des magrets.',
+                    'Cuisez côté peau 8 minutes, retournez 3 minutes.',
+                    'Laissez reposer sous papier alu.',
+                    'Déglacez avec vinaigre, vin et miel.',
+                    'Ajoutez cerises et thym, réduisez.',
+                    'Tranchez les magrets et nappez de sauce.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Bourride Sétoise',
+                ingredients: ['1kg de poissons blancs', 'Pommes de terre', 'Aïoli', 'Bouillon de poisson', 'Safran', 'Vin blanc', 'Persil', 'Croûtons'],
+                instructions: [
+                    'Préparez un fumet avec les arêtes.',
+                    'Cuisez les pommes de terre dans le bouillon.',
+                    'Pochez les poissons dans le fumet saffrané.',
+                    'Liez le bouillon avec l\'aïoli.',
+                    'Disposez poissons et pommes de terre.',
+                    'Nappez de bouillon lié et servez avec croûtons.'
+                ],
+                time: '1h15',
+                difficulty: 'Difficile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Lapin à la Moutarde',
+                ingredients: ['1 lapin découpé', 'Moutarde de Dijon', 'Crème fraîche', 'Vin blanc', 'Échalotes', 'Champignons', 'Estragon', 'Beurre'],
+                instructions: [
+                    'Badigeonnez le lapin de moutarde.',
+                    'Faites dorer dans une cocotte beurrée.',
+                    'Ajoutez échalotes et champignons.',
+                    'Mouillez avec vin blanc et crème.',
+                    'Mijotez 45 minutes à couvert.',
+                    'Parsemez d\'estragon avant de servir.'
+                ],
+                time: '1h15',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Homard à l\'Armoricaine',
+                ingredients: ['2 homards', 'Tomates', 'Cognac', 'Vin blanc', 'Échalotes', 'Ail', 'Estragon', 'Crème', 'Beurre', 'Cayenne'],
+                instructions: [
+                    'Découpez les homards vivants en tronçons.',
+                    'Flambez au cognac dans une sauteuse.',
+                    'Ajoutez échalotes, ail et tomates concassées.',
+                    'Mouillez avec vin blanc et mijotez 15 minutes.',
+                    'Récupérez le corail et mélangez à la crème.',
+                    'Liez la sauce et parsemez d\'estragon.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Très difficile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Daube Provençale',
+                ingredients: ['2kg de bœuf à braiser', 'Vin rouge', 'Carottes', 'Oignons', 'Tomates', 'Olives noires', 'Herbes de Provence', 'Orange', 'Anchois', 'Ail'],
+                instructions: [
+                    'Marinez la viande 24h dans vin et légumes.',
+                    'Égouttez et faites dorer la viande.',
+                    'Remettez avec la marinade filtrée.',
+                    'Ajoutez tomates, olives et zeste d\'orange.',
+                    'Mijotez 3 heures à couvert.',
+                    'Servez avec polenta ou pâtes fraîches.'
+                ],
+                time: '3h30 + marinade',
+                difficulty: 'Difficile',
+                servings: '8 personnes'
             }
         ],
         'dessert': [
@@ -608,6 +923,111 @@ const recipeDatabase = {
                 time: '30 minutes',
                 difficulty: 'Facile',
                 servings: '12 madeleines'
+            },
+            {
+                name: 'Croque-Monsieur Parisien',
+                ingredients: ['Pain de mie', 'Jambon blanc', 'Gruyère râpé', 'Beurre', 'Lait', 'Farine', 'Muscade', 'Moutarde'],
+                instructions: [
+                    'Préparez une béchamel légère.',
+                    'Tartinez le pain de moutarde fine.',
+                    'Garnissez de jambon et fromage.',
+                    'Nappez de béchamel et fromage râpé.',
+                    'Passez au four jusqu\'à dorure.',
+                    'Servez immédiatement bien chaud.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Facile',
+                servings: '4 croques'
+            },
+            {
+                name: 'Gougères Bourguignonnes',
+                ingredients: ['125ml d\'eau', '50g de beurre', '75g de farine', '2 œufs', '100g de gruyère râpé', 'Muscade', 'Sel', 'Poivre'],
+                instructions: [
+                    'Portez eau, beurre et sel à ébullition.',
+                    'Versez la farine d\'un coup et mélangez.',
+                    'Desséchez la pâte 2 minutes sur le feu.',
+                    'Incorporez œufs et fromage hors du feu.',
+                    'Dressez en petits choux sur plaque.',
+                    'Enfournez 20 minutes à 200°C.'
+                ],
+                time: '40 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '20 gougères'
+            },
+            {
+                name: 'Chaussons aux Pommes',
+                ingredients: ['Pâte feuilletée', '4 pommes', 'Sucre', 'Cannelle', 'Beurre', '1 œuf', 'Compote de pommes'],
+                instructions: [
+                    'Épluchez et coupez les pommes en dés.',
+                    'Faites-les compoter avec sucre et cannelle.',
+                    'Découpez la pâte en carrés.',
+                    'Garnissez de compote et refermez en chaussons.',
+                    'Dorez à l\'œuf et enfournez 20 minutes.',
+                    'Servez tièdes saupoudrés de sucre.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Facile',
+                servings: '8 chaussons'
+            },
+            {
+                name: 'Pain aux Raisins',
+                ingredients: ['Pâte feuilletée levée', 'Crème pâtissière', 'Raisins secs', 'Rhum', 'Œuf pour dorure', 'Sucre glace'],
+                instructions: [
+                    'Faites gonfler les raisins dans le rhum.',
+                    'Étalez la pâte et garnissez de crème pâtissière.',
+                    'Parsemez de raisins égouttés.',
+                    'Roulez et coupez en tranches.',
+                    'Dorez et enfournez 20 minutes à 180°C.',
+                    'Saupoudrez de sucre glace tiède.'
+                ],
+                time: '35 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '10 pains aux raisins'
+            },
+            {
+                name: 'Kouglof Alsacien',
+                ingredients: ['500g de farine', '10g de levure', '4 œufs', '100g de beurre', '60g de sucre', '200ml de lait', 'Raisins secs', 'Amandes', 'Kirsch'],
+                instructions: [
+                    'Délayez la levure dans le lait tiède.',
+                    'Mélangez farine, sucre et œufs.',
+                    'Ajoutez lait-levure et pétrissez.',
+                    'Incorporez beurre et raisins au kirsch.',
+                    'Versez dans un moule beurré et garni d\'amandes.',
+                    'Laissez lever 2h et enfournez 45 minutes.'
+                ],
+                time: '3h + levée',
+                difficulty: 'Difficile',
+                servings: '10 personnes'
+            },
+            {
+                name: 'Palmiers Sucrés',
+                ingredients: ['Pâte feuilletée', 'Sucre en poudre', 'Sucre vanillé', '1 œuf'],
+                instructions: [
+                    'Étalez la pâte et saupoudrez généreusement de sucre.',
+                    'Roulez les deux côtés vers le centre.',
+                    'Enveloppez dans film et réfrigérez 30 minutes.',
+                    'Coupez en tranches de 1 cm.',
+                    'Disposez sur plaque et dorez à l\'œuf.',
+                    'Enfournez 15 minutes à 200°C en retournant à mi-cuisson.'
+                ],
+                time: '45 min + réfrigération',
+                difficulty: 'Facile',
+                servings: '20 palmiers'
+            },
+            {
+                name: 'Chouquettes Parisiennes',
+                ingredients: ['125ml d\'eau', '50g de beurre', '75g de farine', '2 œufs', 'Sucre perlé', 'Sel'],
+                instructions: [
+                    'Portez eau, beurre et sel à ébullition.',
+                    'Ajoutez la farine d\'un coup et mélangez vigoureusement.',
+                    'Desséchez 2 minutes sur feu doux.',
+                    'Incorporez les œufs un par un hors du feu.',
+                    'Dressez en petits choux, parsemez de sucre perlé.',
+                    'Enfournez 20 minutes à 200°C.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '25 chouquettes'
             }
         ]
     },
@@ -627,6 +1047,111 @@ const recipeDatabase = {
                 time: '10 minutes',
                 difficulty: 'Facile',
                 servings: '2 personnes'
+            },
+            {
+                name: 'Maritozzo Romano',
+                ingredients: ['Brioche italienne', 'Chantilly', 'Zeste d\'orange', 'Pistaches concassées', 'Sucre glace'],
+                instructions: [
+                    'Coupez la brioche en deux horizontalement.',
+                    'Garnissez généreusement de chantilly.',
+                    'Ajoutez le zeste d\'orange râpé.',
+                    'Parsemez de pistaches concassées.',
+                    'Refermez délicatement.',
+                    'Saupoudrez de sucre glace avant de servir.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Frittata aux Légumes',
+                ingredients: ['8 œufs', 'Courgettes', 'Tomates cerises', 'Basilic frais', 'Parmesan', 'Huile d\'olive', 'Sel', 'Poivre'],
+                instructions: [
+                    'Battez les œufs avec sel et poivre.',
+                    'Faites revenir courgettes et tomates à l\'huile.',
+                    'Versez les œufs sur les légumes.',
+                    'Cuisez sans remuer 5 minutes.',
+                    'Terminez la cuisson au four 10 minutes.',
+                    'Parsemez de parmesan et basilic.'
+                ],
+                time: '25 minutes',
+                difficulty: 'Facile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Bomboloni alla Crema',
+                ingredients: ['Pâte à beignets', 'Crème pâtissière', 'Huile de friture', 'Sucre glace', 'Vanille', 'Lait', 'Œufs', 'Farine'],
+                instructions: [
+                    'Préparez la pâte levée et laissez reposer 2 heures.',
+                    'Formez des boules et laissez lever encore 1 heure.',
+                    'Faites frire dans l\'huile chaude jusqu\'à dorure.',
+                    'Garnissez de crème pâtissière avec une poche.',
+                    'Saupoudrez généreusement de sucre glace.',
+                    'Servez immédiatement.'
+                ],
+                time: '3h + levée',
+                difficulty: 'Difficile',
+                servings: '12 bomboloni'
+            },
+            {
+                name: 'Granita al Caffè',
+                ingredients: ['Café expresso fort', 'Sucre', 'Eau', 'Chantilly', 'Brioche sicilienne'],
+                instructions: [
+                    'Préparez un café très fort et sucrez.',
+                    'Laissez refroidir complètement.',
+                    'Versez dans un plat et congelez.',
+                    'Grattez à la fourchette toutes les 30 minutes.',
+                    'Répétez 4-5 fois pour obtenir des cristaux fins.',
+                    'Servez avec chantilly et brioche.'
+                ],
+                time: '15 min + 3h congélation',
+                difficulty: 'Facile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Focaccia Dolce',
+                ingredients: ['Farine', 'Levure', 'Lait tiède', 'Œufs', 'Sucre', 'Beurre', 'Raisins secs', 'Zeste de citron', 'Sucre perlé'],
+                instructions: [
+                    'Délayez la levure dans le lait tiède sucré.',
+                    'Mélangez farine, œufs et beurre mou.',
+                    'Ajoutez raisins et zeste de citron.',
+                    'Pétrissez et laissez lever 2 heures.',
+                    'Étalez, parsemez de sucre perlé.',
+                    'Enfournez 25 minutes à 180°C.'
+                ],
+                time: '3h + levée',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Caffè Shakerato',
+                ingredients: ['Café expresso', 'Sucre', 'Glace pilée', 'Liqueur Amaretto (optionnel)'],
+                instructions: [
+                    'Préparez un expresso double bien serré.',
+                    'Ajoutez le sucre tant que c\'est chaud.',
+                    'Versez sur glace pilée dans un shaker.',
+                    'Ajoutez quelques gouttes d\'Amaretto si désiré.',
+                    'Secouez vigoureusement 30 secondes.',
+                    'Servez dans un verre givré.'
+                ],
+                time: '5 minutes',
+                difficulty: 'Facile',
+                servings: '1 personne'
+            },
+            {
+                name: 'Biscotti di Prato',
+                ingredients: ['Farine', 'Amandes entières', 'Sucre', 'Œufs', 'Levure', 'Beurre', 'Anis', 'Vin santo'],
+                instructions: [
+                    'Mélangez farine, sucre et levure.',
+                    'Ajoutez œufs, beurre mou et anis.',
+                    'Incorporez les amandes entières.',
+                    'Formez des boudins et enfournez 30 minutes.',
+                    'Coupez en tranches obliques.',
+                    'Repassez au four 15 minutes pour faire sécher.'
+                ],
+                time: '1h15',
+                difficulty: 'Intermédiaire',
+                servings: '20 biscotti'
             }
         ],
         'déjeuner': [
@@ -674,6 +1199,111 @@ const recipeDatabase = {
                 time: '3 heures',
                 difficulty: 'Difficile',
                 servings: '8 personnes'
+            },
+            {
+                name: 'Saltimbocca alla Romana',
+                ingredients: ['8 escalopes de veau', '8 tranches de prosciutto', '8 feuilles de sauge', 'Vin blanc sec', 'Beurre', 'Huile d\'olive', 'Cure-dents'],
+                instructions: [
+                    'Aplatissez légèrement les escalopes.',
+                    'Posez prosciutto et sauge sur chaque escalope.',
+                    'Fixez avec un cure-dent.',
+                    'Poêlez côté sauge 2 minutes, retournez 1 minute.',
+                    'Déglacez au vin blanc.',
+                    'Montez au beurre et servez immédiatement.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Risotto ai Funghi Porcini',
+                ingredients: ['400g de riz Arborio', '50g de porcini séchés', 'Champignons frais', 'Bouillon de légumes', 'Vin blanc', 'Oignon', 'Parmesan', 'Beurre', 'Persil'],
+                instructions: [
+                    'Réhydratez les porcini, gardez l\'eau.',
+                    'Faites revenir oignon et champignons frais.',
+                    'Ajoutez le riz et nacrez 2 minutes.',
+                    'Mouillez avec vin blanc puis bouillon louche par louche.',
+                    'Incorporez porcini et leur eau filtrée.',
+                    'Terminez avec beurre, parmesan et persil.'
+                ],
+                time: '40 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Parmigiana di Melanzane',
+                ingredients: ['3 aubergines', 'Sauce tomate', 'Mozzarella', 'Parmesan', 'Basilic frais', 'Farine', 'Œufs', 'Huile d\'olive'],
+                instructions: [
+                    'Coupez les aubergines en tranches, salez et laissez dégorger.',
+                    'Farinez, passez dans l\'œuf et faites frire.',
+                    'Préparez une sauce tomate basilic.',
+                    'Montez en alternant aubergines, sauce et fromages.',
+                    'Enfournez 40 minutes à 180°C.',
+                    'Laissez reposer 10 minutes avant de servir.'
+                ],
+                time: '1h30',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Gnocchi al Pomodoro e Basilico',
+                ingredients: ['Gnocchi de pommes de terre', 'Tomates San Marzano', 'Basilic frais', 'Ail', 'Parmesan', 'Huile d\'olive extra vierge', 'Sel'],
+                instructions: [
+                    'Faites revenir l\'ail dans l\'huile d\'olive.',
+                    'Ajoutez les tomates écrasées.',
+                    'Laissez mijoter 20 minutes avec le basilic.',
+                    'Cuisez les gnocchi dans l\'eau bouillante salée.',
+                    'Égouttez dès qu\'ils remontent.',
+                    'Mélangez avec la sauce et parmesan.'
+                ],
+                time: '35 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Arancini Sicilieni',
+                ingredients: ['Riz Arborio cuit', 'Ragù bolognaise', 'Mozzarella', 'Petits pois', 'Œufs', 'Chapelure', 'Farine', 'Huile de friture'],
+                instructions: [
+                    'Mélangez le riz avec œufs et parmesan.',
+                    'Formez des boules, creusez au centre.',
+                    'Garnissez de ragù, mozzarella et petits pois.',
+                    'Refermez en boule parfaite.',
+                    'Passez dans farine, œuf et chapelure.',
+                    'Faites frire jusqu\'à dorure dorée.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Difficile',
+                servings: '12 arancini'
+            },
+            {
+                name: 'Vitello Tonnato',
+                ingredients: ['Rôti de veau', 'Thon à l\'huile', 'Anchois', 'Câpres', 'Mayonnaise', 'Citron', 'Œufs durs', 'Vin blanc', 'Légumes aromates'],
+                instructions: [
+                    'Cuisez le veau dans un bouillon aromatique.',
+                    'Laissez refroidir dans son jus.',
+                    'Mixez thon, anchois, câpres avec mayonnaise.',
+                    'Allongez avec jus de cuisson filtré.',
+                    'Tranchez le veau froid très finement.',
+                    'Nappez de sauce tonnato et décorez.'
+                ],
+                time: '2h + refroidissement',
+                difficulty: 'Difficile',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Cacio e Pepe',
+                ingredients: ['400g de spaghetti', 'Pecorino Romano', 'Poivre noir fraîchement moulu', 'Eau de cuisson des pâtes'],
+                instructions: [
+                    'Cuisez les spaghetti dans l\'eau salée al dente.',
+                    'Râpez généreusement le Pecorino.',
+                    'Mélangez fromage et poivre avec eau de cuisson.',
+                    'Créez une crème onctueuse.',
+                    'Égouttez les pâtes en gardant l\'eau.',
+                    'Mélangez vigoureusement avec la crème de fromage.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
             }
         ],
         'dîner': [
