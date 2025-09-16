@@ -1077,6 +1077,111 @@ const recipeDatabase = {
                 time: '10 minutes',
                 difficulty: 'Facile',
                 servings: '2 personnes'
+            },
+            {
+                name: 'Maritozzi Romani',
+                ingredients: ['Brioches italiennes', 'Chantilly', 'Sucre glace', 'Vanille', 'Zeste d\'orange', 'Pistaches'],
+                instructions: [
+                    'Ouvrez délicatement les brioches en deux.',
+                    'Montez la crème avec sucre glace et vanille.',
+                    'Ajoutez le zeste d\'orange râpé.',
+                    'Garnissez généreusement les brioches.',
+                    'Parsemez de pistaches concassées.',
+                    'Servez immédiatement bien frais.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Caffè Shakerato',
+                ingredients: ['Espresso fort', 'Sucre', 'Glace pilée', 'Amaretto', 'Cacao'],
+                instructions: [
+                    'Préparez un espresso très serré et sucrez.',
+                    'Laissez refroidir quelques minutes.',
+                    'Ajoutez glace pilée dans un shaker.',
+                    'Versez le café et quelques gouttes d\'Amaretto.',
+                    'Shakez énergiquement 30 secondes.',
+                    'Servez dans un verre givré avec cacao.'
+                ],
+                time: '8 minutes',
+                difficulty: 'Facile',
+                servings: '2 personnes'
+            },
+            {
+                name: 'Bomboloni alla Crema',
+                ingredients: ['Pâte levée sucrée', 'Crème pâtissière', 'Huile de friture', 'Sucre fin', 'Vanille', 'Zeste de citron'],
+                instructions: [
+                    'Formez des boules avec la pâte levée.',
+                    'Laissez lever 1 heure à température ambiante.',
+                    'Faites frire dans l\'huile à 170°C.',
+                    'Égouttez et roulez dans le sucre.',
+                    'Garnissez de crème pâtissière à la poche.',
+                    'Servez tièdes pour le petit-déjeuner.'
+                ],
+                time: '2h + levée',
+                difficulty: 'Difficile',
+                servings: '12 bomboloni'
+            },
+            {
+                name: 'Frittata Dolce',
+                ingredients: ['6 œufs', 'Lait', 'Sucre', 'Vanille', 'Zeste de citron', 'Beurre', 'Sucre glace'],
+                instructions: [
+                    'Battez œufs, lait, sucre et vanille.',
+                    'Ajoutez le zeste de citron râpé.',
+                    'Cuisez comme une omelette épaisse.',
+                    'Retournez délicatement à mi-cuisson.',
+                    'Servez tiède saupoudrée de sucre glace.',
+                    'Accompagnez de fruits frais.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Granita Siciliana',
+                ingredients: ['Eau', 'Sucre', 'Jus de citron', 'Brioche sicilienne', 'Chantilly'],
+                instructions: [
+                    'Préparez un sirop avec eau et sucre.',
+                    'Ajoutez le jus de citron frais.',
+                    'Congelez en grattant toutes les 30 minutes.',
+                    'Obtenez des cristaux fins et aérés.',
+                    'Servez dans des verres froids.',
+                    'Accompagnez de brioche et chantilly.'
+                ],
+                time: '3h + congélation',
+                difficulty: 'Facile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Sfogliatelle Ricce',
+                ingredients: ['Pâte sfoglia', 'Ricotta', 'Semoule', 'Sucre', 'Cannelle', 'Zeste d\'orange', 'Œuf'],
+                instructions: [
+                    'Étirez la pâte très finement.',
+                    'Préparez la crème avec ricotta et semoule cuite.',
+                    'Parfumez à la cannelle et l\'orange.',
+                    'Formez les cônes traditionnels.',
+                    'Garnissez de crème et refermez.',
+                    'Enfournez jusqu\'à dorure croustillante.'
+                ],
+                time: '2 heures',
+                difficulty: 'Très difficile',
+                servings: '8 sfogliatelle'
+            },
+            {
+                name: 'Torta della Nonna',
+                ingredients: ['Pâte brisée', 'Crème pâtissière', 'Pignons', 'Sucre glace', 'Vanille', 'Citron'],
+                instructions: [
+                    'Foncez un moule de pâte brisée.',
+                    'Garnissez de crème pâtissière vanille-citron.',
+                    'Recouvrez d\'une seconde abaisse.',
+                    'Parsemez de pignons et sucre glace.',
+                    'Enfournez 40 minutes à 180°C.',
+                    'Servez tiède en parts généreuses.'
+                ],
+                time: '1h15',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
             }
         ],
         'déjeuner': [
@@ -1124,6 +1229,96 @@ const recipeDatabase = {
                 time: '3 heures',
                 difficulty: 'Difficile',
                 servings: '8 personnes'
+            },
+            {
+                name: 'Risotto alla Milanese',
+                ingredients: ['300g de riz Arborio', 'Safran', 'Bouillon de bœuf', 'Vin blanc', 'Oignon', 'Moelle de bœuf', 'Parmesan', 'Beurre'],
+                instructions: [
+                    'Infusez le safran dans le bouillon chaud.',
+                    'Faites revenir l\'oignon et la moelle.',
+                    'Ajoutez le riz et nacrez 2 minutes.',
+                    'Versez le vin blanc et laissez évaporer.',
+                    'Ajoutez le bouillon saffrané louche par louche.',
+                    'Terminez avec parmesan et beurre.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Penne all\'Arrabbiata',
+                ingredients: ['400g de penne', 'Tomates San Marzano', 'Ail', 'Piment rouge', 'Persil', 'Huile d\'olive extra vierge', 'Pecorino Romano'],
+                instructions: [
+                    'Faites revenir ail et piment dans l\'huile.',
+                    'Ajoutez les tomates concassées.',
+                    'Laissez mijoter 15 minutes à feu vif.',
+                    'Cuisez les penne al dente.',
+                    'Mélangez pâtes et sauce.',
+                    'Parsemez de persil et pecorino.'
+                ],
+                time: '25 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Gnocchi di Patate al Pomodoro',
+                ingredients: ['1kg de pommes de terre', '300g de farine', '1 œuf', 'Sauce tomate basilic', 'Mozzarella', 'Parmesan', 'Basilic frais'],
+                instructions: [
+                    'Cuisez les pommes de terre en robe des champs.',
+                    'Écrasez et mélangez avec farine et œuf.',
+                    'Formez des gnocchi avec une fourchette.',
+                    'Cuisez dans l\'eau bouillante salée.',
+                    'Égouttez quand ils remontent à la surface.',
+                    'Mélangez avec sauce tomate et fromages.'
+                ],
+                time: '1h30',
+                difficulty: 'Difficile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Spaghetti alle Vongole',
+                ingredients: ['400g de spaghetti', '1kg de palourdes', 'Ail', 'Persil', 'Vin blanc', 'Huile d\'olive', 'Piment', 'Tomates cerises'],
+                instructions: [
+                    'Nettoyez et ouvrez les palourdes.',
+                    'Réservez le jus de cuisson.',
+                    'Faites revenir ail et piment dans l\'huile.',
+                    'Ajoutez palourdes et vin blanc.',
+                    'Incorporez les spaghetti al dente.',
+                    'Terminez avec persil et jus de palourdes.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Fettuccine Alfredo',
+                ingredients: ['400g de fettuccine fraîches', '200g de beurre', '200g de Parmigiano-Reggiano', 'Poivre noir', 'Muscade'],
+                instructions: [
+                    'Cuisez les fettuccine al dente.',
+                    'Dans une poêle, faites fondre le beurre.',
+                    'Ajoutez les pâtes encore chaudes.',
+                    'Incorporez le parmesan râpé progressivement.',
+                    'Mélangez jusqu\'à obtenir une sauce crémeuse.',
+                    'Assaisonnez de poivre et muscade.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Risotto ai Frutti di Mare',
+                ingredients: ['300g de riz Arborio', 'Fruits de mer mélangés', 'Fumet de poisson', 'Vin blanc', 'Échalotes', 'Persil', 'Safran', 'Huile d\'olive'],
+                instructions: [
+                    'Nettoyez et préparez les fruits de mer.',
+                    'Faites revenir les échalotes.',
+                    'Ajoutez le riz et nacrez.',
+                    'Versez vin blanc et fumet progressivement.',
+                    'Incorporez fruits de mer et safran.',
+                    'Terminez avec persil et huile d\'olive.'
+                ],
+                time: '40 minutes',
+                difficulty: 'Difficile',
+                servings: '4 personnes'
             }
         ],
         'dîner': [
@@ -1154,6 +1349,96 @@ const recipeDatabase = {
                     'Nappez les escalopes et parsemez de persil.'
                 ],
                 time: '25 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Saltimbocca alla Romana',
+                ingredients: ['8 escalopes de veau', 'Jambon de Parme', 'Sauge fraîche', 'Vin blanc', 'Beurre', 'Huile d\'olive', 'Cure-dents'],
+                instructions: [
+                    'Aplatissez finement les escalopes.',
+                    'Posez jambon et sauge sur chaque escalope.',
+                    'Fixez avec des cure-dents.',
+                    'Saisissez côté jambon dans l\'huile chaude.',
+                    'Retournez et déglacez au vin blanc.',
+                    'Montez la sauce au beurre et servez.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Bistecca alla Fiorentina',
+                ingredients: ['1 côte de bœuf de 1,5kg', 'Huile d\'olive extra vierge', 'Romarin', 'Ail', 'Gros sel', 'Poivre noir', 'Citron'],
+                instructions: [
+                    'Sortez la viande 1 heure avant cuisson.',
+                    'Préchauffez le grill à température maximale.',
+                    'Saisissez 5 minutes de chaque côté.',
+                    'Assaisonnez de gros sel et poivre.',
+                    'Arrosez d\'huile et parfumez au romarin.',
+                    'Servez saignante avec quartiers de citron.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Branzino in Crosta di Sale',
+                ingredients: ['1 bar de 1,5kg', '2kg de gros sel', 'Blancs d\'œufs', 'Herbes aromatiques', 'Huile d\'olive', 'Citron', 'Légumes de saison'],
+                instructions: [
+                    'Videz le poisson sans l\'écailler.',
+                    'Mélangez sel et blancs d\'œufs.',
+                    'Tapissez un plat de sel aux herbes.',
+                    'Posez le poisson et recouvrez totalement.',
+                    'Enfournez 35 minutes à 200°C.',
+                    'Cassez la croûte et servez avec légumes.'
+                ],
+                time: '1 heure',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Pollo alla Cacciatora',
+                ingredients: ['1 poulet fermier', 'Tomates', 'Poivrons', 'Oignons', 'Champignons', 'Vin rouge', 'Herbes italiennes', 'Huile d\'olive'],
+                instructions: [
+                    'Découpez le poulet en morceaux.',
+                    'Faites dorer dans l\'huile d\'olive.',
+                    'Ajoutez légumes et faites revenir.',
+                    'Versez vin rouge et tomates.',
+                    'Parfumez aux herbes et mijotez 45 minutes.',
+                    'Servez avec polenta crémeuse.'
+                ],
+                time: '1h15',
+                difficulty: 'Facile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Agnolotti del Plin',
+                ingredients: ['Pâte à pâtes fraîche', 'Viande rôtie hachée', 'Épinards', 'Ricotta', 'Parmesan', 'Œuf', 'Beurre', 'Sauge', 'Noix'],
+                instructions: [
+                    'Préparez la farce avec viandes et légumes.',
+                    'Étalez finement la pâte fraîche.',
+                    'Disposez la farce en petits tas.',
+                    'Refermez en petits ravioli pincés.',
+                    'Cuisez dans l\'eau bouillante salée.',
+                    'Servez au beurre de sauge et noix.'
+                ],
+                time: '2 heures',
+                difficulty: 'Très difficile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Spigola in Guazzetto',
+                ingredients: ['1 bar entier', 'Tomates cerises', 'Olives taggiasche', 'Câpres', 'Anchois', 'Ail', 'Persil', 'Vin blanc', 'Huile d\'olive'],
+                instructions: [
+                    'Levez les filets de bar.',
+                    'Faites revenir ail et anchois dans l\'huile.',
+                    'Ajoutez tomates, olives et câpres.',
+                    'Posez les filets sur les légumes.',
+                    'Arrosez de vin blanc et couvrez.',
+                    'Cuisez 10 minutes et parsemez de persil.'
+                ],
+                time: '30 minutes',
                 difficulty: 'Intermédiaire',
                 servings: '4 personnes'
             }
@@ -1340,6 +1625,111 @@ const recipeDatabase = {
                 time: '45 min + turbinage',
                 difficulty: 'Intermédiaire',
                 servings: '6 personnes'
+            },
+            {
+                name: 'Arancini Siciliani',
+                ingredients: ['Riz arborio cuit', 'Mozzarella', 'Petits pois', 'Viande hachée', 'Safran', 'Chapelure', 'Œufs', 'Huile de friture'],
+                instructions: [
+                    'Préparez un risotto au safran et laissez refroidir.',
+                    'Formez des boules avec le riz.',
+                    'Farcissez de mozzarella et viande.',
+                    'Panez dans œuf battu et chapelure.',
+                    'Faites frire jusqu\'à dorure.',
+                    'Servez chaud en antipasti.'
+                ],
+                time: '1 heure',
+                difficulty: 'Difficile',
+                servings: '12 arancini'
+            },
+            {
+                name: 'Piadina Romagnola',
+                ingredients: ['Farine', 'Saindoux', 'Eau', 'Sel', 'Prosciutto', 'Squacquerone', 'Roquette', 'Tomates'],
+                instructions: [
+                    'Préparez la pâte avec farine, saindoux et eau.',
+                    'Étalez en disques fins.',
+                    'Cuisez sur plaque chaude 2 minutes par côté.',
+                    'Garnissez de prosciutto et fromage.',
+                    'Ajoutez roquette et tomates.',
+                    'Pliez en deux et servez chaud.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Facile',
+                servings: '4 piadine'
+            },
+            {
+                name: 'Supplì al Telefono',
+                ingredients: ['Riz arborio', 'Mozzarella', 'Sauce tomate', 'Parmesan', 'Œufs', 'Chapelure', 'Huile de friture'],
+                instructions: [
+                    'Préparez un risotto à la tomate.',
+                    'Laissez refroidir complètement.',
+                    'Formez des croquettes avec mozzarella au centre.',
+                    'Panez dans œuf et chapelure.',
+                    'Faites frire jusqu\'à dorure.',
+                    'Le fromage doit faire des fils en coupant.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '10 supplì'
+            },
+            {
+                name: 'Focaccia Genovese',
+                ingredients: ['Farine', 'Levure', 'Huile d\'olive', 'Eau', 'Sel', 'Romarin', 'Olives', 'Gros sel'],
+                instructions: [
+                    'Préparez une pâte levée à l\'huile d\'olive.',
+                    'Laissez lever 2 heures.',
+                    'Étalez dans un moule huilé.',
+                    'Creusez des trous avec les doigts.',
+                    'Garnissez d\'olives, romarin et gros sel.',
+                    'Enfournez 25 minutes à 200°C.'
+                ],
+                time: '3h + levée',
+                difficulty: 'Intermédiaire',
+                servings: '8 personnes'
+            },
+            {
+                name: 'Tramezzini Veneziani',
+                ingredients: ['Pain de mie', 'Thon', 'Mayonnaise', 'Œufs durs', 'Tomates', 'Salade', 'Jambon', 'Fromage'],
+                instructions: [
+                    'Préparez différentes garnitures.',
+                    'Étalez mayonnaise sur pain de mie.',
+                    'Garnissez selon les goûts.',
+                    'Refermez en triangles sans croûte.',
+                    'Maintenez avec cure-dents.',
+                    'Servez frais en plateau.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Facile',
+                servings: '8 tramezzini'
+            },
+            {
+                name: 'Bruschetta Pomodoro',
+                ingredients: ['Pain toscan', 'Tomates mûres', 'Basilic', 'Ail', 'Huile d\'olive extra vierge', 'Sel', 'Poivre'],
+                instructions: [
+                    'Grillez les tranches de pain.',
+                    'Frottez avec une gousse d\'ail.',
+                    'Concassez les tomates avec basilic.',
+                    'Assaisonnez d\'huile, sel et poivre.',
+                    'Tartinez généreusement sur le pain.',
+                    'Servez immédiatement.'
+                ],
+                time: '10 minutes',
+                difficulty: 'Facile',
+                servings: '6 bruschette'
+            },
+            {
+                name: 'Panzerotti Pugliesi',
+                ingredients: ['Pâte à pizza', 'Mozzarella', 'Tomates', 'Anchois', 'Câpres', 'Origan', 'Huile de friture'],
+                instructions: [
+                    'Étalez la pâte en disques.',
+                    'Garnissez de mozzarella et tomates.',
+                    'Ajoutez anchois, câpres et origan.',
+                    'Refermez en chaussons.',
+                    'Faites frire dans l\'huile chaude.',
+                    'Servez immédiatement bien dorés.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '8 panzerotti'
             }
         ]
     },
