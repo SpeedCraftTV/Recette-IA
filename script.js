@@ -1749,6 +1749,111 @@ const recipeDatabase = {
                 time: '1h15',
                 difficulty: 'Facile',
                 servings: '4 personnes'
+            },
+            {
+                name: 'Dim Sum Vapeur',
+                ingredients: ['Pâte à dim sum', 'Porc haché', 'Crevettes', 'Champignons noirs', 'Ciboules', 'Gingembre', 'Sauce soja', 'Huile de sésame', 'Fécule'],
+                instructions: [
+                    'Préparez la farce avec porc, crevettes et légumes.',
+                    'Assaisonnez avec sauce soja et gingembre.',
+                    'Garnissez les disques de pâte.',
+                    'Formez en aumônières et pincez.',
+                    'Cuisez à la vapeur 15 minutes.',
+                    'Servez chaud avec sauce soja.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Difficile',
+                servings: '20 dim sum'
+            },
+            {
+                name: 'Tamagoyaki (Omelette Japonaise)',
+                ingredients: ['6 œufs', 'Mirin', 'Sauce soja légère', 'Sucre', 'Dashi', 'Huile neutre'],
+                instructions: [
+                    'Battez œufs avec mirin, soja et sucre.',
+                    'Ajoutez un peu de dashi.',
+                    'Cuisez en plusieurs couches fines.',
+                    'Roulez chaque couche sur la précédente.',
+                    'Formez un rectangle parfait.',
+                    'Tranchez et servez tiède ou froid.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Difficile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Bánh Mì Vietnamien',
+                ingredients: ['Baguette vietnamienne', 'Porc rôti', 'Pâté de foie', 'Radis marinés', 'Concombre', 'Coriandre', 'Piment', 'Mayonnaise'],
+                instructions: [
+                    'Coupez la baguette et videz la mie.',
+                    'Tartinez de pâté et mayonnaise.',
+                    'Ajoutez tranches de porc rôti.',
+                    'Garnissez de légumes marinés et frais.',
+                    'Parsemez de coriandre et piment.',
+                    'Servez immédiatement croustillant.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '4 sandwichs'
+            },
+            {
+                name: 'Onigiri aux Prunes',
+                ingredients: ['Riz japonais', 'Umeboshi', 'Nori', 'Sel', 'Saumon grillé', 'Bonite séchée'],
+                instructions: [
+                    'Cuisez le riz japonais parfaitement.',
+                    'Salez légèrement vos mains mouillées.',
+                    'Formez des triangles avec le riz.',
+                    'Garnissez au centre d\'umeboshi ou saumon.',
+                    'Refermez et enrobez de nori.',
+                    'Servez à température ambiante.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '6 onigiri'
+            },
+            {
+                name: 'Youtiao (Beignets Chinois)',
+                ingredients: ['Farine', 'Levure', 'Bicarbonate', 'Sel', 'Eau', 'Huile', 'Lait de soja chaud'],
+                instructions: [
+                    'Préparez une pâte levée et laissez reposer.',
+                    'Étalez et découpez en bâtonnets.',
+                    'Collez deux bâtonnets ensemble.',
+                    'Étirez et faites frire dans l\'huile chaude.',
+                    'Égouttez sur papier absorbant.',
+                    'Servez chaud avec lait de soja.'
+                ],
+                time: '2h + levée',
+                difficulty: 'Difficile',
+                servings: '8 youtiao'
+            },
+            {
+                name: 'Juk (Porridge Coréen)',
+                ingredients: ['Riz', 'Bouillon de poule', 'Champignons', 'Épinards', 'Œuf', 'Ail', 'Gingembre', 'Huile de sésame', 'Ciboules'],
+                instructions: [
+                    'Faites mijoter riz et bouillon 1 heure.',
+                    'Ajoutez champignons et légumes.',
+                    'Battez l\'œuf et incorporez en fin.',
+                    'Parfumez à l\'ail et gingembre.',
+                    'Terminez à l\'huile de sésame.',
+                    'Garnissez de ciboules ciselées.'
+                ],
+                time: '1h15',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Pancakes Coréens aux Ciboules',
+                ingredients: ['Farine', 'Eau froide', 'Œuf', 'Ciboules', 'Champignons', 'Piment', 'Sauce soja', 'Vinaigre', 'Huile'],
+                instructions: [
+                    'Préparez une pâte liquide avec farine et eau.',
+                    'Ajoutez œuf et ciboules émincées.',
+                    'Incorporez champignons et piment.',
+                    'Cuisez en galettes fines des deux côtés.',
+                    'Préparez une sauce soja-vinaigre.',
+                    'Servez chaud avec la sauce.'
+                ],
+                time: '25 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
             }
         ],
         'déjeuner': [
@@ -1796,6 +1901,96 @@ const recipeDatabase = {
                 time: '1 heure',
                 difficulty: 'Difficile',
                 servings: '4 personnes'
+            },
+            {
+                name: 'Bibimbap Coréen',
+                ingredients: ['Riz blanc', 'Bœuf mariné', 'Épinards', 'Carottes', 'Concombre', 'Champignons', 'Germes de soja', 'Œuf', 'Gochujang', 'Huile de sésame'],
+                instructions: [
+                    'Préparez chaque légume séparément assaisonné.',
+                    'Faites mariner et griller le bœuf.',
+                    'Disposez le riz dans des bols.',
+                    'Arrangez les légumes en secteurs colorés.',
+                    'Posez l\'œuf au plat au centre.',
+                    'Servez avec gochujang et huile de sésame.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Pho Bo Vietnamien',
+                ingredients: ['Nouilles de riz', 'Os de bœuf', 'Viande de bœuf', 'Oignon', 'Gingembre', 'Anis étoilé', 'Cannelle', 'Coriandre', 'Germes de soja', 'Menthe', 'Basilic thaï'],
+                instructions: [
+                    'Préparez un bouillon avec os et épices 6 heures.',
+                    'Faites tremper les nouilles de riz.',
+                    'Émincez finement la viande crue.',
+                    'Ébouillantez les nouilles et disposez en bol.',
+                    'Ajoutez viande crue et versez bouillon bouillant.',
+                    'Garnissez d\'herbes fraîches et légumes.'
+                ],
+                time: '6h + 15 min',
+                difficulty: 'Difficile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Yakitori Japonais',
+                ingredients: ['Cuisses de poulet', 'Sauce teriyaki', 'Sake', 'Mirin', 'Sucre', 'Sauce soja', 'Ciboules', 'Graines de sésame'],
+                instructions: [
+                    'Découpez le poulet en cubes réguliers.',
+                    'Enfilez sur brochettes avec ciboules.',
+                    'Préparez la sauce teriyaki.',
+                    'Grillez en badigeonnant de sauce.',
+                    'Retournez régulièrement 15 minutes.',
+                    'Parsemez de sésame et servez chaud.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Mapo Tofu Sichuanais',
+                ingredients: ['Tofu soyeux', 'Porc haché', 'Pâte de haricots noirs', 'Poivre du Sichuan', 'Piment', 'Ail', 'Gingembre', 'Ciboules', 'Fécule'],
+                instructions: [
+                    'Coupez le tofu en cubes délicats.',
+                    'Faites revenir le porc haché.',
+                    'Ajoutez pâte de haricots et épices.',
+                    'Incorporez délicatement le tofu.',
+                    'Liez avec fécule délayée.',
+                    'Parsemez de ciboules et poivre du Sichuan.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Tom Yum Kung',
+                ingredients: ['Crevettes', 'Champignons', 'Citronnelle', 'Feuilles de lime', 'Galanga', 'Piment oiseau', 'Sauce de poisson', 'Jus de lime', 'Coriandre'],
+                instructions: [
+                    'Préparez un bouillon avec citronnelle et galanga.',
+                    'Ajoutez champignons et crevettes.',
+                    'Assaisonnez avec sauce de poisson.',
+                    'Parfumez aux feuilles de lime.',
+                    'Relevez avec piment selon goût.',
+                    'Terminez avec jus de lime et coriandre.'
+                ],
+                time: '25 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Gyoza Japonais',
+                ingredients: ['Pâte à gyoza', 'Porc haché', 'Chou chinois', 'Ciboules', 'Ail', 'Gingembre', 'Sauce soja', 'Huile de sésame', 'Fécule'],
+                instructions: [
+                    'Préparez la farce avec tous les ingrédients.',
+                    'Garnissez les disques de pâte.',
+                    'Pliez en demi-lune et pincez les bords.',
+                    'Poêlez d\'un côté jusqu\'à dorure.',
+                    'Ajoutez eau et couvrez pour cuire à la vapeur.',
+                    'Servez avec sauce soja-vinaigre.'
+                ],
+                time: '1 heure',
+                difficulty: 'Difficile',
+                servings: '30 gyoza'
             }
         ],
         'dîner': [
@@ -1811,6 +2006,111 @@ const recipeDatabase = {
                     'Servez avec légumes julienne et sauce hoisin.'
                 ],
                 time: '24h + 2h',
+                difficulty: 'Difficile',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Porc au Caramel Vietnamien',
+                ingredients: ['Porc épaulé', 'Sucre', 'Nuoc-mâm', 'Ail', 'Échalotes', 'Œufs durs', 'Lait de coco', 'Poivre', 'Coriandre'],
+                instructions: [
+                    'Caramélisez le sucre jusqu\'à couleur ambrée.',
+                    'Ajoutez porc coupé en morceaux.',
+                    'Incorporez nuoc-mâm, ail et échalotes.',
+                    'Versez lait de coco et mijotez 1 heure.',
+                    'Ajoutez œufs durs 15 minutes avant la fin.',
+                    'Parsemez de coriandre et servez avec riz.'
+                ],
+                time: '1h30',
+                difficulty: 'Intermédiaire',
+                servings: '6 personnes'
+            },
+            {
+                name: 'Bulgogi Coréen',
+                ingredients: ['Bœuf émincé', 'Poire asiatique', 'Sauce soja', 'Sucre roux', 'Ail', 'Gingembre', 'Huile de sésame', 'Ciboules', 'Graines de sésame'],
+                instructions: [
+                    'Marinez le bœuf avec poire râpée et sauce soja.',
+                    'Ajoutez sucre, ail, gingembre et huile de sésame.',
+                    'Laissez mariner 2 heures minimum.',
+                    'Grillez à feu vif en remuant constamment.',
+                    'Parsemez de ciboules et graines de sésame.',
+                    'Servez avec riz et banchan (légumes fermentés).'
+                ],
+                time: '30 min + 2h marinade',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'General Tso\'s Chicken',
+                ingredients: ['Blanc de poulet', 'Fécule de maïs', 'Sauce soja', 'Vinaigre de riz', 'Sucre', 'Ketchup', 'Ail', 'Gingembre', 'Piment séché', 'Ciboules'],
+                instructions: [
+                    'Coupez le poulet en cubes et enrobez de fécule.',
+                    'Faites frire jusqu\'à dorure croustillante.',
+                    'Préparez la sauce avec tous les ingrédients.',
+                    'Faites revenir ail, gingembre et piment.',
+                    'Ajoutez la sauce et le poulet frit.',
+                    'Parsemez de ciboules et servez avec riz.'
+                ],
+                time: '35 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Curry Rouge Thaï',
+                ingredients: ['Pâte de curry rouge', 'Lait de coco', 'Bœuf ou poulet', 'Aubergines thaï', 'Bambou', 'Basilic thaï', 'Sauce de poisson', 'Sucre de palme', 'Feuilles de lime'],
+                instructions: [
+                    'Faites revenir la pâte de curry dans lait de coco épais.',
+                    'Ajoutez la viande et faites dorer.',
+                    'Versez le reste de lait de coco.',
+                    'Incorporez légumes et assaisonnements.',
+                    'Mijotez jusqu\'à cuisson complète.',
+                    'Terminez avec basilic et feuilles de lime.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Teriyaki Salmon',
+                ingredients: ['Filets de saumon', 'Sauce soja', 'Mirin', 'Sake', 'Sucre', 'Gingembre', 'Riz japonais', 'Légumes vapeur'],
+                instructions: [
+                    'Préparez la sauce teriyaki avec tous les ingrédients.',
+                    'Faites réduire jusqu\'à consistance sirupeuse.',
+                    'Poêlez les filets de saumon côté peau.',
+                    'Retournez et glacez avec la sauce.',
+                    'Servez sur riz avec légumes vapeur.',
+                    'Arrosez du reste de sauce teriyaki.'
+                ],
+                time: '25 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Kung Pao Chicken',
+                ingredients: ['Blanc de poulet', 'Cacahuètes', 'Piment séché', 'Poivre du Sichuan', 'Sauce soja noire', 'Vinaigre noir', 'Sucre', 'Ail', 'Gingembre', 'Ciboules'],
+                instructions: [
+                    'Coupez le poulet en dés et marinez.',
+                    'Faites griller les cacahuètes et piments.',
+                    'Saisissez le poulet à feu très vif.',
+                    'Ajoutez ail, gingembre et piments.',
+                    'Versez la sauce et mélangez rapidement.',
+                    'Incorporez cacahuètes et ciboules.'
+                ],
+                time: '20 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Rendang Indonésien',
+                ingredients: ['Bœuf à braiser', 'Lait de coco', 'Pâte de piment', 'Citronnelle', 'Galanga', 'Feuilles de lime', 'Noix de coco râpée', 'Tamarind', 'Sucre de palme'],
+                instructions: [
+                    'Faites dorer les morceaux de bœuf.',
+                    'Ajoutez pâte de piment et épices.',
+                    'Versez lait de coco et portez à ébullition.',
+                    'Mijotez 2 heures en remuant régulièrement.',
+                    'Ajoutez noix de coco râpée en fin.',
+                    'Cuisez jusqu\'à sauce très réduite.'
+                ],
+                time: '2h30',
                 difficulty: 'Difficile',
                 servings: '6 personnes'
             }
@@ -2027,6 +2327,111 @@ const recipeDatabase = {
                 time: '20 minutes',
                 difficulty: 'Facile',
                 servings: '2 verres'
+            },
+            {
+                name: 'Takoyaki (Boulettes de Poulpe)',
+                ingredients: ['Poulpe cuit', 'Farine', 'Dashi', 'Œufs', 'Ciboules', 'Gingembre mariné', 'Sauce takoyaki', 'Mayonnaise', 'Katsuobushi', 'Nori'],
+                instructions: [
+                    'Préparez la pâte avec farine, dashi et œufs.',
+                    'Chauffez la plaque à takoyaki et huilez.',
+                    'Versez pâte, ajoutez poulpe et ciboules.',
+                    'Retournez en formant des boules parfaites.',
+                    'Cuisez jusqu\'à dorure croustillante.',
+                    'Nappez de sauces et parsemez de bonite.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Difficile',
+                servings: '16 takoyaki'
+            },
+            {
+                name: 'Banh Mi Chay (Végétarien)',
+                ingredients: ['Baguette vietnamienne', 'Tofu grillé', 'Légumes marinés', 'Coriandre', 'Menthe', 'Concombre', 'Mayonnaise végétale', 'Sauce soja'],
+                instructions: [
+                    'Grillez le tofu mariné jusqu\'à dorure.',
+                    'Ouvrez la baguette et évidez légèrement.',
+                    'Tartinez de mayonnaise végétale.',
+                    'Garnissez de tofu et légumes marinés.',
+                    'Ajoutez herbes fraîches et concombre.',
+                    'Servez immédiatement bien frais.'
+                ],
+                time: '15 minutes',
+                difficulty: 'Facile',
+                servings: '4 sandwichs'
+            },
+            {
+                name: 'Mochi Ice Cream',
+                ingredients: ['Farine de riz gluant', 'Sucre', 'Eau', 'Fécule', 'Glace vanille', 'Colorants naturels'],
+                instructions: [
+                    'Mélangez farine, sucre et eau.',
+                    'Cuisez au micro-ondes en remuant.',
+                    'Laissez refroidir et pétrissez.',
+                    'Étalez et découpez en cercles.',
+                    'Garnissez de glace et refermez.',
+                    'Réfrigérez avant de servir.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '8 mochi'
+            },
+            {
+                name: 'Spring Rolls Vietnamiens',
+                ingredients: ['Galettes de riz', 'Crevettes cuites', 'Porc cuit', 'Légumes frais', 'Herbes', 'Vermicelles de riz', 'Sauce nuoc cham'],
+                instructions: [
+                    'Ramollissez les galettes dans l\'eau tiède.',
+                    'Disposez légumes, herbes et vermicelles.',
+                    'Ajoutez crevettes et porc émincé.',
+                    'Roulez serré en rabattant les côtés.',
+                    'Préparez la sauce nuoc cham.',
+                    'Servez frais avec la sauce.'
+                ],
+                time: '30 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '8 rouleaux'
+            },
+            {
+                name: 'Edamame Salé',
+                ingredients: ['Edamame surgelés', 'Gros sel', 'Huile de sésame', 'Piment en flocons', 'Ail en poudre'],
+                instructions: [
+                    'Cuisez edamame dans l\'eau bouillante salée.',
+                    'Égouttez et rafraîchissez à l\'eau froide.',
+                    'Mélangez avec huile de sésame.',
+                    'Saupoudrez de gros sel et épices.',
+                    'Servez tiède ou à température ambiante.',
+                    'Dégustez en pressant les graines.'
+                ],
+                time: '10 minutes',
+                difficulty: 'Facile',
+                servings: '4 personnes'
+            },
+            {
+                name: 'Satay de Poulet',
+                ingredients: ['Blanc de poulet', 'Lait de coco', 'Curcuma', 'Citronnelle', 'Sucre de palme', 'Sauce cacahuète', 'Brochettes'],
+                instructions: [
+                    'Émincez le poulet en lamelles fines.',
+                    'Marinez avec lait de coco et épices.',
+                    'Enfilez sur brochettes en bambou.',
+                    'Grillez en tournant régulièrement.',
+                    'Badigeonnez de marinade pendant cuisson.',
+                    'Servez avec sauce cacahuète épicée.'
+                ],
+                time: '30 min + marinade',
+                difficulty: 'Facile',
+                servings: '12 brochettes'
+            },
+            {
+                name: 'Kimbap Coréen',
+                ingredients: ['Riz blanc', 'Feuilles de nori', 'Concombre', 'Carotte', 'Épinards', 'Œuf', 'Bœuf mariné', 'Huile de sésame', 'Sel'],
+                instructions: [
+                    'Assaisonnez le riz avec huile de sésame et sel.',
+                    'Préparez tous les légumes séparément.',
+                    'Étalez nori sur natte de bambou.',
+                    'Répartissez riz et garnitures en bandes.',
+                    'Roulez fermement et uniformément.',
+                    'Découpez en tranches nettes.'
+                ],
+                time: '45 minutes',
+                difficulty: 'Intermédiaire',
+                servings: '4 rouleaux'
             }
         ]
     },
